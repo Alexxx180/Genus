@@ -2,6 +2,7 @@ package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
 
 import java.io.IOException;
 
@@ -19,22 +20,23 @@ public class DemoApplication {
 
 	//[EN] Search file by name and directory
 	//[RU] Поиск файла по имени и местонахождению
-	public static String FileName() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String s;
-		try
-		{
-			s = br.readLine();
-		}
-		catch (IOException ex) {
-			throw new IOException(ex);
-		}
-		return s;
+	public static String fileName() throws IOException {
+        String s;
+		InputStreamReader isr = new InputStreamReader(System.in);
+		BufferedReader br = new BufferedReader(isr);
+        try {
+        	s = br.readLine();
+        }
+        catch (IOException ex) {
+            throw new IOException(ex);
+        }
+        return s;
 	}
 
 	//[EN] Writing file into array-list
 	//[RU] Записываем файл в массив-список
-	public static ArrayList<String> FullText(BufferedReader br) throws IOException {
+	//@org.jetbrains.annotations.NotNull
+    public static ArrayList<String> fullText(BufferedReader br) throws IOException {
 		String line;
 		ArrayList<String> text=new ArrayList<>();
 		try {
@@ -48,38 +50,49 @@ public class DemoApplication {
 		return text;
 	}
 
-	public static void main(String[] args) throws IOException {
-
-		//[EN] See this later
-		//[RU] Рассмотрим это позже
-		SpringApplication.run(DemoApplication.class, args);
-
-
-		//[EN] First, get changes in same lines
-		//[RU] Сначала регистрируем изменения тех же линий обоих файлов
-		BufferedReader br = new BufferedReader(new FileReader(FileName()));
-		ArrayList<String> File1 = FullText(br);
-
-
-		br = new BufferedReader(new FileReader(FileName()));
-		ArrayList<String> File2 = FullText(br);
-		int i;
-
-		//[EN] First, get changes in same lines
-		//[RU] Сначала регистрируем изменения тех же линий обоих файлов
-		int len = Math.min(File1.size(), File2.size());
-		for (i=0;i<len;i++) {
-			if (!File1.get(i).equals(File2.get(i)))
-				System.out.println("On line "+i+" placed changes: "+File2.get(i));
-		}
-		System.out.println("Begin");
-
-		//[EN] Then all changes that out of range of the first file detected
-		//[RU] Затем засекаем все изменения вне диапазона файла
-		len = Math.max(File1.size(), File2.size());
-		for (;i<len;i++) {
-			System.out.println("On line "+i+" placed changes: "+ ((len==File1.size()) ? File1.get(i) : File2.get(i)));
+	public static void printChanges(int i, int max, String txt, ArrayList<String> file) {
+		for (;i<max;i++) {
+			System.out.println(txt+i+": "+file.get(i));
 		}
 	}
 
+	public static void main(String[] args) throws IOException {
+		ConfigurableApplicationContext run = SpringApplication.run(DemoApplication.class, args);
+
+		//[EN] Files
+		//[RU] Файлы
+		ArrayList<String> file1, file2;
+
+		try (FileReader fr = new FileReader(fileName()); BufferedReader br = new BufferedReader(fr)) {
+			file1 = fullText(br);
+		}
+		catch (IOException ex) {
+			throw new IOException(ex);
+		}
+
+		try (FileReader fr = new FileReader(fileName()); BufferedReader br = new BufferedReader(fr)) {
+			file2 = fullText(br);
+		}
+		catch (IOException ex) {
+			throw new IOException(ex);
+		}
+
+		//[EN] First, get changes in same lines
+		//[RU] Сначала регистрируем изменения тех же линий обоих файлов
+		int i;
+		int len = Math.min(file1.size(), file2.size());
+		for (i=0;i<len;i++) {
+			if (!file1.get(i).equals(file2.get(i)))
+				System.out.println(" Modded line "+i+": "+file2.get(i));
+		}
+
+		//[EN] Then all changes that out of range of the first file detected
+		//[RU] Затем засекаем все изменения вне диапазона файла
+		len = Math.max(file1.size(), file2.size());
+		if (len != file1.size()) {
+			printChanges(i, len, "  Added line ", file2);
+		} else {
+			printChanges(i, len, "Deleted line ", file1);
+		}
+	}
 }
