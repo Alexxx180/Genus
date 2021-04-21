@@ -54,7 +54,7 @@ java -jar demo.jar
 * Выполнить и протестировать, ввод:  
 java -jar demo.jar Texts/Sample.txt Texts/Modify.txt  
 Нажмите Enter.  
-*. Заметка.  
+* Заметка.  
 При отсутствии переменной среды, вставить полный путь вместо java, по примеру:  
 C:\Program Files\Java\jre1.8.0_291\bin\java.exe -jar demo.jar
 
