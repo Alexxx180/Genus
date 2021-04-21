@@ -32,7 +32,7 @@ C:\Program Files\Java\jre1.8.0_291\bin\java.exe -jar demo.jar
 ### Optional:  
 View code  
 [Class FileCompare](https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/main/java/compare/FileCompare.java)  
-[Class DemoApplicationTests](https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/test/java/com/example/demo/DemoApplicationTests.java)
+[Class DemoApplication(https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/main/java/com/example/demo/DemoApplication.java)
 
 # [RU] Приложение Уровень 1
 
@@ -67,4 +67,4 @@ C:\Program Files\Java\jre1.8.0_291\bin\java.exe -jar demo.jar
 ### Дополнительно:  
 Смотреть код  
 [Класс FileCompare](https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/main/java/compare/FileCompare.java)  
-[Класс DemoApplicationTests](https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/test/java/com/example/demo/DemoApplicationTests.java)
+[Класс DemoApplication(https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/main/java/com/example/demo/DemoApplication.java)
