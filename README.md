@@ -13,13 +13,13 @@ Press Enter.
 
 4. Execute with commands.  
   
-4.1 Execute:  
+* Execute:  
 java -jar demo.jar  
 Press Enter.  
-4.2 Execute and test:  
+* Execute and test:  
 java -jar demo.jar Texts/Sample.txt Texts/Modify.txt  
 Press Enter.  
-*. Note.  
+* Note.  
 If environment variable doesn't exist, put absolute path instead of java, for example:  
 C:\Program Files\Java\jre1.8.0_291\bin\java.exe -jar demo.jar
 
@@ -30,7 +30,9 @@ C:\Program Files\Java\jre1.8.0_291\bin\java.exe -jar demo.jar
 2. (2nd file) Input: Texts/Modify.txt. Press Enter.
 
 ### Optional:  
-[View clean code](https://github.com/Alexxx180/Genus/blob/main/demo/src/main/java/com/example/demo/DemoApplication.java)
+View code  
+[Class FileCompare](https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/main/java/compare/FileCompare.java)  
+[Class DemoApplicationTests](https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/test/java/com/example/demo/DemoApplicationTests.java)
 
 # [RU] Приложение Уровень 1
 
@@ -46,10 +48,10 @@ cd C:\Users\genus\Directory
 
 4. Выполнение с помощью комманд.  
   
-4.1 Выполнить, ввод:  
+* Выполнить, ввод:  
 java -jar demo.jar  
 Нажмите Enter.  
-4.2 Выполнить и протестировать, ввод:  
+* Выполнить и протестировать, ввод:  
 java -jar demo.jar Texts/Sample.txt Texts/Modify.txt  
 Нажмите Enter.  
 *. Заметка.  
@@ -63,4 +65,6 @@ C:\Program Files\Java\jre1.8.0_291\bin\java.exe -jar demo.jar
 2. (2ой файл) Введите: Texts/Modify.txt. Нажмите Enter.
 
 ### Дополнительно:  
-[Смотреть чистый код](https://github.com/Alexxx180/Genus/blob/main/maven/demo/src/main/java/com/example/demo/DemoApplication.java) 
+Смотреть код  
+[Класс FileCompare](https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/main/java/compare/FileCompare.java)  
+[Класс DemoApplicationTests](https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/test/java/com/example/demo/DemoApplicationTests.java)
