@@ -2,7 +2,7 @@
 ## Preparing
 
 1. Link to get result:  
-[Download](https://github.com/Alexxx180/Genus/raw/main/Leve%201/Result/demo.jar)
+[Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/main/Level%201/Result)
 
 2. Accept the download and open command line:  
 Win + R -> cmd -> Enter
