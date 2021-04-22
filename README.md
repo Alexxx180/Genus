@@ -31,5 +31,5 @@ C:\Program Files\Java\jre1.8.0_291\bin\java.exe -jar demo.jar
 
 ### Optional:  
 View code  
-[Class FileCompare](https://github.com/Alexxx180/Genus/blob/main/Leve%201/Maven/demo/src/main/java/compare/FileCompare.java)  
-[Class DemoApplication](https://github.com/Alexxx180/Genus/blob/main/Leve%201/Maven/demo/src/main/java/com/example/demo/DemoApplication.java)
+[Class FileCompare](https://github.com/Alexxx180/Genus/blob/main/Level%201/Maven/src/main/java/compare/FileCompare.java)  
+[Class DemoApplication](https://github.com/Alexxx180/Genus/blob/main/Level%201/Maven/src/main/java/com/example/demo/DemoApplication.java)
