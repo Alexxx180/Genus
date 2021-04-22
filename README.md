@@ -2,7 +2,7 @@
 ## Preparing
 
 1. Link to get result:  
-[Download](https://github.com/Alexxx180/Genus/raw/main/Result/demo.jar)
+[Download](https://github.com/Alexxx180/Genus/raw/main/Leve%201/Result/demo.jar)
 
 2. Accept the download and open command line:  
 Win + R -> cmd -> Enter
@@ -31,13 +31,13 @@ C:\Program Files\Java\jre1.8.0_291\bin\java.exe -jar demo.jar
 
 ### Optional:  
 View code  
-[Class FileCompare](https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/main/java/compare/FileCompare.java)  
-[Class DemoApplication(https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/main/java/com/example/demo/DemoApplication.java)
+[Class FileCompare](https://github.com/Alexxx180/Genus/blob/main/Leve%201/Maven/demo/src/main/java/compare/FileCompare.java)  
+[Class DemoApplication(https://github.com/Alexxx180/Genus/blob/main/Leve%201/Maven/demo/src/main/java/com/example/demo/DemoApplication.java)
 
 # [RU] Приложение Уровень 1
 
 1. Для получения результата, ссылка:  
-[Скачать](https://github.com/Alexxx180/Genus/raw/main/Result/demo.jar)
+[Скачать](https://github.com/Alexxx180/Genus/raw/main/Leve%201/Result/demo.jar)
 
 2. Подтвердить скачивание и открыть коммандную строку:  
 Win + R -> cmd -> Enter.
@@ -66,5 +66,5 @@ C:\Program Files\Java\jre1.8.0_291\bin\java.exe -jar demo.jar
 
 ### Дополнительно:  
 Смотреть код  
-[Класс FileCompare](https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/main/java/compare/FileCompare.java)  
-[Класс DemoApplication(https://github.com/Alexxx180/Genus/blob/main/Maven/demo/src/main/java/com/example/demo/DemoApplication.java)
+[Класс FileCompare](https://github.com/Alexxx180/Genus/blob/main/Leve%201/Maven/demo/src/main/java/compare/FileCompare.java)  
+[Класс DemoApplication(https://github.com/Alexxx180/Genus/blob/main/Leve%201/Maven/demo/src/main/java/com/example/demo/DemoApplication.java)

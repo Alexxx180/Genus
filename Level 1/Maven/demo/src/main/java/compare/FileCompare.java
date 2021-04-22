@@ -22,6 +22,20 @@ public class FileCompare {
         return text;
     }
 
+    //[EN] Writing file into string
+    //[RU] Записываем файл в строку
+    private static String fullText(BufferedReader br) throws IOException {
+        String line;
+        String text;
+        try {
+            while ((line=br.readLine())!=null) text+=line+"\n";
+        }
+        catch (IOException ex) {
+            throw new IOException(ex);
+        }
+        return text;
+    }
+
     private static void printChanges(int i, int max, String txt, ArrayList<String> file) {
         for (;i<max;i++) System.out.println(txt + i + ": " + file.get(i));
     }
@@ -35,7 +49,16 @@ public class FileCompare {
         }
     }
 
-    public void Compare(String fName1, String fName2) throws IOException {
+    private String getFullText(String fName) throws IOException {
+        try (BufferedReader br = new BufferedReader(new FileReader(fName))) {
+            return fullText(br);
+        }
+        catch (IOException ex) {
+            throw new IOException(ex);
+        }
+    }
+
+    private void MethodComp1(String fName1, String fName2) {
         //[EN] Files
         //[RU] Файлы
         ArrayList<String> file1 = getFullText(fName1);
@@ -58,6 +81,15 @@ public class FileCompare {
         } else {
             printChanges(i, len, "Deleted line ", file1);
         }
+    }
+
+    private void MethodComp2(String Text1, String Text2) {
+        dp.diff_main(Text1,Text2);
+    }
+
+    public void Compare(String fName1, String fName2) throws IOException {
+        /*MethodComp1(fName1, fName2);*/
+        MethodComp2(getFullText(fName1), getFullText(fName2));
     }
 
     public FileCompare() {

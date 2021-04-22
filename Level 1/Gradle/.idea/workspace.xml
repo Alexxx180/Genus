@@ -5,35 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369b6c14-e376-42e0-bb92-1a68fac7f124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/dfmhph/diff_match_patch$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/dfmhph/diff_match_patch$Diff.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/dfmhph/diff_match_patch$LinesToCharsResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/dfmhph/diff_match_patch$Operation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/dfmhph/diff_match_patch$Patch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/dfmhph/diff_match_patch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/tests/Speedtest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/tests/diff_match_patch_test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dfmhph/diff_match_patch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/Speedtest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/Speedtest1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/Speedtest2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/diff_match_patch_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Maven/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maven/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Maven/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/demo/src/main/java/compare/FileCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Maven/demo/src/main/java/compare/FileCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/src/main/java/TaskMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Maven/src/main/java/TaskMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Maven" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -107,6 +82,8 @@
       <updated>1618981819337</updated>
       <workItem from="1618981821963" duration="2559000" />
       <workItem from="1619008523317" duration="568000" />
+      <workItem from="1619009587442" duration="749000" />
+      <workItem from="1619010850933" duration="809000" />
     </task>
     <servers />
   </component>
@@ -123,6 +100,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
