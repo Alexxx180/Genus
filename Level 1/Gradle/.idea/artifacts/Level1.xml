@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Level1">
+    <output-path>$PROJECT_DIR$/../Result</output-path>
+    <root id="archive" name="Level1.jar" />
+  </artifact>
+</component>

@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../../../:\Users\genus\Desktop\Tasks\.idea/dataSources/
+/../../../../../../../:\Users\genus\Desktop\Tasks\demo\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
