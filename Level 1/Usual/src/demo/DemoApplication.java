@@ -18,7 +18,7 @@ public class DemoApplication {
 		}
 		FileCompare fc = new FileCompare();
 		try {
-			fc.Compare(f1, f2);
+			fc.compare(f1, f2);
 		}
 		catch (IOException ex) {
 			System.err.println("Files don't exist or\nnames aren't correctly.");
