@@ -12,18 +12,9 @@ Press Enter.
 
 ## Executing.  
   
-* Execute:  
-java -jar Usual.jar  
-Press Enter.  
-* Execute and test:  
+*Execute and test  
 java -jar Usual.jar Texts/Sample.txt Texts/Modify.txt  
 Press Enter.  
-
-## Testing
-
-1. Input 1st file: Texts/Sample.txt. Press Enter.
-
-2. Input 2nd file: Texts/Modify.txt. Press Enter.
 
 ## Requirements
 * Java 8 and higher
