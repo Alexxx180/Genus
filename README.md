@@ -17,4 +17,4 @@ java -jar Usual.jar Texts/Sample.txt Texts/Modify.txt
 Press Enter.  
 
 ## Requirements
-* Java 8 and higher
+* Java 8+
