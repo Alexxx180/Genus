@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Usual:jar">
+    <output-path>$PROJECT_DIR$/../Result</output-path>
+    <root id="archive" name="Usual.jar">
+      <element id="module-output" name="Usual" />
+    </root>
+  </artifact>
+</component>

@@ -2,14 +2,12 @@ package demo;
 
 import compare.FileCompare;
 
-//Libraries to work with
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class DemoApplication {
 
-	//Search file by name and directory
 	public static String fileName() throws IOException {
 		String s;
 		InputStreamReader isr = new InputStreamReader(System.in);
@@ -23,7 +21,6 @@ public class DemoApplication {
 		return s;
 	}
 
-	//Main class
 	public static void main(String[] args) throws IOException, IndexOutOfBoundsException {
 		String f1, f2;
 		try {
@@ -35,6 +32,8 @@ public class DemoApplication {
 			f1 = fileName();
 			f2 = fileName();
 		}
-		FileCompare fc = new FileCompare(f1, f2);
+
+		FileCompare fc = new FileCompare();
+		fc.Compare(f1, f2);
 	}
 }
