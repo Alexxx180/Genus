@@ -12,7 +12,7 @@ Press Enter.
 
 ## Executing.  
   
-*Execute and test  
+* Execute and test  
 java -jar Usual.jar Texts/Sample.txt Texts/Modify.txt  
 Press Enter.  
 
