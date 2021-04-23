@@ -1,7 +1,7 @@
 # Application
 ## Preparing
 1. Get jar: [Download jar](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/main/Level%201/Result)  
-Get source: [Download src](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/main/Level%201/Usual)
+Project: [Download src](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/main/Level%201/Usual)
 
 2. Open command line:  
 Win + R -> cmd -> Enter
