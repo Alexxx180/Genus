@@ -7,13 +7,13 @@ Project: [Download src](https://minhaskamal.github.io/DownGit/#/home?url=https:/
 Win + R -> cmd -> Enter
 
 3. Input your file location.  
- 1. cd C:\Users\genus\Directory  
- 2. Press Enter.
+ 3.1. cd C:\Users\genus\Directory  
+ 3.2. Press Enter.
 
 ## Executing.  
   
 * Execute and test  
- 1. java -jar Usual.jar Texts/Sample.txt Texts/Modify.txt  
+ 1. java -jar Gradle.jar Texts/Sample.txt Texts/Modify.txt  
  2. Press Enter.  
 
 ## Requirements
