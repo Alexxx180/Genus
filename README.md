@@ -7,7 +7,7 @@ Project: [Download src](https://minhaskamal.github.io/DownGit/#/home?url=https:/
 Win + R -> cmd -> Enter
 
 3. Input your file location.  
- 3.1. cd "Absolute Path"
+ 3.1. cd "Absolute Path"  
  3.2. Press Enter.
 
 ## Executing.  
