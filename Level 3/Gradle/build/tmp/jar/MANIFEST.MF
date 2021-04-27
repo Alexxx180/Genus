@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: demo.DemoApplication
+Class-Path: log4j-core-2.13.3.jar log4j-api-2.13.3.jar commons-lang3-3.1
+ 2.0.jar
+

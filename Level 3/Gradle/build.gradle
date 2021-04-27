@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'distribution'
 }
 
 group 'Tk1'
@@ -25,5 +24,23 @@ jar {
                 'Main-Class': 'demo.DemoApplication',
                 'Class-Path': sourceSets.main.runtimeClasspath.files.collect{it.getName()}.findAll{ it.endsWith(".jar") }.join(" ")
         )
+    }
+}
+
+task dist {
+    group 'build'
+    dependsOn build
+    doLast {
+        mkdir 'build/dist'
+        copy {
+            from('build/libs')
+            into('build/dist')
+            include '*.jar'
+        }
+        copy {
+            from(sourceSets.main.runtimeClasspath)
+            into('build/dist/lib')
+            include '*.jar'
+        }
     }
 }
