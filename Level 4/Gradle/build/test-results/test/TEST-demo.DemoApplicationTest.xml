@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo.DemoApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-27T09:02:35" hostname="DESKTOP-LA9NGDG" time="0.021">
+  <properties/>
+  <testcase name="main" classname="demo.DemoApplicationTest" time="0.021"/>
+  <system-out><![CDATA[2021-04-27 12:02:35,160 Test worker WARN The bufferSize is set to 8192 but bufferedIo is false: false
+2021-04-27 12:02:35,171 Test worker WARN The bufferSize is set to 8192 but bufferedIo is false: false
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

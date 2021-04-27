@@ -1,7 +1,7 @@
 # Application
 ## Preparing
-1. Build 3.3: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/main/Level%203/Result)  
-IDEA project: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/main/Level%203/Gradle)
+1. Build 4.0: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/next/Level%203/Result)  
+IDEA project: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/next/Level%203/Gradle)
 
 2. Open command line:  
 Win + R -> cmd -> Enter
