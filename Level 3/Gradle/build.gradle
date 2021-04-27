@@ -22,7 +22,7 @@ jar {
     manifest {
         attributes (
                 'Main-Class': 'demo.DemoApplication',
-                'Class-Path': sourceSets.main.runtimeClasspath.files.collect{it.getName()}.findAll{ it.endsWith(".jar") }.join(" ")
+                'Class-Path': 'lib/'+sourceSets.main.runtimeClasspath.files.collect{it.getName()}.findAll{ it.endsWith(".jar") }.join(" lib/")
         )
     }
 }
