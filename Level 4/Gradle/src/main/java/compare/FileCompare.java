@@ -21,25 +21,6 @@ public class FileCompare {
     static Logger log = LogManager.getLogger("FileCompare");
 
     public ArrayList<String> compare(String fName1, String fName2) throws IOException {
-
-        final String LOG_PATTERN = "%d{yyyy-MM-dd HH:mm:ss} [%-5level] MyApp - %msg%n";
-        final LoggerContext ctx = (LoggerContext) LogManager.getContext(false);
-        final Configuration config = ctx.getConfiguration();
-
-        Layout layout = PatternLayout.createLayout(LOG_PATTERN, null, config, null, null, false, false, null, null);
-        Appender appenderInfo = FileAppender.createAppender("Logs/Info.log", "true", "true", "File", "true",
-                "false", "false", null, layout, null, "false", null, config);
-        Appender appenderDebug = FileAppender.createAppender("Logs/Debug.log", "true", "true", "File2", "true",
-                "false", "false", null, layout, null, "false", null, config);
-        appenderInfo.start();
-        appenderDebug.start();
-        config.addAppender(appenderInfo);
-        config.addAppender(appenderDebug);
-        LoggerConfig loggerConfig = config.getLoggerConfig("compare.FileCompare");
-        loggerConfig.addAppender(appenderInfo, Level.INFO, null);
-        loggerConfig.addAppender(appenderDebug, Level.DEBUG, null);
-        ctx.updateLoggers();
-
         String line1, line2;
         ArrayList<String> files = new ArrayList<String>();
         int i=1;
@@ -63,7 +44,7 @@ public class FileCompare {
             log.debug("Success.");
         }
         catch (IOException ex) {
-            log.error("Encountered problem of reading from file.\nShutdown program...");
+            log.error("Encountered problem of reading from file.\nShutdown program...\n" + ex.getMessage());
             throw new IOException(ex);
         }
         log.debug("Comparing procedure has been ended.");

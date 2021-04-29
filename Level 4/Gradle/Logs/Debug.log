@@ -5,3 +5,131 @@
 2021-04-28 11:29:40 [DEBUG] MyApp - Comparing procedure has been started.
 2021-04-28 11:29:41 [DEBUG] MyApp - Success.
 2021-04-28 11:29:41 [DEBUG] MyApp - Comparing procedure has been ended.
+2021-04-29 12:44:39 [DEBUG] MyApp - Comparing procedure has been started.
+2021-04-29 12:44:39 [DEBUG] MyApp - Success.
+2021-04-29 12:44:39 [DEBUG] MyApp - Comparing procedure has been ended.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:55:02 [main] [ERROR] FileCompare - Encountered problem of reading from file.
+Shutdown program...
+
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:55:02 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:57:48 [main] [ERROR] FileCompare - Encountered problem of reading from file.
+Shutdown program...
+
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:57:48 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:58:51 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Success.
+2021-04-29 13:59:28 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Success.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Success.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Success.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Success.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Success.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Success.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Success.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Success.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Success.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Success.
+2021-04-29 14:01:14 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
