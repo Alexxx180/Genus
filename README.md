@@ -1,8 +1,8 @@
 # Application
 ## Preparing
 
-1. Get build: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/level2/Level%203/Result)  
-IDEA proj: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/level2/Level%203/Gradle)
+1. Get build: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/level2/Level%202/Result)  
+IDEA proj: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/level2/Level%202/Gradle)
 
 2. Open command line:  
 Win + R -> cmd -> Enter
