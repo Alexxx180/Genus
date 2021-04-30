@@ -1,16 +1,8 @@
 package compare;
 
 import dfmhph.DMP;
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.Appender;
-import org.apache.logging.log4j.core.Layout;
-import org.apache.logging.log4j.core.LoggerContext;
-import org.apache.logging.log4j.core.appender.FileAppender;
-import org.apache.logging.log4j.core.config.Configuration;
-import org.apache.logging.log4j.core.config.LoggerConfig;
-import org.apache.logging.log4j.core.layout.PatternLayout;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -22,39 +14,25 @@ public class FileCompare {
     static Logger log = LogManager.getLogger("FileCompare");
 
     public ArrayList<String> compare(String fName1, String fName2) throws IOException {
-
-        final String LOG_PATTERN = "%d{yyyy-MM-dd HH:mm:ss} [%-5level] MyApp - %msg%n";
-        final LoggerContext ctx = (LoggerContext) LogManager.getContext(false);
-        final Configuration config = ctx.getConfiguration();
-
-        Layout layout = PatternLayout.createLayout(LOG_PATTERN, null, config, null, null, false, false, null, null);
-        Appender appenderInfo = FileAppender.createAppender("Logs/Info.log", "true", "true", "File", "true",
-                "false", "false", null, layout, null, "false", null, config);
-        Appender appenderDebug = FileAppender.createAppender("Logs/Debug.log", "true", "true", "File2", "true",
-                "false", "false", null, layout, null, "false", null, config);
-        appenderInfo.start();
-        appenderDebug.start();
-        config.addAppender(appenderInfo);
-        config.addAppender(appenderDebug);
-        LoggerConfig loggerConfig = config.getLoggerConfig("compare.FileCompare");
-        loggerConfig.addAppender(appenderInfo, Level.INFO, null);
-        loggerConfig.addAppender(appenderDebug, Level.DEBUG, null);
-        ctx.updateLoggers();
-
         String line1, line2;
         ArrayList<String> files = new ArrayList<String>();
         log.debug("Comparing procedure has been started.");
+        files.add("");
+        files.add("");
+        if (fName1==fName2)
+            return files;
         try (BufferedReader br1 = new BufferedReader(new FileReader(fName1)); BufferedReader br2 = new BufferedReader(new FileReader(fName2))) {
-            files.add("");
-            files.add("");
             while ((line1 = br1.readLine())!=null)
                 files.set(0, files.get(0)+line1+"\n");
             while ((line2 = br2.readLine())!=null)
                 files.set(1, files.get(1)+line2+"\n");
+            if (files.get(0)==""||files.get(1)=="")
+                return files;
             DMP dp=new DMP();
 
             int i=0, j=1;
             String f1 = files.get(0), f2 = files.get(1), pr, pr2;
+
             ArrayList<String> ops1 = new ArrayList<>();
             ArrayList<String> ops2 = new ArrayList<>();
             ArrayList<String> txt1 = new ArrayList<>();
@@ -63,6 +41,12 @@ public class FileCompare {
                 if (df.operation.equals(DMP.Operation.EQUAL))
                     continue;
                 if (df.operation.equals(DMP.Operation.DELETE)) {
+                    while (df.text.indexOf("\n")!=-1)
+                    {
+                        ops2.add("Deleted");
+                        txt2.add(df.text.substring(0,df.text.indexOf("\n")));
+                        df.text = df.text.substring(df.text.indexOf("\n")+1);
+                    }
                     ops1.add("Deleted");
                     txt1.add(df.text.trim());
                 }
