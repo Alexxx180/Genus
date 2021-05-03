@@ -1,7 +1,7 @@
 # Application
 ## Preparing
 
-1. Get build: [https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/level5/Result)  
+1. Get build: [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Alexxx180/Genus/tree/level5/Result)  
 
 2. Open command line:  
 Win + R -> cmd -> Enter
