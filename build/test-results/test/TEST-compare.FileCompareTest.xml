@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="compare.FileCompareTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-05-03T10:04:16" hostname="SASHA" time="0.545">
+  <properties/>
+  <testcase name="compare1" classname="compare.FileCompareTest" time="0.013"/>
+  <testcase name="compare2" classname="compare.FileCompareTest" time="0.512"/>
+  <testcase name="compare3" classname="compare.FileCompareTest" time="0.015"/>
+  <testcase name="compare4" classname="compare.FileCompareTest" time="0.001"/>
+  <testcase name="compare5" classname="compare.FileCompareTest" time="0.0"/>
+  <testcase name="compare6" classname="compare.FileCompareTest" time="0.0"/>
+  <testcase name="compare7" classname="compare.FileCompareTest" time="0.001"/>
+  <testcase name="compare8" classname="compare.FileCompareTest" time="0.001"/>
+  <system-out><![CDATA[12:04:16.688 [Test worker] DEBUG FileCompare - Comparing procedure has been started.
+Deleted 2 : Py
+Deleted 4 : #Si
+Deleted 4 : e
+Deleted 4 : Py
+Deleted 4 : h
+Updated 1 : 
+Updated 2 : Java
+Updated 4 : //Aweso
+Updated 4 : e Java
+Updated 4 : 
+Updated 5 : ub
+Updated 5 : ic class Main
+Updated 5 : {
+Updated 6 : public sta
+Updated 6 : ic v
+Updated 6 : id mai
+Updated 6 : (String[] args) {
+Updated 7 : System.out.
+Updated 7 : ln
+Updated 8 : }
+Updated 8 : }
+Updated 8 : 
+12:04:16.698 [Test worker] DEBUG FileCompare - Success.
+12:04:16.698 [Test worker] DEBUG FileCompare - Comparing procedure has been ended.
+12:04:16.699 [Test worker] DEBUG FileCompare - Comparing procedure has been started.
+Deleted 2 : and
+Deleted 2 : news
+Deleted 2 : per
+Deleted 2 : Newsp
+Deleted 2 : per
+Deleted 2 : Februa
+Deleted 2 : y
+Deleted 2 : 0
+Deleted 2 : 8
+Deleted 13 : &
+Deleted 13 : T
+Deleted 13 : 
+Deleted 13 : U
+Deleted 13 : U
+Deleted 16 : Fiv
+Deleted 19 : [[New
+Deleted 19 : aven Regi
+Deleted 22 : er#C
+Deleted 22 : mpet
+Deleted 22 : tors|E
+Deleted 22 : m C
+Deleted 22 : ty Newspapers]] {{WS|
+Deleted 22 : tcentr
+Deleted 22 : l.c
+Deleted 22 : m}}
+Deleted 23 : Adverti
+Deleted 23 : er'' of [[E
+Deleted 23 : s
+Deleted 23 : Haven, C
+Deleted 23 : nect
+Deleted 23 : ut|East
+Deleted 23 : Hav
+Deleted 23 : **
+Deleted 24 : Hamden
+Deleted 24 : C
+Deleted 24 : r
+Deleted 24 : nicle'' of [[H
+Deleted 24 : mden, C
+Deleted 24 : nect
+Deleted 24 : u
+Deleted 24 : |Ha
+Deleted 24 : d
+Deleted 25 : ** ''Milf
+Deleted 25 : rd Weekly''
+Deleted 26 : T
+Deleted 26 : Ora
+Deleted 26 : g
+Deleted 26 : B
+Deleted 26 : lle
+Deleted 26 : n''
+Deleted 26 : Orang
+Deleted 26 : Orang
+Deleted 26 : *
+Deleted 26 : ''Th
+Deleted 26 : t
+Deleted 26 : of
+Deleted 27 : No
+Deleted 27 : th Hav
+Deleted 27 : n,
+Deleted 27 : Co
+Deleted 27 : nectic
+Deleted 27 : |North Hav
+Deleted 27 : **
+Deleted 27 : h
+Deleted 28 : to
+Deleted 28 : We
+Deleted 28 : kly''
+Deleted 28 : Sh
+Deleted 28 : ton
+Deleted 28 : Sh
+Deleted 28 : ton
+Deleted 28 : S
+Deleted 28 : f
+Deleted 29 : d B
+Deleted 29 : rd''
+Deleted 29 : Stra
+Deleted 29 : f
+Deleted 29 : d
+Deleted 29 : S
+Deleted 29 : a
+Deleted 29 : f
+Deleted 29 : d]]
+Deleted 30 : Wal
+Deleted 30 : gford
+Deleted 30 : V
+Deleted 30 : e''
+Deleted 30 : W
+Deleted 30 : l
+Deleted 30 : ingford,
+Deleted 30 : Connectic
+Deleted 30 : t|W
+Deleted 30 : ll
+Deleted 30 : ** ''W
+Deleted 31 : st
+Deleted 31 : H
+Deleted 31 : v
+Deleted 31 : n
+Deleted 31 : s''
+Deleted 31 : f
+Deleted 31 : W
+Deleted 31 : st
+Deleted 31 : Have
+Deleted 31 : W
+Deleted 31 : st
+Deleted 32 : * Housat
+Deleted 32 : ic Publicati
+Deleted 32 : s
+Deleted 33 : T
+Deleted 33 : N
+Deleted 33 : w Milford
+Deleted 33 : newmilf
+Deleted 33 : d
+Deleted 33 : New M
+Deleted 33 : New M
+Deleted 33 : *
+Deleted 34 : ''The Br
+Deleted 34 : kf
+Deleted 34 : l
+Deleted 34 : J
+Deleted 34 : rnal''
+Deleted 34 : o
+Deleted 34 : [[Br
+Deleted 34 : kf
+Deleted 34 : e
+Deleted 34 : , Connect
+Deleted 34 : cut|B
+Deleted 34 : kfield]]
+Deleted 35 : e Ken
+Deleted 35 : Go
+Deleted 35 : d
+Deleted 35 : Tim
+Deleted 35 : Di
+Deleted 35 : patch
+Deleted 35 : f [[Ken
+Deleted 35 : , C
+Deleted 35 : n
+Deleted 35 : cticut|K
+Deleted 36 : ** ''The Bethel Bea
+Deleted 36 : n''
+Deleted 36 : Bet
+Deleted 36 : el
+Deleted 36 : Be
+Deleted 36 : hel
+Deleted 36 : Th
+Deleted 37 : Li
+Deleted 37 : chfield
+Deleted 37 : Enqui
+Deleted 37 : e
+Deleted 37 : f [[Litchfiel
+Deleted 37 : , Con
+Deleted 37 : ctic
+Deleted 37 : |Li
+Deleted 37 : chf
+Deleted 38 : ** ''Li
+Deleted 38 : chfield C
+Deleted 38 : u
+Deleted 38 : ty Ti
+Deleted 38 : es''
+Deleted 38 : L
+Deleted 38 : chfield
+Deleted 38 : L
+Deleted 38 : chfield
+Deleted 39 : Imp
+Deleted 39 : i
+Deleted 39 : t
+Deleted 39 : papers
+Deleted 39 : pr
+Deleted 39 : ntnewsp
+Deleted 39 : pe
+Deleted 39 : s
+Deleted 40 : ** ''West Hartford News''
+Deleted 40 : West Hartfo
+Deleted 40 : d
+Deleted 40 : West H
+Deleted 40 : rtford
+Deleted 41 : Wi
+Deleted 41 : ds
+Deleted 41 : r
+Deleted 41 : Journal
+Deleted 41 : of [[
+Deleted 41 : inds
+Deleted 41 : r, C
+Deleted 41 : nnec
+Deleted 41 : cut|W
+Deleted 41 : ndso
+Deleted 41 : ** ''Winds
+Deleted 42 : r L
+Deleted 42 : ks J
+Deleted 42 : ur
+Deleted 42 : al''
+Deleted 42 : Wi
+Deleted 42 : ds
+Deleted 42 : r Locks
+Deleted 42 : Wi
+Deleted 42 : dsor L
+Deleted 42 : cks
+Deleted 43 : Po
+Deleted 43 : t
+Deleted 44 : Farm
+Deleted 44 : ngton
+Deleted 44 : Po
+Deleted 44 : t
+Deleted 44 : o
+Deleted 44 : [[Farmingt
+Deleted 44 : n, C
+Deleted 44 : nnec
+Deleted 44 : cut|Far
+Deleted 44 : n
+Deleted 44 : t
+Deleted 45 : ** ''S
+Deleted 45 : Post''
+Deleted 46 : Tr
+Deleted 46 : -Town
+Deleted 46 : Po
+Deleted 46 : t
+Deleted 46 : o
+Deleted 46 : [[Burlingt
+Deleted 46 : n, C
+Deleted 46 : nnec
+Deleted 46 : cut|Bur
+Deleted 46 : ington]], [[Canton, Conn
+Deleted 46 : cticut|Canton]] an
+Deleted 46 : [[H
+Deleted 46 : winton, C
+Deleted 46 : nne
+Deleted 46 : ticut|Harwint
+Deleted 47 : * Minute
+Deleted 47 : an Pub
+Deleted 48 : ** ''[[Fair
+Deleted 48 : Minuteman]]''
+Deleted 48 : Fa
+Deleted 48 : r
+Deleted 48 : Fa
+Deleted 48 : r
+Deleted 49 : T
+Deleted 49 : e
+Deleted 49 : W
+Deleted 49 : stpo
+Deleted 49 : t Minuteman
+Deleted 49 : westp
+Deleted 49 : r
+Deleted 49 : m
+Deleted 49 : nu
+Deleted 49 : em
+Deleted 49 : n
+Deleted 49 : [[Wes
+Deleted 49 : p
+Deleted 49 : on
+Deleted 49 : ec
+Deleted 49 : icut|Westp
+Deleted 49 : rt]]
+Deleted 49 : S
+Deleted 50 : oreline Newspap
+Deleted 50 : s
+Deleted 50 : :
+Deleted 51 : Branford Revi
+Deleted 51 : w''
+Deleted 51 : of [[Bran
+Deleted 51 : , Connecticut|B
+Deleted 52 : ** ''Clinton R
+Deleted 52 : corder''
+Deleted 52 : of [[Clinton, Connectic
+Deleted 52 : t|C
+Deleted 53 : ** ''The Do
+Deleted 53 : phin'' of [[Naval Submarin
+Deleted 53 : Base New London]] in [[New London, Connec
+Deleted 53 : cut|New Lo
+Deleted 54 : ** ''Main Street News
+Deleted 54 : mainstre
+Deleted 54 : ews
+Deleted 54 : Ess
+Deleted 54 : x
+Deleted 54 : Ess
+Deleted 54 : x
+Deleted 55 : Pictorial Gaz
+Deleted 55 : tte''
+Deleted 55 : f [[Old Sayb
+Deleted 55 : ok, Co
+Deleted 55 : nect
+Deleted 55 : ut|O
+Deleted 55 : **
+Deleted 56 : Regional
+Deleted 56 : Ex
+Deleted 56 : re
+Deleted 56 : s'' of [[Col
+Deleted 56 : este
+Deleted 56 : , C
+Deleted 56 : nect
+Deleted 56 : ut|Co
+Deleted 56 : ch
+Deleted 56 : ** ''Regi
+Deleted 57 : nal Standard''
+Deleted 57 : C
+Deleted 57 : lc
+Deleted 57 : est
+Deleted 57 : r
+Deleted 57 : C
+Deleted 57 : lc
+Deleted 57 : est
+Deleted 57 : r
+Deleted 58 : Sh
+Deleted 58 : eline
+Deleted 58 : Tim
+Deleted 58 : eli
+Deleted 58 : time
+Deleted 58 : Guil
+Deleted 58 : Guil
+Deleted 58 : *
+Deleted 59 : ''Shore View E
+Deleted 59 : st'' of [[M
+Deleted 59 : d
+Deleted 59 : son, Con
+Deleted 59 : cticut|Madi
+Deleted 59 : on]]
+Deleted 59 : S
+Deleted 59 : or
+Deleted 60 : View West'' of [[Guilford,
+Deleted 60 : *
+Deleted 61 : Othe
+Deleted 61 : weekl
+Deleted 62 : ** ''Registro
+Deleted 62 : r
+Deleted 62 : gis
+Deleted 62 : ro
+Deleted 62 : of [[New Haven,
+Deleted 62 : |New
+Deleted 62 : H
+Deleted 63 : ** ''Thom
+Deleted 63 : sto
+Deleted 63 : Expr
+Deleted 63 : ss
+Deleted 63 : omastown
+Deleted 63 : xpress.
+Deleted 63 : m}} of [[Thomaston, Co
+Deleted 63 : |Th
+Deleted 63 : aston]]
+Deleted 64 : F
+Deleted 64 : o
+Deleted 64 : hills
+Deleted 64 : Tr
+Deleted 64 : d
+Deleted 64 : rs
+Deleted 64 : f
+Deleted 64 : othills
+Deleted 64 : r
+Deleted 64 : der
+Deleted 64 : of Torrington, Bristol, Canton
+Deleted 84 : Advis
+Deleted 84 : **
+Deleted 84 : ''
+Deleted 84 : ''
+Deleted 87 : Alma
+Deleted 87 : R
+Deleted 87 : min
+Deleted 87 : **
+Deleted 87 : ''A
+Deleted 88 : p
+Deleted 88 : St
+Deleted 88 : r''
+Deleted 88 : A
+Deleted 88 : t
+Deleted 89 : m
+Deleted 89 : Cou
+Deleted 89 : y N
+Deleted 89 : w
+Deleted 89 : ''
+Deleted 89 : C
+Deleted 90 : rson City
+Deleted 91 : Th
+Deleted 91 : Le
+Deleted 91 : de
+Deleted 91 : & Kalkaskian
+Deleted 93 : ** ''P
+Deleted 93 : ** ''
+Deleted 99 : ** ''The (Edmore) Advertiser''
+Deleted 108 : ** ''Suburban Lifestyles'' {{WS|suburbanlifestyles.com}}
+Deleted 108 : 
+Deleted 108 : *
+Deleted 133 : El Latino Expr
+Deleted 133 : so''
+Deleted 133 : f [[Tr
+Deleted 134 : ** ''La Voz
+Deleted 134 : f [[Norristown, P
+Deleted 134 : nsyl
+Deleted 135 : ** ''The V
+Deleted 135 : ag
+Deleted 135 : N
+Deleted 135 : ''
+Deleted 135 : D
+Deleted 135 : w
+Deleted 135 : ngtown, Pennsyl
+Deleted 135 : an
+Deleted 136 : ** ''The Times Record'' of [[Kennett Squar
+Deleted 136 : The
+Deleted 137 : Tr
+Deleted 137 : -Cou
+Deleted 137 : ty
+Deleted 137 : R
+Deleted 137 : c
+Deleted 137 : rd
+Deleted 137 : tricou
+Deleted 137 : ty
+Deleted 137 : c
+Deleted 137 : rd
+Deleted 137 : Mo
+Deleted 137 : ga
+Deleted 137 : w
+Deleted 137 : P
+Deleted 137 : nn
+Deleted 137 : lvania
+Deleted 138 : News of Delaw
+Deleted 138 : re
+Deleted 138 : C
+Deleted 138 : unty
+Deleted 138 : newsofde
+Deleted 138 : warec
+Deleted 138 : unty
+Deleted 138 : Have
+Deleted 139 : Main Lin
+Deleted 139 : m
+Deleted 139 : s
+Deleted 139 : mainl
+Deleted 139 : e
+Deleted 139 : im
+Deleted 139 : s
+Deleted 139 : Ardm
+Deleted 139 : e
+Deleted 141 : ** ''Town Talk''
+Deleted 141 : tow
+Deleted 141 : talk
+Deleted 141 : ws
+Deleted 141 : 
+Deleted 141 : Ridley
+Deleted 142 : pa8new
+Deleted 142 : gr
+Deleted 143 : ** ''Sola
+Deleted 143 : o Sun L
+Deleted 143 : dg
+Deleted 143 : ''
+Deleted 143 : f [[Q
+Deleted 143 : arryville, Pe
+Deleted 143 : ns
+Deleted 144 : ** ''Columbia L
+Deleted 144 : dg
+Deleted 144 : r'' of [[Co
+Deleted 144 : umb
+Deleted 144 : a, P
+Deleted 144 : nn
+Deleted 144 : ylvania]]
+Deleted 145 : Coatesvill
+Deleted 145 : Ledg
+Deleted 145 : r'' of [[Dow
+Deleted 145 : i
+Deleted 145 : gtown, P
+Deleted 146 : ** ''Parkesburg Pos
+Deleted 146 : Ledger'' of [[Quarryville,
+Deleted 146 : ennsylv
+Deleted 147 : ** ''Downingtown Ledg
+Deleted 148 : ** ''The K
+Deleted 148 : P
+Deleted 148 : ''
+Deleted 148 : of [[
+Deleted 149 : est G
+Deleted 149 : , Penn
+Deleted 149 : ylva
+Deleted 150 : ** ''Oxf
+Deleted 150 : rd Tribune''
+Deleted 150 : Oxford, P
+Deleted 150 : nn
+Deleted 151 : ** ''Elizabe
+Deleted 151 : htown
+Deleted 151 : Ch
+Deleted 151 : nicle'' of [[Elizab
+Deleted 151 : thtown
+Deleted 152 : Don
+Deleted 152 : gal
+Deleted 152 : L
+Deleted 152 : dge
+Deleted 152 : '' of [[Doneg
+Deleted 152 : ,
+Deleted 152 : P
+Deleted 153 : ** ''Chadds F
+Deleted 153 : Post
+Deleted 153 : of [[Chad
+Deleted 153 : s F
+Deleted 154 : ** ''The C
+Deleted 154 : R
+Deleted 154 : ''
+Deleted 157 : ** ''The Review'' of Roxbor
+Deleted 157 : g
+Deleted 157 : , P
+Deleted 157 : nn
+Deleted 157 : v
+Deleted 157 : ** ''Th
+Deleted 158 : Recorder'' of [[Con
+Deleted 158 : h
+Deleted 158 : hocken,
+Deleted 158 : Pennsylvania]]
+Deleted 159 : Leader'' of [[Mount Airy,
+Deleted 159 : sylvan
+Deleted 159 : a|Mou
+Deleted 159 : Airy]] a
+Deleted 159 : d West Oak Lake,
+Deleted 159 : enn
+Deleted 159 : **
+Deleted 159 : The
+Deleted 159 : P
+Deleted 159 : P
+Deleted 159 : ''
+Deleted 162 : of [[Y
+Deleted 162 : , Pen
+Deleted 163 : ** ''N
+Deleted 163 : H
+Deleted 163 : pe Gazette''
+Deleted 163 : New Hop
+Deleted 164 : Doyl
+Deleted 164 : stown Patriot''
+Deleted 164 : [[Doyle
+Deleted 164 : town,
+Deleted 164 : Pe
+Deleted 164 : ns
+Deleted 164 : **
+Deleted 165 : Newtown
+Deleted 165 : A
+Deleted 165 : ''
+Deleted 166 : The Plain Deal
+Deleted 166 : r'' of [[Williamst
+Deleted 166 : wn,
+Deleted 166 : New Je
+Deleted 166 : s
+Deleted 167 : ** ''N
+Deleted 167 : ws R
+Deleted 167 : port
+Deleted 167 : of [[
+Deleted 167 : ewell, New Je
+Deleted 168 : ** ''R
+Deleted 168 : B
+Deleted 168 : ''
+Deleted 169 : Newsweekly'' of [[Moorest
+Deleted 169 : w
+Deleted 170 : ** ''Haddon Herald'' of [[Haddonf
+Deleted 170 : eld, New Jerse
+Deleted 170 : **
+Deleted 170 : ''
+Deleted 171 : Egypt Pres
+Deleted 171 : of [[New Egypt, New Jer
+Deleted 172 : ** ''C
+Deleted 172 : N
+Deleted 172 : ''
+Deleted 174 : ** ''Lafayette Hill Journal'' of [[Lafayette Hill, Pennsylvania]]
+Deleted 177 : C
+Deleted 177 : ntral Bucks Life'' of [[Bucks
+Deleted 177 : unty, Pennsy
+Deleted 177 : va
+Deleted 177 : **
+Deleted 178 : The
+Deleted 178 : C
+Deleted 178 : ''
+Deleted 181 : ain Li
+Deleted 181 : of [[Ard
+Deleted 182 : ** ''Mo
+Deleted 182 : L
+Deleted 182 : ''
+Deleted 183 : N
+Deleted 184 : ws
+Deleted 192 : Gl
+Deleted 192 : aner Publ
+Deleted 192 : cations (clos
+Deleted 192 : d December 2008)
+Deleted 192 : newsgl
+Deleted 192 : an
+Deleted 192 : r
+Deleted 193 : ** ''Li
+Deleted 193 : e
+Deleted 193 : Newspape
+Deleted 193 : s''
+Deleted 193 : f
+Deleted 193 : [[
+Deleted 194 : uburb
+Deleted 194 : Pub
+Deleted 194 : cat
+Deleted 194 : o
+Deleted 195 : The Suburb
+Deleted 195 : & Way
+Deleted 195 : w
+Deleted 195 : y
+Deleted 195 : uburban
+Deleted 195 : Wayn
+Deleted 195 : Th
+Deleted 195 : uburb
+Deleted 196 : Adv
+Deleted 196 : rt
+Deleted 196 : s
+Deleted 196 : r''
+Deleted 196 : Ext
+Deleted 196 : n
+Deleted 196 : P
+Deleted 197 : ss
+Deleted 198 : pap
+Deleted 198 : s
+Deleted 198 : u
+Deleted 198 : typr
+Deleted 198 : s
+Deleted 198 : onli
+Deleted 198 : Pr
+Deleted 199 : s''
+Deleted 199 : N
+Deleted 199 : w
+Deleted 199 : Square
+Deleted 200 : Gar
+Deleted 200 : e
+Deleted 200 : Valle
+Deleted 200 : f [[Gle
+Deleted 200 : Mill
+Deleted 200 : , Pe
+Deleted 200 : nsy
+Deleted 200 : van
+Deleted 201 : ** ''Hav
+Deleted 201 : rf
+Deleted 201 : rd Press''
+Deleted 201 : (closed January 2009)
+Deleted 202 : Hom
+Deleted 202 : own
+Deleted 202 : (closed January 2009)
+Deleted 202 : M
+Deleted 202 : ia
+Deleted 203 : f [[New
+Deleted 203 : w
+Deleted 203 : qua
+Deleted 203 : (cl
+Deleted 203 : sed Ja
+Deleted 203 : uary
+Deleted 203 : **
+Deleted 204 : pri
+Deleted 204 : gfie
+Deleted 204 : d Pr
+Deleted 204 : s''
+Deleted 204 : Spr
+Deleted 204 : ngfi
+Deleted 204 : ld
+Deleted 210 : The Free Press''
+Deleted 210 : f [[Q
+Deleted 210 : akertow
+Deleted 210 : ,
+Deleted 210 : Pe
+Deleted 210 : sylvan
+Deleted 210 : **
+Deleted 210 : The
+Deleted 211 : auc
+Deleted 211 : N
+Deleted 211 : ''
+Deleted 211 : f [[Q
+Deleted 211 : aker
+Deleted 211 : wn, Pe
+Deleted 212 : ** ''W
+Deleted 212 : s
+Deleted 212 : s
+Deleted 212 : de Weekly''
+Deleted 212 : R
+Deleted 212 : adi
+Deleted 212 : g
+Deleted 212 : **
+Deleted 216 : ''Che
+Deleted 216 : ter Co. Town & C
+Deleted 216 : r
+Deleted 216 : Liv
+Deleted 217 : ** ''Montomg
+Deleted 217 : ry Co
+Deleted 217 : T
+Deleted 217 : wn
+Deleted 217 : & Country Living''
+Deleted 218 : G
+Deleted 218 : d
+Deleted 218 : S
+Deleted 218 : ate Town
+Deleted 218 : & Count
+Deleted 218 : y Living
+Deleted 218 : **
+Deleted 219 : ''Mo
+Deleted 219 : gom
+Deleted 219 : y H
+Deleted 219 : es''
+Deleted 220 : Philad
+Deleted 220 : lphi
+Deleted 220 : Go
+Deleted 220 : f
+Deleted 220 : **
+Deleted 221 : ''Par
+Deleted 221 : ts Expr
+Deleted 221 : s
+Deleted 221 : **
+Deleted 222 : ''A
+Deleted 222 : t M
+Deleted 222 : tt
+Deleted 222 : s''
+Updated 1 : 
+Updated 2 : ,
+Updated 2 : ]] and [[New Jersey
+Updated 2 : ublic
+Updated 2 : tion
+Updated 2 : Public
+Updated 2 : tion
+Updated 2 : Ap
+Updated 2 : il
+Updated 2 : 2
+Updated 2 : 1
+Updated 12 : {{WS|romeobserver.com}}
+Updated 13 : WG
+Updated 13 : ''
+Updated 13 : {{WS|saratog
+Updated 13 : an.co
+Updated 13 : /wglif
+Updated 13 : /}} of [[Wilton, New York]]
+Updated 14 : ** ''Ball
+Updated 14 : t
+Updated 14 : n Spa Li
+Updated 14 : e
+Updated 14 : '' {{WS|sara
+Updated 14 : og
+Updated 14 : an.
+Updated 14 : om/bsp
+Updated 14 : life}} of [[Ballston Spa, New York]]
+Updated 14 : **
+Updated 15 : Greenbush Life'' {{WS|troyrecord.com/greenbush}}
+Updated 15 : Troy, New York]]
+Updated 16 : ** ''La
+Updated 16 : ham L
+Updated 16 : fe'' {{WS|troyre
+Updated 16 : ord.com/lath
+Updated 16 : m}} of [[Latham, New York]]
+Updated 17 : ** ''River Life'' {{WS|troyrecord.com/river}} of [[Troy
+Updated 20 : Thre
+Updated 26 : ou
+Updated 26 : a
+Updated 26 : n
+Updated 26 : c Pub
+Updated 26 : ti
+Updated 26 : ns
+Updated 26 : Hou
+Updated 27 : Tim
+Deleted 31 : n]]
+Updated 32 : s
+Updated 32 : {{WS|
+Updated 161 : us
+Updated 163 : t
+Updated 164 : i
+12:04:17.211 [Test worker] DEBUG FileCompare - Success.
+12:04:17.211 [Test worker] DEBUG FileCompare - Comparing procedure has been ended.
+12:04:17.211 [Test worker] DEBUG FileCompare - Comparing procedure has been started.
+Deleted 1 : x
+Deleted 4 : #
+Deleted 5 : "
+Deleted 5 : !"
+Updated 1 : 
+12:04:17.226 [Test worker] DEBUG FileCompare - Success.
+12:04:17.226 [Test worker] DEBUG FileCompare - Comparing procedure has been ended.
+12:04:17.227 [Test worker] DEBUG FileCompare - Comparing procedure has been started.
+12:04:17.227 [Test worker] ERROR FileCompare - Files is null.
+12:04:17.227 [Test worker] DEBUG FileCompare - Comparing procedure has been started.
+12:04:17.227 [Test worker] ERROR FileCompare - Files is null.
+12:04:17.228 [Test worker] DEBUG FileCompare - Comparing procedure has been started.
+Deleted 1 : ї
+Deleted 1 : Рѕ
+Deleted 1 : ЃС‚
+Deleted 2 : 1
+Updated 1 : 
+Updated 1 : ґ
+Updated 1 : ѓРі
+Updated 2 : 2
+12:04:17.228 [Test worker] DEBUG FileCompare - Success.
+12:04:17.228 [Test worker] DEBUG FileCompare - Comparing procedure has been ended.
+12:04:17.228 [Test worker] DEBUG FileCompare - Comparing procedure has been started.
+Deleted 1 : СЌС‚Рѕ
+Deleted 1 : 
+12:04:17.229 [Test worker] DEBUG FileCompare - Success.
+12:04:17.229 [Test worker] DEBUG FileCompare - Comparing procedure has been ended.
+12:04:17.229 [Test worker] DEBUG FileCompare - Comparing procedure has been started.
+12:04:17.230 [Test worker] DEBUG FileCompare - Success.
+12:04:17.230 [Test worker] DEBUG FileCompare - Comparing procedure has been ended.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
