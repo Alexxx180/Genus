@@ -2,7 +2,6 @@ package compare;
 
 import org.junit.Assert;
 import org.junit.Test;
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class FileCompareTest {
@@ -12,7 +11,7 @@ public class FileCompareTest {
         Assert.assertEquals(args, result);
     }
     @Test
-    public void compareMain() throws IOException, IndexOutOfBoundsException {
+    public void compareMain() throws IndexOutOfBoundsException {
         String[] args = {"src/main/resources/Texts/Sample.txt", "src/main/resources/Texts/Modify.txt"};
         ArrayList<String> result = new ArrayList<>();
         result.add("Deleted 2 : Py\nDeleted 4 : #Si\nDeleted 4 : e\nDeleted 4 : Py\nDeleted 4 : h\n");
@@ -20,7 +19,7 @@ public class FileCompareTest {
         testing(fc.compare(args[0], args[1]), result);
     }
     @Test
-    public void compareRu() throws IOException, IndexOutOfBoundsException {
+    public void compareRu() throws IndexOutOfBoundsException {
         String[] args = {"src/test/resources/Russian1.txt", "src/test/resources/Russian2.txt"};
         ArrayList<String> result = new ArrayList<>();
         result.add("Deleted 1 : п\nDeleted 1 : ост\nDeleted 2 : 1\n");
@@ -28,7 +27,7 @@ public class FileCompareTest {
         testing(fc.compare(args[0], args[1]), result);
     }
     @Test
-    public void compareNull() throws IOException, IndexOutOfBoundsException {
+    public void compareNull() throws IndexOutOfBoundsException {
         String[] args = {"src/test/resources/NullFile1.txt", "src/test/resources/NullFile2.txt"};
         ArrayList<String> result = new ArrayList<>();
         result.add("");
@@ -36,14 +35,14 @@ public class FileCompareTest {
         testing(fc.compare(args[0], args[1]), result);
     }
     @Test
-    public void compareIdent() throws IOException {
+    public void compareIdent() throws IndexOutOfBoundsException {
         String[] args = {"src/main/resources/Texts/Sample.txt", "src/main/resources/Texts/Sample.txt"};
         ArrayList<String> result = new ArrayList<>();
         testing(fc.compare(args[0], args[1]), result);
     }
 
     @Test
-    public void compare404() throws IOException {
+    public void compare404() throws IndexOutOfBoundsException {
         String path1 = "doesntExist1";
         String path2 = "doesntExist2";
         ArrayList<String> result = new ArrayList<>();

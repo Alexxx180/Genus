@@ -10,18 +10,18 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import org.springframework.boot.SpringBootExceptionReporter;
-import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Service;
 
-public class FileCompare implements SpringBootExceptionReporter, CommandLineRunner {
+@Service
+public class FileCompare implements SpringBootExceptionReporter {
 
     static Logger log = LogManager.getLogger("FileCompare");
 
-    public ArrayList<String> compare(String fName1, String fName2) throws IOException {
+    public ArrayList<String> compare(String fName1, String fName2) {
         String line1, line2;
         ArrayList<String> files = new ArrayList<String>();
         log.debug("Comparing procedure has been started.");
-        if (fName1.equals(fName2))
-        {
+        if (fName1.equals(fName2)) {
             log.error("Same file input.");
             return files;
         }
@@ -33,8 +33,7 @@ public class FileCompare implements SpringBootExceptionReporter, CommandLineRunn
                 f1+=line1+"\n";
             while ((line2 = br2.readLine())!=null)
                 f2+=line2+"\n";
-            if (f1.equals("")||f2.equals(""))
-            {
+            if (f1.equals("")||f2.equals("")) {
                 log.error("Files is null.");
                 return files;
             }
@@ -51,8 +50,7 @@ public class FileCompare implements SpringBootExceptionReporter, CommandLineRunn
                 if (df.operation.equals(DMP.Operation.EQUAL))
                     continue;
                 if (df.operation.equals(DMP.Operation.DELETE)) {
-                    while (df.text.indexOf("\n")!=-1)
-                    {
+                    while (df.text.indexOf("\n")!=-1) {
                         ops2.add("Deleted");
                         txt2.add(df.text.substring(0,df.text.indexOf("\n")));
                         df.text = df.text.substring(df.text.indexOf("\n")+1);
@@ -61,8 +59,7 @@ public class FileCompare implements SpringBootExceptionReporter, CommandLineRunn
                     txt1.add(df.text.trim());
                 }
                 else {
-                    while (df.text.indexOf("\n")!=-1)
-                    {
+                    while (df.text.indexOf("\n")!=-1) {
                         ops2.add("Updated");
                         txt2.add(df.text.substring(0,df.text.indexOf("\n")));
                         df.text = df.text.substring(df.text.indexOf("\n")+1);
@@ -77,7 +74,6 @@ public class FileCompare implements SpringBootExceptionReporter, CommandLineRunn
                 pr=f1.substring(0, (f1.indexOf('\n')!=-1) ? f1.indexOf('\n') : f1.length());
                 while (pr.contains(txt1.get(i)))
                 {
-                    run(ops1.get(i)+" "+j+" : "+txt1.get(i));
                     files.set(0, files.get(0)+ops1.get(i)+" "+j+" : "+txt1.get(i)+"\n");
                     i++;
                     if (i>=txt1.size()) break;
@@ -92,7 +88,6 @@ public class FileCompare implements SpringBootExceptionReporter, CommandLineRunn
                 pr2=f2.substring(0, (f2.indexOf('\n')!=-1) ? f2.indexOf('\n') : f2.length());
                 while (pr2.contains(txt2.get(i)))
                 {
-                    run(ops2.get(i)+" "+j+" : "+txt2.get(i));
                     files.set(1, files.get(1)+ops2.get(i)+" "+j+" : "+txt2.get(i)+"\n");
                     i++;
                     if (i>=txt2.size()) break;
@@ -114,11 +109,5 @@ public class FileCompare implements SpringBootExceptionReporter, CommandLineRunn
     @Override
     public boolean reportException(Throwable failure) {
         return false;
-    }
-    @Override
-    public void run(String... args) throws IOException {
-        for (String s : args){
-            System.out.println(s);
-        }
     }
 }
