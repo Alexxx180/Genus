@@ -20,19 +20,20 @@ public class FileCompare implements SpringBootExceptionReporter, CommandLineRunn
         String line1, line2;
         ArrayList<String> files = new ArrayList<String>();
         log.debug("Comparing procedure has been started.");
-        files.add("");
-        files.add(" ");
-        if (fName1==fName2)
+        if (fName1.equals(fName2))
         {
             log.error("Same file input.");
             return files;
         }
+        files.add("");
+        files.add("");
         try (BufferedReader br1 = new BufferedReader(new FileReader(fName1)); BufferedReader br2 = new BufferedReader(new FileReader(fName2))) {
+            String f1 = "", f2 = "";
             while ((line1 = br1.readLine())!=null)
-                files.set(0, files.get(0)+line1+"\n");
+                f1+=line1+"\n";
             while ((line2 = br2.readLine())!=null)
-                files.set(1, files.get(1)+line2+"\n");
-            if (files.get(0)==""||files.get(1)=="")
+                f2+=line2+"\n";
+            if (f1.equals("")||f2.equals(""))
             {
                 log.error("Files is null.");
                 return files;
@@ -40,7 +41,7 @@ public class FileCompare implements SpringBootExceptionReporter, CommandLineRunn
             DMP dp=new DMP();
 
             int i=0, j=1;
-            String f1 = files.get(0), f2 = files.get(1), pr, pr2;
+            String pr, pr2;
 
             ArrayList<String> ops1 = new ArrayList<>();
             ArrayList<String> ops2 = new ArrayList<>();
@@ -77,6 +78,7 @@ public class FileCompare implements SpringBootExceptionReporter, CommandLineRunn
                 while (pr.contains(txt1.get(i)))
                 {
                     run(ops1.get(i)+" "+j+" : "+txt1.get(i));
+                    files.set(0, files.get(0)+ops1.get(i)+" "+j+" : "+txt1.get(i)+"\n");
                     i++;
                     if (i>=txt1.size()) break;
                 }
@@ -91,6 +93,7 @@ public class FileCompare implements SpringBootExceptionReporter, CommandLineRunn
                 while (pr2.contains(txt2.get(i)))
                 {
                     run(ops2.get(i)+" "+j+" : "+txt2.get(i));
+                    files.set(1, files.get(1)+ops2.get(i)+" "+j+" : "+txt2.get(i)+"\n");
                     i++;
                     if (i>=txt2.size()) break;
                 }

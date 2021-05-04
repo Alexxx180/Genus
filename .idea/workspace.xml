@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1213d7ee-efe1-40d3-95af-384d33e43844" name="Default Changelist" comment="" />
+    <list default="true" id="1213d7ee-efe1-40d3-95af-384d33e43844" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9-rc-1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9-rc-1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9-rc-1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9-rc-1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9-rc-1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9-rc-1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9-rc-1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9-rc-1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9-rc-1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9-rc-1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9-rc-1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9-rc-1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9-rc-1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9-rc-1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9-rc-1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9-rc-1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9-rc-1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9-rc-1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/Gradle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Texts/Modify.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Texts/Modify.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Texts/Sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Texts/Sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/compare/FileCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/compare/FileCompare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/compare/FileCompareTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/compare/FileCompareTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/compare/FileCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/compare/FileCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/compare/FileCompareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/compare/FileCompareTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +79,9 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1s1DsciGtZqLpJJFvntFMxTwKLT" />
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
@@ -65,13 +89,19 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../level2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Администратор\Desktop\Практика\Genus\level5\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.level5 [dist]">
+  <component name="RunManager" selected="JUnit.Unnamed">
     <configuration name="level5 [dist]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -152,9 +182,9 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.level5 [wrapper]" />
+      <item itemvalue="Gradle.level5 [dist]" />
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Gradle.level5 [dist]" />
     </list>
     <recent_temporary>
       <list>
@@ -175,10 +205,22 @@
       <option name="presentableId" value="Default" />
       <updated>1620031410029</updated>
       <workItem from="1620031414325" duration="6092000" />
+      <workItem from="1620120906519" duration="12700000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
