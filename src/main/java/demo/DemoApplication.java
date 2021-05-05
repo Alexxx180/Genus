@@ -3,6 +3,7 @@ package demo;
 import compare.FileCompare;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -11,27 +12,12 @@ public class DemoApplication {
 
 	static Logger log = LogManager.getLogger("DemoApplication");
 
-	public static void main(String[] args) throws IndexOutOfBoundsException {
-		String f1, f2;
+	public static void main(String[] args) throws IOException {
 		log.trace("Entering...");
-		try {
-			f1 = args[0];
-			f2 = args[1];
-		}
-		catch (IndexOutOfBoundsException ex) {
-			log.error("Attributes are unknown or don't exist.\nPlease enter File names correctly.\nOne then another.\n" + ex.getMessage());
-			return;
-		}
+		if (args.length!=2) { log.error("Attributes are unknown or don't exist.\nPlease enter File names correctly.\nOne then another."); return; }
 		FileCompare fc = new FileCompare();
-
-		try {
-			fc.compare(f1, f2);
-		}
-		catch (IOException ex) {
-			log.error("Files don't exist or\nnames aren't correctly.\n" + ex.getMessage());
-			return;
-		}
+		ArrayList<String> modifies = fc.compare(args[0], args[1]);
+		for (String mod : modifies) System.out.println(mod);
 		log.trace("Exiting...");
-
 	}
 }

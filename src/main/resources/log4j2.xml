@@ -4,21 +4,17 @@
         <Property name="PATTERN">%d{yyyy-MM-dd HH:mm:ss} [%t] [%-5level] %logger{36} - %msg%n</Property>
     </Properties>
     <Appenders>
-        <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="${PATTERN}"/>
-        </Console>
-        <File name = "File" fileName="Logs/Info.log" append="true" locking="true" immediateFlush="true" ignoreExceptions="false" bufferedIo="false" advertise="false">
+        <File name = "File" fileName="src/main/resources/Logs/Debug.log" append="false" locking="true" immediateFlush="true" ignoreExceptions="false" bufferedIo="false" advertise="false">
             <PatternLayout pattern="${PATTERN}"/>
         </File>
-        <File name = "File2" fileName="Logs/Debug.log" append="true" locking="true" immediateFlush="true" ignoreExceptions="false" bufferedIo="false" advertise="false">
+        <File name = "File2" fileName="src/main/resources/Logs/Info.log" append="false" locking="true" immediateFlush="true" ignoreExceptions="false" bufferedIo="false" advertise="false">
             <PatternLayout pattern="${PATTERN}"/>
         </File>
     </Appenders>
     <Loggers>
         <Root level="debug">
-            <AppenderRef ref="Console" />
-            <AppenderRef ref="File" />
-            <AppenderRef ref="File2" />
+            <AppenderRef ref="File" level="debug" />
+            <AppenderRef ref="File2" level="info" />
         </Root>
     </Loggers>
 </Configuration>
