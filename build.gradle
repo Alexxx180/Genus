@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+}
+
+group 'Tk1'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.1'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+}
+
+jar {
+    manifest {
+        attributes (
+                'Main-Class': 'demo.DemoApplication',
+                'Class-Path': 'lib/'+sourceSets.main.runtimeClasspath.files.collect{it.getName()}.findAll{ it.endsWith(".jar") }.join(" lib/")
+        )
+    }
+}
+
+task dist {
+    group 'build'
+    dependsOn build
+    doLast {
+        mkdir 'build/dist'
+        copy {
+            from('build/libs')
+            into('build/dist')
+            include '*.jar'
+        }
+        copy {
+            from(sourceSets.main.runtimeClasspath)
+            into('build/dist/lib')
+            include '*.jar'
+        }
+    }
+}
