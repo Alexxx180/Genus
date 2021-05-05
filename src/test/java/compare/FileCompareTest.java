@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 public class FileCompareTest {
-    private FileCompare fc = new FileCompare();
+    FileCompare fc = new FileCompare();
     private void testing(ArrayList<String> args, ArrayList<String> result) throws IndexOutOfBoundsException {
         Assert.assertNotNull(args);
         Assert.assertEquals(args, result);

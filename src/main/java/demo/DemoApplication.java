@@ -24,10 +24,11 @@ public class DemoApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws IOException {
 		log.trace("Entering...");
-		if (args.length!=2) { log.error("Attributes are unknown or don't exist.\nPlease enter File names correctly.\nOne then another."); exit(-1); log.trace("Exiting..."); }
+		if (args.length!=2) { log.error("Attributes are unknown or don't exist.\nPlease enter File names correctly.\nOne then another."); log.trace("Exiting..."); exit(-1); }
 		FileCompare fc = new FileCompare();
 		ArrayList<String> modifies = fc.compare(args[0], args[1]);
 		for (String mod : modifies) System.out.println(mod);
 		log.trace("Exiting...");
+		exit(0);
 	}
 }
