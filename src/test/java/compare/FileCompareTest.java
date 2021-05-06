@@ -1,53 +1,49 @@
 package compare;
 
-import org.junit.Assert;
-import org.junit.Test;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class FileCompareTest {
-    FileCompare fc = new FileCompare();
-    private void testing(ArrayList<String> args, ArrayList<String> result) throws IndexOutOfBoundsException {
-        Assert.assertNotNull(args);
-        Assert.assertEquals(args, result);
-    }
+    private FileCompare fc = new FileCompare();
     @Test
-    public void compareMain() throws IndexOutOfBoundsException {
+    public void compareMain() throws IOException {
         String[] args = {"src/main/resources/Texts/Sample.txt", "src/main/resources/Texts/Modify.txt"};
-        ArrayList<String> result = new ArrayList<>();
-        result.add("Deleted 2 : Py\nDeleted 4 : #Si\nDeleted 4 : e\nDeleted 4 : Py\nDeleted 4 : h\n");
-        result.add("Updated 2 : Java\nUpdated 4 : //Aweso\nUpdated 4 : e Java\nUpdated 4 : \nUpdated 5 : ub\nUpdated 5 : ic\nUpdated 5 : class Main {\nUpdated 6 : public s\nUpdated 6 : atic v\nUpdated 6 : id mai\nUpdated 6 : (String[] args) {\nUpdated 7 : System.out.\nUpdated 7 : ln\nUpdated 8 : }\nUpdated 8 : }\nUpdated 8 : \n");
-        testing(fc.compare(args[0], args[1]), result);
+        ArrayList<String> result = new ArrayList<>(Arrays.asList(
+                "3. Deleted line: file. Py code down","3. Updated line: file. Java code down", "5. Deleted line: #Simple Python","6. Deleted line: print(\"Hello, world!\")",
+                "5. Updated line: //Awesome Java","6. Updated line: public class Main {","7. Updated line: public static void main(String[] args) {",
+                "8. Updated line: System.out.println(\"Hello, world!\")","9. Updated line: }","10. Updated line: }"
+        ));
+        assertEquals(result, fc.compare(args[0], args[1]));
     }
     @Test
-    public void compareRu() throws IndexOutOfBoundsException {
+    public void compareRu() throws IOException {
         String[] args = {"src/test/resources/Russian1.txt", "src/test/resources/Russian2.txt"};
-        ArrayList<String> result = new ArrayList<>();
-        result.add("Deleted 1 : п\nDeleted 1 : ост\nDeleted 2 : 1\n");
-        result.add("Updated 1 : д\nUpdated 1 : уг\nUpdated 2 : 2\n");
-        testing(fc.compare(args[0], args[1]), result);
+        ArrayList<String> result = new ArrayList<>(Arrays.asList(
+                "2. Deleted line: это простой пример", "3. Deleted line: русского файла №1", "2. Updated line: это другой пример", "3. Updated line: русского файла №2"
+        ));
+        assertEquals(result, fc.compare(args[0], args[1]));
     }
     @Test
-    public void compareNull() throws IndexOutOfBoundsException {
+    public void compareNull() throws IOException {
         String[] args = {"src/test/resources/NullFile1.txt", "src/test/resources/NullFile2.txt"};
         ArrayList<String> result = new ArrayList<>();
-        result.add("");
-        result.add("");
-        testing(fc.compare(args[0], args[1]), result);
+        assertEquals(result, fc.compare(args[0], args[1]));
     }
     @Test
-    public void compareIdent() throws IndexOutOfBoundsException {
+    public void compareIdent() throws IOException {
         String[] args = {"src/main/resources/Texts/Sample.txt", "src/main/resources/Texts/Sample.txt"};
         ArrayList<String> result = new ArrayList<>();
-        testing(fc.compare(args[0], args[1]), result);
+        assertEquals(result, fc.compare(args[0], args[1]));
     }
 
     @Test
-    public void compare404() throws IndexOutOfBoundsException {
-        String path1 = "doesntExist1";
-        String path2 = "doesntExist2";
-        ArrayList<String> result = new ArrayList<>();
-        result.add("");
-        result.add("");
-        testing(fc.compare(path1, path2), result);
+    public void compare404() {
+        String[] args = {"doesntExist1", "doesntExist2"};
+        assertThrows(IOException.class, () -> fc.compare(args[0], args[1]));
     }
 }
