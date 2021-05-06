@@ -1,9 +1,7 @@
-# Application
-## Preparing
+## Compare two files by contents
 
-1. Download
+### Command line options
 
-2. Open project
-
-## Requirements
-* Intellij IDEA
+```
+java -jar compare <file1> <file2>
+```
