@@ -1,3 +1,13 @@
-2021-05-05 14:36:09 [Test worker] [DEBUG] FileCompare - Comparing procedure has been started.
-2021-05-05 14:36:09 [Test worker] [DEBUG] FileCompare - Success.
-2021-05-05 14:36:09 [Test worker] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-05-06 10:06:01 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-05-06 10:06:01 [main] [DEBUG] FileCompare - Success.
+2021-05-06 10:06:01 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-05-06 10:06:01 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-05-06 10:06:01 [main] [ERROR] FileCompare - Encountered problem of reading from file.
+Shutdown program...
+doesntExist1 (Не удается найти указанный файл)
+2021-05-06 10:06:01 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-05-06 10:06:01 [main] [DEBUG] FileCompare - Success.
+2021-05-06 10:06:01 [main] [DEBUG] FileCompare - Comparing procedure has been ended.
+2021-05-06 10:06:01 [main] [DEBUG] FileCompare - Comparing procedure has been started.
+2021-05-06 10:06:01 [main] [ERROR] FileCompare - Files is null.
+2021-05-06 10:06:01 [main] [ERROR] FileCompare - Same file input.

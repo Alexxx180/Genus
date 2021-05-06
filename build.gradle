@@ -27,6 +27,12 @@ jar {
     }
 }
 
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
 task dist {
     group 'build'
     dependsOn build
