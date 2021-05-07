@@ -38,6 +38,8 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
+System.setProperty("file.encoding", "UTF-8");
+
 task dist {
     group 'build'
     dependsOn build
