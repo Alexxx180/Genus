@@ -3,6 +3,7 @@ package demo;
 import compare.FileCompare;
 
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 
 import org.apache.logging.log4j.Logger;
@@ -24,10 +25,15 @@ public class DemoApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws IOException {
 		log.trace("Entering...");
-		if (args.length!=2) { log.error("Attributes are unknown or don't exist.\nPlease enter File names correctly.\nOne then another."); log.trace("Exiting..."); exit(-1); }
+		if (args.length!=2) {
+			log.error("Attributes are unknown or don't exist.\nPlease enter File names correctly.\nOne then another.");
+			log.trace("Exiting...");
+			exit(-1);
+		}
 		FileCompare fc = new FileCompare();
 		ArrayList<String> modifies = fc.compare(args[0], args[1]);
-		for (String mod : modifies) System.out.println(mod);
+		for (String mod : modifies)
+			System.console().writer().println(mod);
 		log.trace("Exiting...");
 		exit(0);
 	}

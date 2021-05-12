@@ -29,8 +29,10 @@ public class FileCompare implements SpringBootExceptionReporter {
         }
         try (BufferedReader br1 = new BufferedReader(new FileReader(fName1)); BufferedReader br2 = new BufferedReader(new FileReader(fName2))) {
             String f1="", f2="";
-            while ((line1 = br1.readLine())!=null) f1+=line1+"\n";
-            while ((line2 = br2.readLine())!=null) f2+=line2+"\n";
+            while ((line1 = br1.readLine())!=null)
+                f1+=line1+"\n";
+            while ((line2 = br2.readLine())!=null)
+                f2+=line2+"\n";
             if (f1.equals("")&&f2.equals("")) {
                 log.error("Files is null.");
                 return files;

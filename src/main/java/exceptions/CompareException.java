@@ -4,6 +4,7 @@ import java.io.IOException;
 
 public class CompareException extends IOException {
     public CompareException() {
+
     }
 
     public CompareException(String message) {
