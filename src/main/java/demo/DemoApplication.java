@@ -27,7 +27,6 @@ public class DemoApplication implements CommandLineRunner {
 	}
 	@Override
 	public void run(String... args) throws IOException {
-
 		log.trace("Entering...");
 		if (args.length!=2) {
 			log.error("Attributes are unknown or don't exist.\nPlease enter File names correctly.\nOne then another.");
