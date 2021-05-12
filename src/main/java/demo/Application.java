@@ -3,7 +3,6 @@ package demo;
 import compare.FileCompare;
 
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.ArrayList;
 
 import org.apache.logging.log4j.Logger;
@@ -15,7 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import static java.lang.System.exit;
 
 @SpringBootApplication
-public class DemoApplication implements CommandLineRunner {
+public class Application implements CommandLineRunner {
 
 	static Logger log = LogManager.getLogger("DemoApplication");
 
@@ -23,7 +22,7 @@ public class DemoApplication implements CommandLineRunner {
 		ProcessBuilder pb = new ProcessBuilder("cmd.exe", "/c", "chcp", "65001").inheritIO();
 		Process p = pb.start();
 		p.waitFor();
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 	@Override
 	public void run(String... args) throws IOException {
