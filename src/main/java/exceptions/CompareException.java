@@ -4,6 +4,10 @@ import java.io.IOException;
 
 public class CompareException extends IOException {
     public CompareException() {
+<<<<<<< HEAD
+=======
+
+>>>>>>> level5
     }
 
     public CompareException(String message) {

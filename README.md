@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Application
 ## Preparing
 
@@ -19,3 +20,12 @@ Win + R -> cmd -> Enter
 
 ## Requirements
 * Java 8+
+=======
+## Compare two files by contents
+
+### Command line options
+
+```
+java -jar compare <file1> <file2>
+```
+>>>>>>> level5
