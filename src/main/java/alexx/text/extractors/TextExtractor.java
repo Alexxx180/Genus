@@ -4,6 +4,13 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class TextExtractor {
+    /**
+     * Extract text from file to list of strings
+     *
+     * @param stream   InputStream containing a text file
+     * @return Array list of strings containing lines of text from file
+     * @throws IOException If an input or output exception occurred
+     */
     public static ArrayList<String> extractText(InputStream stream) throws IOException {
         ArrayList<String> text = new ArrayList<>();
         String line;

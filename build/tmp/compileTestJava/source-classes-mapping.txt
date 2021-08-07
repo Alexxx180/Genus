@@ -1,0 +1,2 @@
+alexx/text/diffs/compare/FileCompareTest.java
+ alexx.text.diffs.compare.FileCompareTest

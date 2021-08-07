@@ -1,165 +1,61 @@
-/*package alexx.text.diffs.compare;
+package alexx.text.diffs.compare;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
-=======
 import java.util.List;
->>>>>>> level5
 
+import alexx.text.diffs.dfmhph.DMP;
+import alexx.text.model.Diff;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class FileCompareTest {
-    private FileCompare fc = new FileCompare();
+    private final FileCompare fc = new FileCompare();
+
+    /**
+     * This test checks base capabilities of DMP comparing
+     * @throws IOException If an exception occurs while comparing
+     */
     @Test
     public void compareMain() throws IOException {
-<<<<<<< HEAD
-        String[] args = {"src/main/resources/Texts/Sample.txt", "src/main/resources/Texts/Modify.txt"};
-        ArrayList<String> result = new ArrayList<>(Arrays.asList(
-                "3. Deleted line: file. Py code down","3. Updated line: file. Java code down", "5. Deleted line: #Simple Python","6. Deleted line: print(\"Hello, world!\")",
-                "5. Updated line: //Awesome Java","6. Updated line: public class Main {","7. Updated line: public static void main(String[] args) {",
-                "8. Updated line: System.out.println(\"Hello, world!\")","9. Updated line: }","10. Updated line: }"
-        ));
-=======
-        String[] args = {
-                "src/main/resources/Sample.txt",
-                "src/main/resources/Modify.txt"
-        };
-        List<String> result = Arrays.asList(
-                "3. Deleted line: file. Py code down",
-                "3. Updated line: file. Java code down",
-                "5. Deleted line: #Simple Python",
-                "6. Deleted line: print(\"Hello, world!\")",
-                "5. Updated line: //Awesome Java",
-                "6. Updated line: public class Main {",
-                "7. Updated line: public static void main(String[] args) {",
-                "8. Updated line: System.out.println(\"Hello, world!\")",
-                "9. Updated line: }",
-                "10. Updated line: }"
+        List<String> original = Arrays.asList(
+                "There is an example",
+                "of ordinary text",
+                "file. Py code down",
+                "below:",
+                "#Simple Python",
+                "print(\"Hello, world!\")"
         );
->>>>>>> level5
-        assertEquals(result, fc.compare(args[0], args[1]));
-    }
-    @Test
-    public void compareRu() throws IOException {
-<<<<<<< HEAD
-        String[] args = {"src/test/resources/Russian1.txt", "src/test/resources/Russian2.txt"};
-        ArrayList<String> result = new ArrayList<>(Arrays.asList(
-                "2. Deleted line: это простой пример", "3. Deleted line: русского файла №1", "2. Updated line: это другой пример", "3. Updated line: русского файла №2"
-        ));
-=======
-        String[] args = {
-                "src/test/resources/Russian1.txt",
-                "src/test/resources/Russian2.txt"
-        };
-        List<String> result = Arrays.asList(
-                "2. Deleted line: это простой пример",
-                "3. Deleted line: русского файла №1",
-                "2. Updated line: это другой пример",
-                "3. Updated line: русского файла №2"
+        List<String> modified = Arrays.asList(
+                "There is an example",
+                "of ordinary text",
+                "file. Java code down",
+                "below:",
+                "//Awesome Java",
+                "public class Main {",
+                "public static void main(String[] args) {",
+                "System.out.println(\"Hello, world!\")",
+                "}",
+                "}"
         );
->>>>>>> level5
-        assertEquals(result, fc.compare(args[0], args[1]));
+        List<Diff> source = Arrays.asList(
+                new Diff(DMP.Operation.DELETE, "file. Py code down","", 3),
+                new Diff(DMP.Operation.INSERT, "","file. Java code down", 3),
+                new Diff(DMP.Operation.DELETE, "#Simple Python","", 5),
+                new Diff(DMP.Operation.INSERT, "","//Awesome Java", 5),
+                new Diff(DMP.Operation.DELETE, "print(\"Hello, world!\")","", 6),
+                new Diff(DMP.Operation.INSERT, "","public class Main {", 6),
+                new Diff(DMP.Operation.INSERT, "","public static void main(String[] args) {", 7),
+                new Diff(DMP.Operation.INSERT, "","System.out.println(\"Hello, world!\")", 8),
+                new Diff(DMP.Operation.INSERT, "","}", 9),
+                new Diff(DMP.Operation.INSERT, "","}", 10)
+        );
+        List<Diff> expected = fc.compare(original, modified).getDiffList();
+        for(int i = 0; i < expected.size(); i++) {
+            assertEquals(source.get(i).getDiffType(), expected.get(i).getDiffType());
+            assertEquals(source.get(i).getOriginalText(), expected.get(i).getOriginalText());
+            assertEquals(source.get(i).getModifiedText(), expected.get(i).getModifiedText());
+            assertEquals(source.get(i).getLine(), expected.get(i).getLine());
+        }
     }
-    @Test
-    public void compareNull() throws IOException {
-<<<<<<< HEAD
-        String[] args = {"src/test/resources/NullFile1.txt", "src/test/resources/NullFile2.txt"};
-=======
-        String[] args = {
-                "src/test/resources/NullFile1.txt",
-                "src/test/resources/NullFile2.txt"
-        };
->>>>>>> level5
-        ArrayList<String> result = new ArrayList<>();
-        assertEquals(result, fc.compare(args[0], args[1]));
-    }
-    @Test
-    public void compareIdent() throws IOException {
-<<<<<<< HEAD
-        String[] args = {"src/main/resources/Texts/Sample.txt", "src/main/resources/Texts/Sample.txt"};
-=======
-        String[] args = {
-                "src/main/resources/Texts/Sample.txt",
-                "src/main/resources/Texts/Sample.txt"
-        };
->>>>>>> level5
-        ArrayList<String> result = new ArrayList<>();
-        assertEquals(result, fc.compare(args[0], args[1]));
-    }
-
-    @Test
-    public void compare404() {
-<<<<<<< HEAD
-        String[] args = {"doesntExist1", "doesntExist2"};
-        assertThrows(IOException.class, () -> fc.compare(args[0], args[1]));
-=======
-import org.junit.Assert;
-import org.junit.Test;
-
-import java.io.IOException;
-import java.util.ArrayList;
-
-public class FileCompareTest {
-    FileCompare fc = new FileCompare();
-    private void testing(ArrayList<String> args) throws IndexOutOfBoundsException {
-        Assert.assertNotNull(args);
-        Assert.assertNotNull(args.get(0));
-        Assert.assertNotNull(args.get(1));
-        Assert.assertNotEquals(args.get(0), args.get(1));
-    }
-    @Test
-    public void compare1() throws IOException, IndexOutOfBoundsException {
-        String[] args = {"Texts/Sample.txt", "Texts/Modify.txt"};
-        testing(fc.compare(args[0], args[1]));
-    }
-    @Test
-    public void compare2() throws IOException, IndexOutOfBoundsException {
-        String[] args = new String[] {"src/test/resources/Speedtest1.txt", "src/test/resources/Speedtest2.txt"};
-        testing(fc.compare(args[0], args[1]));
-
-    }
-    @Test
-    public void compare3() throws IOException, IndexOutOfBoundsException {
-        String[] args = new String[] {"Texts/Sample.txt", "src/test/resources/Speedtest2.txt"};
-        testing(fc.compare(args[0], args[1]));
-    }
-    @Test
-    public void compare4() throws IOException, IndexOutOfBoundsException {
-        String[] args = new String[] {"src/test/resources/NullFile1.txt", "Texts/Modify.txt"};
-        testing(fc.compare(args[0], args[1]));
-    }
-    @Test
-    public void compare5() throws IOException, IndexOutOfBoundsException {
-        String[] args = new String[] {"src/test/resources/NullFile1.txt", "src/test/resources/NullFile2.txt"};
-        testing(fc.compare(args[0], args[1]));
-    }
-    @Test
-    public void compare6() throws IOException, IndexOutOfBoundsException {
-        String[] args = new String[] {"src/test/resources/Russian1.txt", "src/test/resources/Russian2.txt"};
-        testing(fc.compare(args[0], args[1]));
-    }
-    @Test
-    public void compare7() throws IOException, IndexOutOfBoundsException {
-        String[] args = new String[] {"src/test/resources/Russian1.txt", "src/test/resources/NullFile1.txt"};
-        testing(fc.compare(args[0], args[1]));
-
-    }
-    @Test
-    public void compare8() throws IOException, IndexOutOfBoundsException {
-        String[] args = new String[] {"Texts/Sample.txt", "src/test/resources/Russian2.txt"};
-        testing(fc.compare(args[0], args[1]));
->>>>>>> level2
-=======
-        String[] args = {
-                "doesntExist1",
-                "doesntExist2"
-        };
-        assertThrows(IOException.class, () -> fc.compare(args[0], args[1]));
->>>>>>> level5
-    }
-}*/
+}

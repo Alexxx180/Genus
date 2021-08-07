@@ -20,32 +20,16 @@ public class Diff {
         return diffType;
     }
 
-    public void setDiffType(DMP.Operation diffType) {
-        this.diffType = diffType;
-    }
-
     public String getOriginalText() {
         return originalText;
-    }
-
-    public void setOriginalText(String originalText) {
-        this.originalText = originalText;
     }
 
     public String getModifiedText() {
         return modifiedText;
     }
 
-    public void setModifiedText(String modifiedText) {
-        this.modifiedText = modifiedText;
-    }
-
     public int getLine() {
         return line;
-    }
-
-    public void setLine(int line) {
-        this.line = line;
     }
 
     @Override

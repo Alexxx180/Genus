@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import static alexx.text.extractors.TextExtractor.extractText;
 
@@ -28,17 +27,16 @@ public class RestController {
 
     /**
      *
-     * @param file1 First document
-     * @param file2 Second document
-     * @param request Extends the ServletRequest interface to provide request information for HTTP servlets
+     * @param file1 First text file
+     * @param file2 Second text file
      * @param response Extending HTTP functionality
-     * @return results alexx.text.diffs.compare in JSON format
+     * @return compare results in JSON format
      * @throws Exception If an exception occurs when creating a file
      */
     @ResponseBody
     @PostMapping(value = "api/v1/compare")
     public CompareResults uploadFile(@RequestParam MultipartFile file1, @RequestParam MultipartFile file2,
-                                     HttpServletRequest request, HttpServletResponse response) throws Exception {
+                                     HttpServletResponse response) throws Exception {
         response.setContentType("text/html;charset=UTF-8");
         return compareController.compare(extractText(file1.getInputStream()), extractText(file2.getInputStream()));
     }

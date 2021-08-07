@@ -1,7 +1,9 @@
 ## Compare two files by contents
 
-### Command line options
+Compare two text files with HTML form interface
 
-```
-java -jar alexx.text.diffs.compare <file1> <file2>
-```
+## Libraries
+
+This project uses third-party library. License is provided for diff-match-patch:
+
+- [Apache License 2.0](https://github.com/google/diff-match-patch/blob/master/LICENSE)
