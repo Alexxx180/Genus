@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Document compare</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1>Compare text files</h1>
+<hr/>
+<h4>Upload two files to compare them.</h4>
+<form method="POST" th:action="@{/api/v1/compare}" enctype="multipart/form-data">
+    <label>original file</label><br>
+    <input type="file" name="file1" /> <br/><br/>
+    <label>modified file</label><br>
+    <input type="file" name="file2" /> <br/><br/>
+    <button type="submit">Compare files</button>
+</form>
+<hr/>
+</body>
+</html>

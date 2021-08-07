@@ -1,0 +1,26 @@
+alexx/text/Application.java
+ alexx.text.Application
+alexx/text/extractors/TextExtractor.java
+ alexx.text.extractors.TextExtractor
+alexx/text/model/CompareResults.java
+ alexx.text.model.CompareResults
+alexx/text/diffs/dfmhph/DMP.java
+ alexx.text.diffs.dfmhph.DMP
+ alexx.text.diffs.dfmhph.DMP$1
+ alexx.text.diffs.dfmhph.DMP$Diff
+ alexx.text.diffs.dfmhph.DMP$LinesToCharsResult
+ alexx.text.diffs.dfmhph.DMP$Operation
+ alexx.text.diffs.dfmhph.DMP$Patch
+alexx/text/model/Diff.java
+ alexx.text.model.Diff
+alexx/text/diffs/exceptions/CompareException.java
+ alexx.text.diffs.exceptions.CompareException
+alexx/text/diffs/dfmhph/DiffMatchPatchByLine.java
+ alexx.text.diffs.dfmhph.DiffMatchPatchByLine
+alexx/text/controller/RestController.java
+ alexx.text.controller.RestController
+alexx/text/diffs/compare/FileCompare.java
+ alexx.text.diffs.compare.FileCompare
+ alexx.text.diffs.compare.FileCompare$1
+alexx/text/controller/CompareController.java
+ alexx.text.controller.CompareController
