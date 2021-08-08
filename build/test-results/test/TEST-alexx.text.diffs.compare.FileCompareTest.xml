@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="alexx.text.diffs.compare.FileCompareTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-07T14:03:21" hostname="SASHA" time="0.026">
+<testsuite name="alexx.text.diffs.compare.FileCompareTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-08T11:15:34" hostname="SASHA" time="0.037">
   <properties/>
-  <testcase name="compareMain()" classname="alexx.text.diffs.compare.FileCompareTest" time="0.026"/>
+  <testcase name="compareMain()" classname="alexx.text.diffs.compare.FileCompareTest" time="0.037"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

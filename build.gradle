@@ -31,4 +31,39 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
-task stage(dependsOn: ['clean', 'build', 'installApp'])
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
+
+task dist {
+    group 'build'
+    dependsOn build
+    doLast {
+        mkdir 'build/dist'
+        copy {
+            from('build/libs')
+            into('build/dist')
+            include '*.jar'
+        }
+        copy {
+            from(sourceSets.main.runtimeClasspath)
+            into('build/dist/lib')
+            include '*.jar'
+        }
+    }
+}
+
+/*task copyToLib(type: Copy) {
+    into "$buildDir/libs"
+    from(configurations.detachedConfiguration(""))
+}*/
+
+stage.dependsOn(dist)
+
+/*
+gradle.taskGraph.whenReady {
+  taskGraph ->
+    if (taskGraph.hasTask(stage)) {
+      test.enabled = false
+    }
+}
+*/
