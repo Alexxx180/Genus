@@ -1,0 +1,27 @@
+#cgrid {
+   grid-template-columns: repeat(3, 0.35fr);
+   grid-template-rows: 30% 40% 30%;
+}
+
+.gridr2 {
+   grid-template-rows: repeat(2, 50%);
+}
+
+.form {
+    font-family: 'Segoe UI';
+    -moz-border-radius:  5px;
+    -webkit-border-radius:  5px;
+    border-radius: 5px;
+    border: 3px solid #555555;
+    background: #202020;
+}
+
+.falign {
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 5% 10% 5% 7.5% 5% 62.5% 5%;
+}
+
+.falign2 {
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 10.5% 10% 12.5% 5% 10% 12.25% 19.25% 17.5% 5%;
+}

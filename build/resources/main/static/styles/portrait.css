@@ -1,0 +1,11 @@
+@media screen and (orientation: portrait) {
+/*Адаптация под экраны*/
+#cgrid{
+  grid-template-columns: 5% 90% 5%;
+  grid-template-rows: 25% 50% 25%;
+}
+
+.falign {
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 5% 10% 5% 7.5% 5% 62.5% 5%;
+}

@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background: #101010;
+}
+
+.pabs {
+    position: absolute;
+}
+
+.whmax {
+   width: 100%;
+   height: 100%;
+}
+
+.whmax2 {
+   width: 100vw;
+   height: 100vh;
+}
+
+.fs100 {
+    font-size: 1em;
+}
+.fs125 {
+    font-size: 1.25em;
+}
+.fs150 {
+    font-size: 1.5em;
+}
+.fs200 {
+    font-size: 2em;
+}
+.fs500 {
+    font-size: 5em;
+}
+
+.pad5 {
+    padding: 5px;
+}
+
+.grid {
+    display: grid;
+}
+
+.grow2 {
+   grid-row: 2;
+}
+.grow3 {
+   grid-row: 3;
+}
+.grow4 {
+   grid-row: 4;
+}
+.grow5 {
+   grid-row: 5;
+}
+.grow6 {
+   grid-row: 6;
+}
+.grow7 {
+   grid-row: 7;
+}
+.grow8 {
+   grid-row: 8;
+}
+.grow9 {
+   grid-row: 9;
+}
+.grow10 {
+   grid-row: 10;
+}
+
+.gcol2 {
+   grid-column: 2;
+}
+
+.gc1-4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.segoe {
+    font-family: "Segoe UI";
+}
+
+.falign {
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 5% 10% 5% 7.5% 5% 62.5% 5%;
+}
+
+.falign2 {
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 10.5% 10% 12.5% 5% 10% 12.25% 19.25% 17.5% 5%;
+}
+
+.btns {
+    font-family: 'Segoe UI';
+    -moz-border-radius:  5px;
+    -webkit-border-radius:  5px;
+    border-radius: 5px;
+    border: 3px solid #FFFFFF;
+    background: #323232;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btns:hover {
+    -webkit-animation-name: blackWhite; 
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-duration: 4s;
+    background: #323232;
+    color: #FFFFFF;
+}
+
+@-webkit-keyframes blackWhite { 
+  25% { background: #101010; color: #FFFFFFF; }
+  50% { background: #111111; color: #DDDDDD; }
+  75% { background: #222222; color: #DDDDDD; }
+  100% { background: #333333; color: #FFFFFFF; }
+}

@@ -1,0 +1,2388 @@
+@media screen and (min-width: 0.0px) and (max-width: 19.2px),
+       screen and (min-height: 0.0px) and (max-height: 10.8px) {
+    .fs100 { font-size: 0.01em; }
+    .fs125 { font-size: 0.01em; }
+    .fs150 { font-size: 0.01em; }
+    .fs200 { font-size: 0.02em; }
+    .fs500 { font-size: 0.05em; }
+    .pad5  { padding: 0.05px; }
+    .pad10 { padding: 0.1px; }
+    .pad15 { padding: 0.15px; }
+    .pad20 { padding: 0.2px; }
+}
+@media screen and (min-width: 19.2px) and (max-width: 38.4px),
+       screen and (min-height: 10.8px) and (max-height: 21.6px) {
+    .fs100 { font-size: 0.02em; }
+    .fs125 { font-size: 0.03em; }
+    .fs150 { font-size: 0.03em; }
+    .fs200 { font-size: 0.04em; }
+    .fs500 { font-size: 0.1em; }
+    .pad5  { padding: 0.1px; }
+    .pad10 { padding: 0.2px; }
+    .pad15 { padding: 0.3px; }
+    .pad20 { padding: 0.4px; }
+}
+@media screen and (min-width: 38.4px) and (max-width: 57.6px),
+       screen and (min-height: 21.6px) and (max-height: 32.4px) {
+    .fs100 { font-size: 0.03em; }
+    .fs125 { font-size: 0.04em; }
+    .fs150 { font-size: 0.04em; }
+    .fs200 { font-size: 0.06em; }
+    .fs500 { font-size: 0.15em; }
+    .pad5  { padding: 0.15px; }
+    .pad10 { padding: 0.3px; }
+    .pad15 { padding: 0.45px; }
+    .pad20 { padding: 0.6px; }
+}
+@media screen and (min-width: 57.6px) and (max-width: 76.8px),
+       screen and (min-height: 32.4px) and (max-height: 43.2px) {
+    .fs100 { font-size: 0.04em; }
+    .fs125 { font-size: 0.05em; }
+    .fs150 { font-size: 0.06em; }
+    .fs200 { font-size: 0.08em; }
+    .fs500 { font-size: 0.2em; }
+    .pad5  { padding: 0.2px; }
+    .pad10 { padding: 0.4px; }
+    .pad15 { padding: 0.6px; }
+    .pad20 { padding: 0.8px; }
+}
+@media screen and (min-width: 76.8px) and (max-width: 96.0px),
+       screen and (min-height: 43.2px) and (max-height: 54.0px) {
+    .fs100 { font-size: 0.05em; }
+    .fs125 { font-size: 0.06em; }
+    .fs150 { font-size: 0.07em; }
+    .fs200 { font-size: 0.1em; }
+    .fs500 { font-size: 0.25em; }
+    .pad5  { padding: 0.25px; }
+    .pad10 { padding: 0.5px; }
+    .pad15 { padding: 0.75px; }
+    .pad20 { padding: 1.0px; }
+}
+@media screen and (min-width: 96.0px) and (max-width: 115.2px),
+       screen and (min-height: 54.0px) and (max-height: 64.8px) {
+    .fs100 { font-size: 0.06em; }
+    .fs125 { font-size: 0.08em; }
+    .fs150 { font-size: 0.09em; }
+    .fs200 { font-size: 0.12em; }
+    .fs500 { font-size: 0.3em; }
+    .pad5  { padding: 0.3px; }
+    .pad10 { padding: 0.6px; }
+    .pad15 { padding: 0.9px; }
+    .pad20 { padding: 1.2px; }
+}
+@media screen and (min-width: 115.2px) and (max-width: 134.4px),
+       screen and (min-height: 64.8px) and (max-height: 75.6px) {
+    .fs100 { font-size: 0.07em; }
+    .fs125 { font-size: 0.09em; }
+    .fs150 { font-size: 0.1em; }
+    .fs200 { font-size: 0.14em; }
+    .fs500 { font-size: 0.35em; }
+    .pad5  { padding: 0.35px; }
+    .pad10 { padding: 0.7px; }
+    .pad15 { padding: 1.05px; }
+    .pad20 { padding: 1.4px; }
+}
+@media screen and (min-width: 134.4px) and (max-width: 153.6px),
+       screen and (min-height: 75.6px) and (max-height: 86.4px) {
+    .fs100 { font-size: 0.08em; }
+    .fs125 { font-size: 0.1em; }
+    .fs150 { font-size: 0.12em; }
+    .fs200 { font-size: 0.16em; }
+    .fs500 { font-size: 0.4em; }
+    .pad5  { padding: 0.4px; }
+    .pad10 { padding: 0.8px; }
+    .pad15 { padding: 1.2px; }
+    .pad20 { padding: 1.6px; }
+}
+@media screen and (min-width: 153.6px) and (max-width: 172.8px),
+       screen and (min-height: 86.4px) and (max-height: 97.2px) {
+    .fs100 { font-size: 0.09em; }
+    .fs125 { font-size: 0.11em; }
+    .fs150 { font-size: 0.14em; }
+    .fs200 { font-size: 0.18em; }
+    .fs500 { font-size: 0.45em; }
+    .pad5  { padding: 0.45px; }
+    .pad10 { padding: 0.9px; }
+    .pad15 { padding: 1.35px; }
+    .pad20 { padding: 1.8px; }
+}
+@media screen and (min-width: 172.8px) and (max-width: 192.0px),
+       screen and (min-height: 97.2px) and (max-height: 108.0px) {
+    .fs100 { font-size: 0.1em; }
+    .fs125 { font-size: 0.12em; }
+    .fs150 { font-size: 0.15em; }
+    .fs200 { font-size: 0.2em; }
+    .fs500 { font-size: 0.5em; }
+    .pad5  { padding: 0.5px; }
+    .pad10 { padding: 1.0px; }
+    .pad15 { padding: 1.5px; }
+    .pad20 { padding: 2.0px; }
+}
+@media screen and (min-width: 192.0px) and (max-width: 211.2px),
+       screen and (min-height: 108.0px) and (max-height: 118.8px) {
+    .fs100 { font-size: 0.11em; }
+    .fs125 { font-size: 0.14em; }
+    .fs150 { font-size: 0.16em; }
+    .fs200 { font-size: 0.22em; }
+    .fs500 { font-size: 0.55em; }
+    .pad5  { padding: 0.55px; }
+    .pad10 { padding: 1.1px; }
+    .pad15 { padding: 1.65px; }
+    .pad20 { padding: 2.2px; }
+}
+@media screen and (min-width: 211.2px) and (max-width: 230.4px),
+       screen and (min-height: 118.8px) and (max-height: 129.6px) {
+    .fs100 { font-size: 0.12em; }
+    .fs125 { font-size: 0.15em; }
+    .fs150 { font-size: 0.18em; }
+    .fs200 { font-size: 0.24em; }
+    .fs500 { font-size: 0.6em; }
+    .pad5  { padding: 0.6px; }
+    .pad10 { padding: 1.2px; }
+    .pad15 { padding: 1.8px; }
+    .pad20 { padding: 2.4px; }
+}
+@media screen and (min-width: 230.4px) and (max-width: 249.6px),
+       screen and (min-height: 129.6px) and (max-height: 140.4px) {
+    .fs100 { font-size: 0.13em; }
+    .fs125 { font-size: 0.16em; }
+    .fs150 { font-size: 0.2em; }
+    .fs200 { font-size: 0.26em; }
+    .fs500 { font-size: 0.65em; }
+    .pad5  { padding: 0.65px; }
+    .pad10 { padding: 1.3px; }
+    .pad15 { padding: 1.95px; }
+    .pad20 { padding: 2.6px; }
+}
+@media screen and (min-width: 249.6px) and (max-width: 268.8px),
+       screen and (min-height: 140.4px) and (max-height: 151.2px) {
+    .fs100 { font-size: 0.14em; }
+    .fs125 { font-size: 0.18em; }
+    .fs150 { font-size: 0.21em; }
+    .fs200 { font-size: 0.28em; }
+    .fs500 { font-size: 0.7em; }
+    .pad5  { padding: 0.7px; }
+    .pad10 { padding: 1.4px; }
+    .pad15 { padding: 2.1px; }
+    .pad20 { padding: 2.8px; }
+}
+@media screen and (min-width: 268.8px) and (max-width: 288.0px),
+       screen and (min-height: 151.2px) and (max-height: 162.0px) {
+    .fs100 { font-size: 0.15em; }
+    .fs125 { font-size: 0.19em; }
+    .fs150 { font-size: 0.22em; }
+    .fs200 { font-size: 0.3em; }
+    .fs500 { font-size: 0.75em; }
+    .pad5  { padding: 0.75px; }
+    .pad10 { padding: 1.5px; }
+    .pad15 { padding: 2.25px; }
+    .pad20 { padding: 3.0px; }
+}
+@media screen and (min-width: 288.0px) and (max-width: 307.2px),
+       screen and (min-height: 162.0px) and (max-height: 172.8px) {
+    .fs100 { font-size: 0.16em; }
+    .fs125 { font-size: 0.2em; }
+    .fs150 { font-size: 0.24em; }
+    .fs200 { font-size: 0.32em; }
+    .fs500 { font-size: 0.8em; }
+    .pad5  { padding: 0.8px; }
+    .pad10 { padding: 1.6px; }
+    .pad15 { padding: 2.4px; }
+    .pad20 { padding: 3.2px; }
+}
+@media screen and (min-width: 307.2px) and (max-width: 326.4px),
+       screen and (min-height: 172.8px) and (max-height: 183.6px) {
+    .fs100 { font-size: 0.17em; }
+    .fs125 { font-size: 0.21em; }
+    .fs150 { font-size: 0.26em; }
+    .fs200 { font-size: 0.34em; }
+    .fs500 { font-size: 0.85em; }
+    .pad5  { padding: 0.85px; }
+    .pad10 { padding: 1.7px; }
+    .pad15 { padding: 2.55px; }
+    .pad20 { padding: 3.4px; }
+}
+@media screen and (min-width: 326.4px) and (max-width: 345.6px),
+       screen and (min-height: 183.6px) and (max-height: 194.4px) {
+    .fs100 { font-size: 0.18em; }
+    .fs125 { font-size: 0.23em; }
+    .fs150 { font-size: 0.27em; }
+    .fs200 { font-size: 0.36em; }
+    .fs500 { font-size: 0.9em; }
+    .pad5  { padding: 0.9px; }
+    .pad10 { padding: 1.8px; }
+    .pad15 { padding: 2.7px; }
+    .pad20 { padding: 3.6px; }
+}
+@media screen and (min-width: 345.6px) and (max-width: 364.8px),
+       screen and (min-height: 194.4px) and (max-height: 205.2px) {
+    .fs100 { font-size: 0.19em; }
+    .fs125 { font-size: 0.24em; }
+    .fs150 { font-size: 0.28em; }
+    .fs200 { font-size: 0.38em; }
+    .fs500 { font-size: 0.95em; }
+    .pad5  { padding: 0.95px; }
+    .pad10 { padding: 1.9px; }
+    .pad15 { padding: 2.85px; }
+    .pad20 { padding: 3.8px; }
+}
+@media screen and (min-width: 364.8px) and (max-width: 384.0px),
+       screen and (min-height: 205.2px) and (max-height: 216.0px) {
+    .fs100 { font-size: 0.2em; }
+    .fs125 { font-size: 0.25em; }
+    .fs150 { font-size: 0.3em; }
+    .fs200 { font-size: 0.4em; }
+    .fs500 { font-size: 1.0em; }
+    .pad5  { padding: 1.0px; }
+    .pad10 { padding: 2.0px; }
+    .pad15 { padding: 3.0px; }
+    .pad20 { padding: 4.0px; }
+}
+@media screen and (min-width: 384.0px) and (max-width: 403.2px),
+       screen and (min-height: 216.0px) and (max-height: 226.8px) {
+    .fs100 { font-size: 0.21em; }
+    .fs125 { font-size: 0.26em; }
+    .fs150 { font-size: 0.32em; }
+    .fs200 { font-size: 0.42em; }
+    .fs500 { font-size: 1.05em; }
+    .pad5  { padding: 1.05px; }
+    .pad10 { padding: 2.1px; }
+    .pad15 { padding: 3.15px; }
+    .pad20 { padding: 4.2px; }
+}
+@media screen and (min-width: 403.2px) and (max-width: 422.4px),
+       screen and (min-height: 226.8px) and (max-height: 237.6px) {
+    .fs100 { font-size: 0.22em; }
+    .fs125 { font-size: 0.28em; }
+    .fs150 { font-size: 0.33em; }
+    .fs200 { font-size: 0.44em; }
+    .fs500 { font-size: 1.1em; }
+    .pad5  { padding: 1.1px; }
+    .pad10 { padding: 2.2px; }
+    .pad15 { padding: 3.3px; }
+    .pad20 { padding: 4.4px; }
+}
+@media screen and (min-width: 422.4px) and (max-width: 441.6px),
+       screen and (min-height: 237.6px) and (max-height: 248.4px) {
+    .fs100 { font-size: 0.23em; }
+    .fs125 { font-size: 0.29em; }
+    .fs150 { font-size: 0.34em; }
+    .fs200 { font-size: 0.46em; }
+    .fs500 { font-size: 1.15em; }
+    .pad5  { padding: 1.15px; }
+    .pad10 { padding: 2.3px; }
+    .pad15 { padding: 3.45px; }
+    .pad20 { padding: 4.6px; }
+}
+@media screen and (min-width: 441.6px) and (max-width: 460.8px),
+       screen and (min-height: 248.4px) and (max-height: 259.2px) {
+    .fs100 { font-size: 0.24em; }
+    .fs125 { font-size: 0.3em; }
+    .fs150 { font-size: 0.36em; }
+    .fs200 { font-size: 0.48em; }
+    .fs500 { font-size: 1.2em; }
+    .pad5  { padding: 1.2px; }
+    .pad10 { padding: 2.4px; }
+    .pad15 { padding: 3.6px; }
+    .pad20 { padding: 4.8px; }
+}
+@media screen and (min-width: 460.8px) and (max-width: 480.0px),
+       screen and (min-height: 259.2px) and (max-height: 270.0px) {
+    .fs100 { font-size: 0.25em; }
+    .fs125 { font-size: 0.31em; }
+    .fs150 { font-size: 0.38em; }
+    .fs200 { font-size: 0.5em; }
+    .fs500 { font-size: 1.25em; }
+    .pad5  { padding: 1.25px; }
+    .pad10 { padding: 2.5px; }
+    .pad15 { padding: 3.75px; }
+    .pad20 { padding: 5.0px; }
+}
+@media screen and (min-width: 480.0px) and (max-width: 499.2px),
+       screen and (min-height: 270.0px) and (max-height: 280.8px) {
+    .fs100 { font-size: 0.26em; }
+    .fs125 { font-size: 0.33em; }
+    .fs150 { font-size: 0.39em; }
+    .fs200 { font-size: 0.52em; }
+    .fs500 { font-size: 1.3em; }
+    .pad5  { padding: 1.3px; }
+    .pad10 { padding: 2.6px; }
+    .pad15 { padding: 3.9px; }
+    .pad20 { padding: 5.2px; }
+}
+@media screen and (min-width: 499.2px) and (max-width: 518.4px),
+       screen and (min-height: 280.8px) and (max-height: 291.6px) {
+    .fs100 { font-size: 0.27em; }
+    .fs125 { font-size: 0.34em; }
+    .fs150 { font-size: 0.4em; }
+    .fs200 { font-size: 0.54em; }
+    .fs500 { font-size: 1.35em; }
+    .pad5  { padding: 1.35px; }
+    .pad10 { padding: 2.7px; }
+    .pad15 { padding: 4.05px; }
+    .pad20 { padding: 5.4px; }
+}
+@media screen and (min-width: 518.4px) and (max-width: 537.6px),
+       screen and (min-height: 291.6px) and (max-height: 302.4px) {
+    .fs100 { font-size: 0.28em; }
+    .fs125 { font-size: 0.35em; }
+    .fs150 { font-size: 0.42em; }
+    .fs200 { font-size: 0.56em; }
+    .fs500 { font-size: 1.4em; }
+    .pad5  { padding: 1.4px; }
+    .pad10 { padding: 2.8px; }
+    .pad15 { padding: 4.2px; }
+    .pad20 { padding: 5.6px; }
+}
+@media screen and (min-width: 537.6px) and (max-width: 556.8px),
+       screen and (min-height: 302.4px) and (max-height: 313.2px) {
+    .fs100 { font-size: 0.29em; }
+    .fs125 { font-size: 0.36em; }
+    .fs150 { font-size: 0.43em; }
+    .fs200 { font-size: 0.58em; }
+    .fs500 { font-size: 1.45em; }
+    .pad5  { padding: 1.45px; }
+    .pad10 { padding: 2.9px; }
+    .pad15 { padding: 4.35px; }
+    .pad20 { padding: 5.8px; }
+}
+@media screen and (min-width: 556.8px) and (max-width: 576.0px),
+       screen and (min-height: 313.2px) and (max-height: 324.0px) {
+    .fs100 { font-size: 0.3em; }
+    .fs125 { font-size: 0.38em; }
+    .fs150 { font-size: 0.45em; }
+    .fs200 { font-size: 0.6em; }
+    .fs500 { font-size: 1.5em; }
+    .pad5  { padding: 1.5px; }
+    .pad10 { padding: 3.0px; }
+    .pad15 { padding: 4.5px; }
+    .pad20 { padding: 6.0px; }
+}
+@media screen and (min-width: 576.0px) and (max-width: 595.2px),
+       screen and (min-height: 324.0px) and (max-height: 334.8px) {
+    .fs100 { font-size: 0.31em; }
+    .fs125 { font-size: 0.39em; }
+    .fs150 { font-size: 0.46em; }
+    .fs200 { font-size: 0.62em; }
+    .fs500 { font-size: 1.55em; }
+    .pad5  { padding: 1.55px; }
+    .pad10 { padding: 3.1px; }
+    .pad15 { padding: 4.65px; }
+    .pad20 { padding: 6.2px; }
+}
+@media screen and (min-width: 595.2px) and (max-width: 614.4px),
+       screen and (min-height: 334.8px) and (max-height: 345.6px) {
+    .fs100 { font-size: 0.32em; }
+    .fs125 { font-size: 0.4em; }
+    .fs150 { font-size: 0.48em; }
+    .fs200 { font-size: 0.64em; }
+    .fs500 { font-size: 1.6em; }
+    .pad5  { padding: 1.6px; }
+    .pad10 { padding: 3.2px; }
+    .pad15 { padding: 4.8px; }
+    .pad20 { padding: 6.4px; }
+}
+@media screen and (min-width: 614.4px) and (max-width: 633.6px),
+       screen and (min-height: 345.6px) and (max-height: 356.4px) {
+    .fs100 { font-size: 0.33em; }
+    .fs125 { font-size: 0.41em; }
+    .fs150 { font-size: 0.49em; }
+    .fs200 { font-size: 0.66em; }
+    .fs500 { font-size: 1.65em; }
+    .pad5  { padding: 1.65px; }
+    .pad10 { padding: 3.3px; }
+    .pad15 { padding: 4.95px; }
+    .pad20 { padding: 6.6px; }
+}
+@media screen and (min-width: 633.6px) and (max-width: 652.8px),
+       screen and (min-height: 356.4px) and (max-height: 367.2px) {
+    .fs100 { font-size: 0.34em; }
+    .fs125 { font-size: 0.43em; }
+    .fs150 { font-size: 0.51em; }
+    .fs200 { font-size: 0.68em; }
+    .fs500 { font-size: 1.7em; }
+    .pad5  { padding: 1.7px; }
+    .pad10 { padding: 3.4px; }
+    .pad15 { padding: 5.1px; }
+    .pad20 { padding: 6.8px; }
+}
+@media screen and (min-width: 652.8px) and (max-width: 672.0px),
+       screen and (min-height: 367.2px) and (max-height: 378.0px) {
+    .fs100 { font-size: 0.35em; }
+    .fs125 { font-size: 0.44em; }
+    .fs150 { font-size: 0.53em; }
+    .fs200 { font-size: 0.7em; }
+    .fs500 { font-size: 1.75em; }
+    .pad5  { padding: 1.75px; }
+    .pad10 { padding: 3.5px; }
+    .pad15 { padding: 5.25px; }
+    .pad20 { padding: 7.0px; }
+}
+@media screen and (min-width: 672.0px) and (max-width: 691.2px),
+       screen and (min-height: 378.0px) and (max-height: 388.8px) {
+    .fs100 { font-size: 0.36em; }
+    .fs125 { font-size: 0.45em; }
+    .fs150 { font-size: 0.54em; }
+    .fs200 { font-size: 0.72em; }
+    .fs500 { font-size: 1.8em; }
+    .pad5  { padding: 1.8px; }
+    .pad10 { padding: 3.6px; }
+    .pad15 { padding: 5.4px; }
+    .pad20 { padding: 7.2px; }
+}
+@media screen and (min-width: 691.2px) and (max-width: 710.4px),
+       screen and (min-height: 388.8px) and (max-height: 399.6px) {
+    .fs100 { font-size: 0.37em; }
+    .fs125 { font-size: 0.46em; }
+    .fs150 { font-size: 0.55em; }
+    .fs200 { font-size: 0.74em; }
+    .fs500 { font-size: 1.85em; }
+    .pad5  { padding: 1.85px; }
+    .pad10 { padding: 3.7px; }
+    .pad15 { padding: 5.55px; }
+    .pad20 { padding: 7.4px; }
+}
+@media screen and (min-width: 710.4px) and (max-width: 729.6px),
+       screen and (min-height: 399.6px) and (max-height: 410.4px) {
+    .fs100 { font-size: 0.38em; }
+    .fs125 { font-size: 0.48em; }
+    .fs150 { font-size: 0.57em; }
+    .fs200 { font-size: 0.76em; }
+    .fs500 { font-size: 1.9em; }
+    .pad5  { padding: 1.9px; }
+    .pad10 { padding: 3.8px; }
+    .pad15 { padding: 5.7px; }
+    .pad20 { padding: 7.6px; }
+}
+@media screen and (min-width: 729.6px) and (max-width: 748.8px),
+       screen and (min-height: 410.4px) and (max-height: 421.2px) {
+    .fs100 { font-size: 0.39em; }
+    .fs125 { font-size: 0.49em; }
+    .fs150 { font-size: 0.58em; }
+    .fs200 { font-size: 0.78em; }
+    .fs500 { font-size: 1.95em; }
+    .pad5  { padding: 1.95px; }
+    .pad10 { padding: 3.9px; }
+    .pad15 { padding: 5.85px; }
+    .pad20 { padding: 7.8px; }
+}
+@media screen and (min-width: 748.8px) and (max-width: 768.0px),
+       screen and (min-height: 421.2px) and (max-height: 432.0px) {
+    .fs100 { font-size: 0.4em; }
+    .fs125 { font-size: 0.5em; }
+    .fs150 { font-size: 0.6em; }
+    .fs200 { font-size: 0.8em; }
+    .fs500 { font-size: 2.0em; }
+    .pad5  { padding: 2.0px; }
+    .pad10 { padding: 4.0px; }
+    .pad15 { padding: 6.0px; }
+    .pad20 { padding: 8.0px; }
+}
+@media screen and (min-width: 768.0px) and (max-width: 787.2px),
+       screen and (min-height: 432.0px) and (max-height: 442.8px) {
+    .fs100 { font-size: 0.41em; }
+    .fs125 { font-size: 0.51em; }
+    .fs150 { font-size: 0.61em; }
+    .fs200 { font-size: 0.82em; }
+    .fs500 { font-size: 2.05em; }
+    .pad5  { padding: 2.05px; }
+    .pad10 { padding: 4.1px; }
+    .pad15 { padding: 6.15px; }
+    .pad20 { padding: 8.2px; }
+}
+@media screen and (min-width: 787.2px) and (max-width: 806.4px),
+       screen and (min-height: 442.8px) and (max-height: 453.6px) {
+    .fs100 { font-size: 0.42em; }
+    .fs125 { font-size: 0.53em; }
+    .fs150 { font-size: 0.63em; }
+    .fs200 { font-size: 0.84em; }
+    .fs500 { font-size: 2.1em; }
+    .pad5  { padding: 2.1px; }
+    .pad10 { padding: 4.2px; }
+    .pad15 { padding: 6.3px; }
+    .pad20 { padding: 8.4px; }
+}
+@media screen and (min-width: 806.4px) and (max-width: 825.6px),
+       screen and (min-height: 453.6px) and (max-height: 464.4px) {
+    .fs100 { font-size: 0.43em; }
+    .fs125 { font-size: 0.54em; }
+    .fs150 { font-size: 0.65em; }
+    .fs200 { font-size: 0.86em; }
+    .fs500 { font-size: 2.15em; }
+    .pad5  { padding: 2.15px; }
+    .pad10 { padding: 4.3px; }
+    .pad15 { padding: 6.45px; }
+    .pad20 { padding: 8.6px; }
+}
+@media screen and (min-width: 825.6px) and (max-width: 844.8px),
+       screen and (min-height: 464.4px) and (max-height: 475.2px) {
+    .fs100 { font-size: 0.44em; }
+    .fs125 { font-size: 0.55em; }
+    .fs150 { font-size: 0.66em; }
+    .fs200 { font-size: 0.88em; }
+    .fs500 { font-size: 2.2em; }
+    .pad5  { padding: 2.2px; }
+    .pad10 { padding: 4.4px; }
+    .pad15 { padding: 6.6px; }
+    .pad20 { padding: 8.8px; }
+}
+@media screen and (min-width: 844.8px) and (max-width: 864.0px),
+       screen and (min-height: 475.2px) and (max-height: 486.0px) {
+    .fs100 { font-size: 0.45em; }
+    .fs125 { font-size: 0.56em; }
+    .fs150 { font-size: 0.67em; }
+    .fs200 { font-size: 0.9em; }
+    .fs500 { font-size: 2.25em; }
+    .pad5  { padding: 2.25px; }
+    .pad10 { padding: 4.5px; }
+    .pad15 { padding: 6.75px; }
+    .pad20 { padding: 9.0px; }
+}
+@media screen and (min-width: 864.0px) and (max-width: 883.2px),
+       screen and (min-height: 486.0px) and (max-height: 496.8px) {
+    .fs100 { font-size: 0.46em; }
+    .fs125 { font-size: 0.58em; }
+    .fs150 { font-size: 0.69em; }
+    .fs200 { font-size: 0.92em; }
+    .fs500 { font-size: 2.3em; }
+    .pad5  { padding: 2.3px; }
+    .pad10 { padding: 4.6px; }
+    .pad15 { padding: 6.9px; }
+    .pad20 { padding: 9.2px; }
+}
+@media screen and (min-width: 883.2px) and (max-width: 902.4px),
+       screen and (min-height: 496.8px) and (max-height: 507.6px) {
+    .fs100 { font-size: 0.47em; }
+    .fs125 { font-size: 0.59em; }
+    .fs150 { font-size: 0.7em; }
+    .fs200 { font-size: 0.94em; }
+    .fs500 { font-size: 2.35em; }
+    .pad5  { padding: 2.35px; }
+    .pad10 { padding: 4.7px; }
+    .pad15 { padding: 7.05px; }
+    .pad20 { padding: 9.4px; }
+}
+@media screen and (min-width: 902.4px) and (max-width: 921.6px),
+       screen and (min-height: 507.6px) and (max-height: 518.4px) {
+    .fs100 { font-size: 0.48em; }
+    .fs125 { font-size: 0.6em; }
+    .fs150 { font-size: 0.72em; }
+    .fs200 { font-size: 0.96em; }
+    .fs500 { font-size: 2.4em; }
+    .pad5  { padding: 2.4px; }
+    .pad10 { padding: 4.8px; }
+    .pad15 { padding: 7.2px; }
+    .pad20 { padding: 9.6px; }
+}
+@media screen and (min-width: 921.6px) and (max-width: 940.8px),
+       screen and (min-height: 518.4px) and (max-height: 529.2px) {
+    .fs100 { font-size: 0.49em; }
+    .fs125 { font-size: 0.61em; }
+    .fs150 { font-size: 0.73em; }
+    .fs200 { font-size: 0.98em; }
+    .fs500 { font-size: 2.45em; }
+    .pad5  { padding: 2.45px; }
+    .pad10 { padding: 4.9px; }
+    .pad15 { padding: 7.35px; }
+    .pad20 { padding: 9.8px; }
+}
+@media screen and (min-width: 940.8px) and (max-width: 960.0px),
+       screen and (min-height: 529.2px) and (max-height: 540.0px) {
+    .fs100 { font-size: 0.5em; }
+    .fs125 { font-size: 0.62em; }
+    .fs150 { font-size: 0.75em; }
+    .fs200 { font-size: 1.0em; }
+    .fs500 { font-size: 2.5em; }
+    .pad5  { padding: 2.5px; }
+    .pad10 { padding: 5.0px; }
+    .pad15 { padding: 7.5px; }
+    .pad20 { padding: 10.0px; }
+}
+@media screen and (min-width: 960.0px) and (max-width: 979.2px),
+       screen and (min-height: 540.0px) and (max-height: 550.8px) {
+    .fs100 { font-size: 0.51em; }
+    .fs125 { font-size: 0.64em; }
+    .fs150 { font-size: 0.77em; }
+    .fs200 { font-size: 1.02em; }
+    .fs500 { font-size: 2.55em; }
+    .pad5  { padding: 2.55px; }
+    .pad10 { padding: 5.1px; }
+    .pad15 { padding: 7.65px; }
+    .pad20 { padding: 10.2px; }
+}
+@media screen and (min-width: 979.2px) and (max-width: 998.4px),
+       screen and (min-height: 550.8px) and (max-height: 561.6px) {
+    .fs100 { font-size: 0.52em; }
+    .fs125 { font-size: 0.65em; }
+    .fs150 { font-size: 0.78em; }
+    .fs200 { font-size: 1.04em; }
+    .fs500 { font-size: 2.6em; }
+    .pad5  { padding: 2.6px; }
+    .pad10 { padding: 5.2px; }
+    .pad15 { padding: 7.8px; }
+    .pad20 { padding: 10.4px; }
+}
+@media screen and (min-width: 998.4px) and (max-width: 1017.6px),
+       screen and (min-height: 561.6px) and (max-height: 572.4px) {
+    .fs100 { font-size: 0.53em; }
+    .fs125 { font-size: 0.66em; }
+    .fs150 { font-size: 0.79em; }
+    .fs200 { font-size: 1.06em; }
+    .fs500 { font-size: 2.65em; }
+    .pad5  { padding: 2.65px; }
+    .pad10 { padding: 5.3px; }
+    .pad15 { padding: 7.95px; }
+    .pad20 { padding: 10.6px; }
+}
+@media screen and (min-width: 1017.6px) and (max-width: 1036.8px),
+       screen and (min-height: 572.4px) and (max-height: 583.2px) {
+    .fs100 { font-size: 0.54em; }
+    .fs125 { font-size: 0.68em; }
+    .fs150 { font-size: 0.81em; }
+    .fs200 { font-size: 1.08em; }
+    .fs500 { font-size: 2.7em; }
+    .pad5  { padding: 2.7px; }
+    .pad10 { padding: 5.4px; }
+    .pad15 { padding: 8.1px; }
+    .pad20 { padding: 10.8px; }
+}
+@media screen and (min-width: 1036.8px) and (max-width: 1056.0px),
+       screen and (min-height: 583.2px) and (max-height: 594.0px) {
+    .fs100 { font-size: 0.55em; }
+    .fs125 { font-size: 0.69em; }
+    .fs150 { font-size: 0.82em; }
+    .fs200 { font-size: 1.1em; }
+    .fs500 { font-size: 2.75em; }
+    .pad5  { padding: 2.75px; }
+    .pad10 { padding: 5.5px; }
+    .pad15 { padding: 8.25px; }
+    .pad20 { padding: 11.0px; }
+}
+@media screen and (min-width: 1056.0px) and (max-width: 1075.2px),
+       screen and (min-height: 594.0px) and (max-height: 604.8px) {
+    .fs100 { font-size: 0.56em; }
+    .fs125 { font-size: 0.7em; }
+    .fs150 { font-size: 0.84em; }
+    .fs200 { font-size: 1.12em; }
+    .fs500 { font-size: 2.8em; }
+    .pad5  { padding: 2.8px; }
+    .pad10 { padding: 5.6px; }
+    .pad15 { padding: 8.4px; }
+    .pad20 { padding: 11.2px; }
+}
+@media screen and (min-width: 1075.2px) and (max-width: 1094.4px),
+       screen and (min-height: 604.8px) and (max-height: 615.6px) {
+    .fs100 { font-size: 0.57em; }
+    .fs125 { font-size: 0.71em; }
+    .fs150 { font-size: 0.85em; }
+    .fs200 { font-size: 1.14em; }
+    .fs500 { font-size: 2.85em; }
+    .pad5  { padding: 2.85px; }
+    .pad10 { padding: 5.7px; }
+    .pad15 { padding: 8.55px; }
+    .pad20 { padding: 11.4px; }
+}
+@media screen and (min-width: 1094.4px) and (max-width: 1113.6px),
+       screen and (min-height: 615.6px) and (max-height: 626.4px) {
+    .fs100 { font-size: 0.58em; }
+    .fs125 { font-size: 0.73em; }
+    .fs150 { font-size: 0.87em; }
+    .fs200 { font-size: 1.16em; }
+    .fs500 { font-size: 2.9em; }
+    .pad5  { padding: 2.9px; }
+    .pad10 { padding: 5.8px; }
+    .pad15 { padding: 8.7px; }
+    .pad20 { padding: 11.6px; }
+}
+@media screen and (min-width: 1113.6px) and (max-width: 1132.8px),
+       screen and (min-height: 626.4px) and (max-height: 637.2px) {
+    .fs100 { font-size: 0.59em; }
+    .fs125 { font-size: 0.74em; }
+    .fs150 { font-size: 0.89em; }
+    .fs200 { font-size: 1.18em; }
+    .fs500 { font-size: 2.95em; }
+    .pad5  { padding: 2.95px; }
+    .pad10 { padding: 5.9px; }
+    .pad15 { padding: 8.85px; }
+    .pad20 { padding: 11.8px; }
+}
+@media screen and (min-width: 1132.8px) and (max-width: 1152.0px),
+       screen and (min-height: 637.2px) and (max-height: 648.0px) {
+    .fs100 { font-size: 0.6em; }
+    .fs125 { font-size: 0.75em; }
+    .fs150 { font-size: 0.9em; }
+    .fs200 { font-size: 1.2em; }
+    .fs500 { font-size: 3.0em; }
+    .pad5  { padding: 3.0px; }
+    .pad10 { padding: 6.0px; }
+    .pad15 { padding: 9.0px; }
+    .pad20 { padding: 12.0px; }
+}
+@media screen and (min-width: 1152.0px) and (max-width: 1171.2px),
+       screen and (min-height: 648.0px) and (max-height: 658.8px) {
+    .fs100 { font-size: 0.61em; }
+    .fs125 { font-size: 0.76em; }
+    .fs150 { font-size: 0.91em; }
+    .fs200 { font-size: 1.22em; }
+    .fs500 { font-size: 3.05em; }
+    .pad5  { padding: 3.05px; }
+    .pad10 { padding: 6.1px; }
+    .pad15 { padding: 9.15px; }
+    .pad20 { padding: 12.2px; }
+}
+@media screen and (min-width: 1171.2px) and (max-width: 1190.4px),
+       screen and (min-height: 658.8px) and (max-height: 669.6px) {
+    .fs100 { font-size: 0.62em; }
+    .fs125 { font-size: 0.78em; }
+    .fs150 { font-size: 0.93em; }
+    .fs200 { font-size: 1.24em; }
+    .fs500 { font-size: 3.1em; }
+    .pad5  { padding: 3.1px; }
+    .pad10 { padding: 6.2px; }
+    .pad15 { padding: 9.3px; }
+    .pad20 { padding: 12.4px; }
+}
+@media screen and (min-width: 1190.4px) and (max-width: 1209.6px),
+       screen and (min-height: 669.6px) and (max-height: 680.4px) {
+    .fs100 { font-size: 0.63em; }
+    .fs125 { font-size: 0.79em; }
+    .fs150 { font-size: 0.94em; }
+    .fs200 { font-size: 1.26em; }
+    .fs500 { font-size: 3.15em; }
+    .pad5  { padding: 3.15px; }
+    .pad10 { padding: 6.3px; }
+    .pad15 { padding: 9.45px; }
+    .pad20 { padding: 12.6px; }
+}
+@media screen and (min-width: 1209.6px) and (max-width: 1228.8px),
+       screen and (min-height: 680.4px) and (max-height: 691.2px) {
+    .fs100 { font-size: 0.64em; }
+    .fs125 { font-size: 0.8em; }
+    .fs150 { font-size: 0.96em; }
+    .fs200 { font-size: 1.28em; }
+    .fs500 { font-size: 3.2em; }
+    .pad5  { padding: 3.2px; }
+    .pad10 { padding: 6.4px; }
+    .pad15 { padding: 9.6px; }
+    .pad20 { padding: 12.8px; }
+}
+@media screen and (min-width: 1228.8px) and (max-width: 1248.0px),
+       screen and (min-height: 691.2px) and (max-height: 702.0px) {
+    .fs100 { font-size: 0.65em; }
+    .fs125 { font-size: 0.81em; }
+    .fs150 { font-size: 0.97em; }
+    .fs200 { font-size: 1.3em; }
+    .fs500 { font-size: 3.25em; }
+    .pad5  { padding: 3.25px; }
+    .pad10 { padding: 6.5px; }
+    .pad15 { padding: 9.75px; }
+    .pad20 { padding: 13.0px; }
+}
+@media screen and (min-width: 1248.0px) and (max-width: 1267.2px),
+       screen and (min-height: 702.0px) and (max-height: 712.8px) {
+    .fs100 { font-size: 0.66em; }
+    .fs125 { font-size: 0.83em; }
+    .fs150 { font-size: 0.99em; }
+    .fs200 { font-size: 1.32em; }
+    .fs500 { font-size: 3.3em; }
+    .pad5  { padding: 3.3px; }
+    .pad10 { padding: 6.6px; }
+    .pad15 { padding: 9.9px; }
+    .pad20 { padding: 13.2px; }
+}
+@media screen and (min-width: 1267.2px) and (max-width: 1286.4px),
+       screen and (min-height: 712.8px) and (max-height: 723.6px) {
+    .fs100 { font-size: 0.67em; }
+    .fs125 { font-size: 0.84em; }
+    .fs150 { font-size: 1.0em; }
+    .fs200 { font-size: 1.34em; }
+    .fs500 { font-size: 3.35em; }
+    .pad5  { padding: 3.35px; }
+    .pad10 { padding: 6.7px; }
+    .pad15 { padding: 10.05px; }
+    .pad20 { padding: 13.4px; }
+}
+@media screen and (min-width: 1286.4px) and (max-width: 1305.6px),
+       screen and (min-height: 723.6px) and (max-height: 734.4px) {
+    .fs100 { font-size: 0.68em; }
+    .fs125 { font-size: 0.85em; }
+    .fs150 { font-size: 1.02em; }
+    .fs200 { font-size: 1.36em; }
+    .fs500 { font-size: 3.4em; }
+    .pad5  { padding: 3.4px; }
+    .pad10 { padding: 6.8px; }
+    .pad15 { padding: 10.2px; }
+    .pad20 { padding: 13.6px; }
+}
+@media screen and (min-width: 1305.6px) and (max-width: 1324.8px),
+       screen and (min-height: 734.4px) and (max-height: 745.2px) {
+    .fs100 { font-size: 0.69em; }
+    .fs125 { font-size: 0.86em; }
+    .fs150 { font-size: 1.03em; }
+    .fs200 { font-size: 1.38em; }
+    .fs500 { font-size: 3.45em; }
+    .pad5  { padding: 3.45px; }
+    .pad10 { padding: 6.9px; }
+    .pad15 { padding: 10.35px; }
+    .pad20 { padding: 13.8px; }
+}
+@media screen and (min-width: 1324.8px) and (max-width: 1344.0px),
+       screen and (min-height: 745.2px) and (max-height: 756.0px) {
+    .fs100 { font-size: 0.7em; }
+    .fs125 { font-size: 0.88em; }
+    .fs150 { font-size: 1.05em; }
+    .fs200 { font-size: 1.4em; }
+    .fs500 { font-size: 3.5em; }
+    .pad5  { padding: 3.5px; }
+    .pad10 { padding: 7.0px; }
+    .pad15 { padding: 10.5px; }
+    .pad20 { padding: 14.0px; }
+}
+@media screen and (min-width: 1344.0px) and (max-width: 1363.2px),
+       screen and (min-height: 756.0px) and (max-height: 766.8px) {
+    .fs100 { font-size: 0.71em; }
+    .fs125 { font-size: 0.89em; }
+    .fs150 { font-size: 1.06em; }
+    .fs200 { font-size: 1.42em; }
+    .fs500 { font-size: 3.55em; }
+    .pad5  { padding: 3.55px; }
+    .pad10 { padding: 7.1px; }
+    .pad15 { padding: 10.65px; }
+    .pad20 { padding: 14.2px; }
+}
+@media screen and (min-width: 1363.2px) and (max-width: 1382.4px),
+       screen and (min-height: 766.8px) and (max-height: 777.6px) {
+    .fs100 { font-size: 0.72em; }
+    .fs125 { font-size: 0.9em; }
+    .fs150 { font-size: 1.08em; }
+    .fs200 { font-size: 1.44em; }
+    .fs500 { font-size: 3.6em; }
+    .pad5  { padding: 3.6px; }
+    .pad10 { padding: 7.2px; }
+    .pad15 { padding: 10.8px; }
+    .pad20 { padding: 14.4px; }
+}
+@media screen and (min-width: 1382.4px) and (max-width: 1401.6px),
+       screen and (min-height: 777.6px) and (max-height: 788.4px) {
+    .fs100 { font-size: 0.73em; }
+    .fs125 { font-size: 0.91em; }
+    .fs150 { font-size: 1.09em; }
+    .fs200 { font-size: 1.46em; }
+    .fs500 { font-size: 3.65em; }
+    .pad5  { padding: 3.65px; }
+    .pad10 { padding: 7.3px; }
+    .pad15 { padding: 10.95px; }
+    .pad20 { padding: 14.6px; }
+}
+@media screen and (min-width: 1401.6px) and (max-width: 1420.8px),
+       screen and (min-height: 788.4px) and (max-height: 799.2px) {
+    .fs100 { font-size: 0.74em; }
+    .fs125 { font-size: 0.93em; }
+    .fs150 { font-size: 1.11em; }
+    .fs200 { font-size: 1.48em; }
+    .fs500 { font-size: 3.7em; }
+    .pad5  { padding: 3.7px; }
+    .pad10 { padding: 7.4px; }
+    .pad15 { padding: 11.1px; }
+    .pad20 { padding: 14.8px; }
+}
+@media screen and (min-width: 1420.8px) and (max-width: 1440.0px),
+       screen and (min-height: 799.2px) and (max-height: 810.0px) {
+    .fs100 { font-size: 0.75em; }
+    .fs125 { font-size: 0.94em; }
+    .fs150 { font-size: 1.12em; }
+    .fs200 { font-size: 1.5em; }
+    .fs500 { font-size: 3.75em; }
+    .pad5  { padding: 3.75px; }
+    .pad10 { padding: 7.5px; }
+    .pad15 { padding: 11.25px; }
+    .pad20 { padding: 15.0px; }
+}
+@media screen and (min-width: 1440.0px) and (max-width: 1459.2px),
+       screen and (min-height: 810.0px) and (max-height: 820.8px) {
+    .fs100 { font-size: 0.76em; }
+    .fs125 { font-size: 0.95em; }
+    .fs150 { font-size: 1.14em; }
+    .fs200 { font-size: 1.52em; }
+    .fs500 { font-size: 3.8em; }
+    .pad5  { padding: 3.8px; }
+    .pad10 { padding: 7.6px; }
+    .pad15 { padding: 11.4px; }
+    .pad20 { padding: 15.2px; }
+}
+@media screen and (min-width: 1459.2px) and (max-width: 1478.4px),
+       screen and (min-height: 820.8px) and (max-height: 831.6px) {
+    .fs100 { font-size: 0.77em; }
+    .fs125 { font-size: 0.96em; }
+    .fs150 { font-size: 1.16em; }
+    .fs200 { font-size: 1.54em; }
+    .fs500 { font-size: 3.85em; }
+    .pad5  { padding: 3.85px; }
+    .pad10 { padding: 7.7px; }
+    .pad15 { padding: 11.55px; }
+    .pad20 { padding: 15.4px; }
+}
+@media screen and (min-width: 1478.4px) and (max-width: 1497.6px),
+       screen and (min-height: 831.6px) and (max-height: 842.4px) {
+    .fs100 { font-size: 0.78em; }
+    .fs125 { font-size: 0.98em; }
+    .fs150 { font-size: 1.17em; }
+    .fs200 { font-size: 1.56em; }
+    .fs500 { font-size: 3.9em; }
+    .pad5  { padding: 3.9px; }
+    .pad10 { padding: 7.8px; }
+    .pad15 { padding: 11.7px; }
+    .pad20 { padding: 15.6px; }
+}
+@media screen and (min-width: 1497.6px) and (max-width: 1516.8px),
+       screen and (min-height: 842.4px) and (max-height: 853.2px) {
+    .fs100 { font-size: 0.79em; }
+    .fs125 { font-size: 0.99em; }
+    .fs150 { font-size: 1.19em; }
+    .fs200 { font-size: 1.58em; }
+    .fs500 { font-size: 3.95em; }
+    .pad5  { padding: 3.95px; }
+    .pad10 { padding: 7.9px; }
+    .pad15 { padding: 11.85px; }
+    .pad20 { padding: 15.8px; }
+}
+@media screen and (min-width: 1516.8px) and (max-width: 1536.0px),
+       screen and (min-height: 853.2px) and (max-height: 864.0px) {
+    .fs100 { font-size: 0.8em; }
+    .fs125 { font-size: 1.0em; }
+    .fs150 { font-size: 1.2em; }
+    .fs200 { font-size: 1.6em; }
+    .fs500 { font-size: 4.0em; }
+    .pad5  { padding: 4.0px; }
+    .pad10 { padding: 8.0px; }
+    .pad15 { padding: 12.0px; }
+    .pad20 { padding: 16.0px; }
+}
+@media screen and (min-width: 1536.0px) and (max-width: 1555.2px),
+       screen and (min-height: 864.0px) and (max-height: 874.8px) {
+    .fs100 { font-size: 0.81em; }
+    .fs125 { font-size: 1.01em; }
+    .fs150 { font-size: 1.21em; }
+    .fs200 { font-size: 1.62em; }
+    .fs500 { font-size: 4.05em; }
+    .pad5  { padding: 4.05px; }
+    .pad10 { padding: 8.1px; }
+    .pad15 { padding: 12.15px; }
+    .pad20 { padding: 16.2px; }
+}
+@media screen and (min-width: 1555.2px) and (max-width: 1574.4px),
+       screen and (min-height: 874.8px) and (max-height: 885.6px) {
+    .fs100 { font-size: 0.82em; }
+    .fs125 { font-size: 1.03em; }
+    .fs150 { font-size: 1.23em; }
+    .fs200 { font-size: 1.64em; }
+    .fs500 { font-size: 4.1em; }
+    .pad5  { padding: 4.1px; }
+    .pad10 { padding: 8.2px; }
+    .pad15 { padding: 12.3px; }
+    .pad20 { padding: 16.4px; }
+}
+@media screen and (min-width: 1574.4px) and (max-width: 1593.6px),
+       screen and (min-height: 885.6px) and (max-height: 896.4px) {
+    .fs100 { font-size: 0.83em; }
+    .fs125 { font-size: 1.04em; }
+    .fs150 { font-size: 1.24em; }
+    .fs200 { font-size: 1.66em; }
+    .fs500 { font-size: 4.15em; }
+    .pad5  { padding: 4.15px; }
+    .pad10 { padding: 8.3px; }
+    .pad15 { padding: 12.45px; }
+    .pad20 { padding: 16.6px; }
+}
+@media screen and (min-width: 1593.6px) and (max-width: 1612.8px),
+       screen and (min-height: 896.4px) and (max-height: 907.2px) {
+    .fs100 { font-size: 0.84em; }
+    .fs125 { font-size: 1.05em; }
+    .fs150 { font-size: 1.26em; }
+    .fs200 { font-size: 1.68em; }
+    .fs500 { font-size: 4.2em; }
+    .pad5  { padding: 4.2px; }
+    .pad10 { padding: 8.4px; }
+    .pad15 { padding: 12.6px; }
+    .pad20 { padding: 16.8px; }
+}
+@media screen and (min-width: 1612.8px) and (max-width: 1632.0px),
+       screen and (min-height: 907.2px) and (max-height: 918.0px) {
+    .fs100 { font-size: 0.85em; }
+    .fs125 { font-size: 1.06em; }
+    .fs150 { font-size: 1.27em; }
+    .fs200 { font-size: 1.7em; }
+    .fs500 { font-size: 4.25em; }
+    .pad5  { padding: 4.25px; }
+    .pad10 { padding: 8.5px; }
+    .pad15 { padding: 12.75px; }
+    .pad20 { padding: 17.0px; }
+}
+@media screen and (min-width: 1632.0px) and (max-width: 1651.2px),
+       screen and (min-height: 918.0px) and (max-height: 928.8px) {
+    .fs100 { font-size: 0.86em; }
+    .fs125 { font-size: 1.07em; }
+    .fs150 { font-size: 1.29em; }
+    .fs200 { font-size: 1.72em; }
+    .fs500 { font-size: 4.3em; }
+    .pad5  { padding: 4.3px; }
+    .pad10 { padding: 8.6px; }
+    .pad15 { padding: 12.9px; }
+    .pad20 { padding: 17.2px; }
+}
+@media screen and (min-width: 1651.2px) and (max-width: 1670.4px),
+       screen and (min-height: 928.8px) and (max-height: 939.6px) {
+    .fs100 { font-size: 0.87em; }
+    .fs125 { font-size: 1.09em; }
+    .fs150 { font-size: 1.3em; }
+    .fs200 { font-size: 1.74em; }
+    .fs500 { font-size: 4.35em; }
+    .pad5  { padding: 4.35px; }
+    .pad10 { padding: 8.7px; }
+    .pad15 { padding: 13.05px; }
+    .pad20 { padding: 17.4px; }
+}
+@media screen and (min-width: 1670.4px) and (max-width: 1689.6px),
+       screen and (min-height: 939.6px) and (max-height: 950.4px) {
+    .fs100 { font-size: 0.88em; }
+    .fs125 { font-size: 1.1em; }
+    .fs150 { font-size: 1.32em; }
+    .fs200 { font-size: 1.76em; }
+    .fs500 { font-size: 4.4em; }
+    .pad5  { padding: 4.4px; }
+    .pad10 { padding: 8.8px; }
+    .pad15 { padding: 13.2px; }
+    .pad20 { padding: 17.6px; }
+}
+@media screen and (min-width: 1689.6px) and (max-width: 1708.8px),
+       screen and (min-height: 950.4px) and (max-height: 961.2px) {
+    .fs100 { font-size: 0.89em; }
+    .fs125 { font-size: 1.11em; }
+    .fs150 { font-size: 1.33em; }
+    .fs200 { font-size: 1.78em; }
+    .fs500 { font-size: 4.45em; }
+    .pad5  { padding: 4.45px; }
+    .pad10 { padding: 8.9px; }
+    .pad15 { padding: 13.35px; }
+    .pad20 { padding: 17.8px; }
+}
+@media screen and (min-width: 1708.8px) and (max-width: 1728.0px),
+       screen and (min-height: 961.2px) and (max-height: 972.0px) {
+    .fs100 { font-size: 0.9em; }
+    .fs125 { font-size: 1.12em; }
+    .fs150 { font-size: 1.35em; }
+    .fs200 { font-size: 1.8em; }
+    .fs500 { font-size: 4.5em; }
+    .pad5  { padding: 4.5px; }
+    .pad10 { padding: 9.0px; }
+    .pad15 { padding: 13.5px; }
+    .pad20 { padding: 18.0px; }
+}
+@media screen and (min-width: 1728.0px) and (max-width: 1747.2px),
+       screen and (min-height: 972.0px) and (max-height: 982.8px) {
+    .fs100 { font-size: 0.91em; }
+    .fs125 { font-size: 1.14em; }
+    .fs150 { font-size: 1.36em; }
+    .fs200 { font-size: 1.82em; }
+    .fs500 { font-size: 4.55em; }
+    .pad5  { padding: 4.55px; }
+    .pad10 { padding: 9.1px; }
+    .pad15 { padding: 13.65px; }
+    .pad20 { padding: 18.2px; }
+}
+@media screen and (min-width: 1747.2px) and (max-width: 1766.4px),
+       screen and (min-height: 982.8px) and (max-height: 993.6px) {
+    .fs100 { font-size: 0.92em; }
+    .fs125 { font-size: 1.15em; }
+    .fs150 { font-size: 1.38em; }
+    .fs200 { font-size: 1.84em; }
+    .fs500 { font-size: 4.6em; }
+    .pad5  { padding: 4.6px; }
+    .pad10 { padding: 9.2px; }
+    .pad15 { padding: 13.8px; }
+    .pad20 { padding: 18.4px; }
+}
+@media screen and (min-width: 1766.4px) and (max-width: 1785.6px),
+       screen and (min-height: 993.6px) and (max-height: 1004.4px) {
+    .fs100 { font-size: 0.93em; }
+    .fs125 { font-size: 1.16em; }
+    .fs150 { font-size: 1.4em; }
+    .fs200 { font-size: 1.86em; }
+    .fs500 { font-size: 4.65em; }
+    .pad5  { padding: 4.65px; }
+    .pad10 { padding: 9.3px; }
+    .pad15 { padding: 13.95px; }
+    .pad20 { padding: 18.6px; }
+}
+@media screen and (min-width: 1785.6px) and (max-width: 1804.8px),
+       screen and (min-height: 1004.4px) and (max-height: 1015.2px) {
+    .fs100 { font-size: 0.94em; }
+    .fs125 { font-size: 1.18em; }
+    .fs150 { font-size: 1.41em; }
+    .fs200 { font-size: 1.88em; }
+    .fs500 { font-size: 4.7em; }
+    .pad5  { padding: 4.7px; }
+    .pad10 { padding: 9.4px; }
+    .pad15 { padding: 14.1px; }
+    .pad20 { padding: 18.8px; }
+}
+@media screen and (min-width: 1804.8px) and (max-width: 1824.0px),
+       screen and (min-height: 1015.2px) and (max-height: 1026.0px) {
+    .fs100 { font-size: 0.95em; }
+    .fs125 { font-size: 1.19em; }
+    .fs150 { font-size: 1.43em; }
+    .fs200 { font-size: 1.9em; }
+    .fs500 { font-size: 4.75em; }
+    .pad5  { padding: 4.75px; }
+    .pad10 { padding: 9.5px; }
+    .pad15 { padding: 14.25px; }
+    .pad20 { padding: 19.0px; }
+}
+@media screen and (min-width: 1824.0px) and (max-width: 1843.2px),
+       screen and (min-height: 1026.0px) and (max-height: 1036.8px) {
+    .fs100 { font-size: 0.96em; }
+    .fs125 { font-size: 1.2em; }
+    .fs150 { font-size: 1.44em; }
+    .fs200 { font-size: 1.92em; }
+    .fs500 { font-size: 4.8em; }
+    .pad5  { padding: 4.8px; }
+    .pad10 { padding: 9.6px; }
+    .pad15 { padding: 14.4px; }
+    .pad20 { padding: 19.2px; }
+}
+@media screen and (min-width: 1843.2px) and (max-width: 1862.4px),
+       screen and (min-height: 1036.8px) and (max-height: 1047.6px) {
+    .fs100 { font-size: 0.97em; }
+    .fs125 { font-size: 1.21em; }
+    .fs150 { font-size: 1.45em; }
+    .fs200 { font-size: 1.94em; }
+    .fs500 { font-size: 4.85em; }
+    .pad5  { padding: 4.85px; }
+    .pad10 { padding: 9.7px; }
+    .pad15 { padding: 14.55px; }
+    .pad20 { padding: 19.4px; }
+}
+@media screen and (min-width: 1862.4px) and (max-width: 1881.6px),
+       screen and (min-height: 1047.6px) and (max-height: 1058.4px) {
+    .fs100 { font-size: 0.98em; }
+    .fs125 { font-size: 1.23em; }
+    .fs150 { font-size: 1.47em; }
+    .fs200 { font-size: 1.96em; }
+    .fs500 { font-size: 4.9em; }
+    .pad5  { padding: 4.9px; }
+    .pad10 { padding: 9.8px; }
+    .pad15 { padding: 14.7px; }
+    .pad20 { padding: 19.6px; }
+}
+@media screen and (min-width: 1881.6px) and (max-width: 1900.8px),
+       screen and (min-height: 1058.4px) and (max-height: 1069.2px) {
+    .fs100 { font-size: 0.99em; }
+    .fs125 { font-size: 1.24em; }
+    .fs150 { font-size: 1.48em; }
+    .fs200 { font-size: 1.98em; }
+    .fs500 { font-size: 4.95em; }
+    .pad5  { padding: 4.95px; }
+    .pad10 { padding: 9.9px; }
+    .pad15 { padding: 14.85px; }
+    .pad20 { padding: 19.8px; }
+}
+@media screen and (min-width: 1900.8px) and (max-width: 1920.0px),
+       screen and (min-height: 1069.2px) and (max-height: 1080.0px) {
+    .fs100 { font-size: 1.0em; }
+    .fs125 { font-size: 1.25em; }
+    .fs150 { font-size: 1.5em; }
+    .fs200 { font-size: 2.0em; }
+    .fs500 { font-size: 5.0em; }
+    .pad5  { padding: 5.0px; }
+    .pad10 { padding: 10.0px; }
+    .pad15 { padding: 15.0px; }
+    .pad20 { padding: 20.0px; }
+}
+@media screen and (min-width: 1920.0px) and (max-width: 1939.2px),
+       screen and (min-height: 1080.0px) and (max-height: 1090.8px) {
+    .fs100 { font-size: 1.01em; }
+    .fs125 { font-size: 1.26em; }
+    .fs150 { font-size: 1.51em; }
+    .fs200 { font-size: 2.02em; }
+    .fs500 { font-size: 5.05em; }
+    .pad5  { padding: 5.05px; }
+    .pad10 { padding: 10.1px; }
+    .pad15 { padding: 15.15px; }
+    .pad20 { padding: 20.2px; }
+}
+@media screen and (min-width: 1939.2px) and (max-width: 1958.4px),
+       screen and (min-height: 1090.8px) and (max-height: 1101.6px) {
+    .fs100 { font-size: 1.02em; }
+    .fs125 { font-size: 1.28em; }
+    .fs150 { font-size: 1.53em; }
+    .fs200 { font-size: 2.04em; }
+    .fs500 { font-size: 5.1em; }
+    .pad5  { padding: 5.1px; }
+    .pad10 { padding: 10.2px; }
+    .pad15 { padding: 15.3px; }
+    .pad20 { padding: 20.4px; }
+}
+@media screen and (min-width: 1958.4px) and (max-width: 1977.6px),
+       screen and (min-height: 1101.6px) and (max-height: 1112.4px) {
+    .fs100 { font-size: 1.03em; }
+    .fs125 { font-size: 1.29em; }
+    .fs150 { font-size: 1.54em; }
+    .fs200 { font-size: 2.06em; }
+    .fs500 { font-size: 5.15em; }
+    .pad5  { padding: 5.15px; }
+    .pad10 { padding: 10.3px; }
+    .pad15 { padding: 15.45px; }
+    .pad20 { padding: 20.6px; }
+}
+@media screen and (min-width: 1977.6px) and (max-width: 1996.8px),
+       screen and (min-height: 1112.4px) and (max-height: 1123.2px) {
+    .fs100 { font-size: 1.04em; }
+    .fs125 { font-size: 1.3em; }
+    .fs150 { font-size: 1.56em; }
+    .fs200 { font-size: 2.08em; }
+    .fs500 { font-size: 5.2em; }
+    .pad5  { padding: 5.2px; }
+    .pad10 { padding: 10.4px; }
+    .pad15 { padding: 15.6px; }
+    .pad20 { padding: 20.8px; }
+}
+@media screen and (min-width: 1996.8px) and (max-width: 2016.0px),
+       screen and (min-height: 1123.2px) and (max-height: 1134.0px) {
+    .fs100 { font-size: 1.05em; }
+    .fs125 { font-size: 1.31em; }
+    .fs150 { font-size: 1.57em; }
+    .fs200 { font-size: 2.1em; }
+    .fs500 { font-size: 5.25em; }
+    .pad5  { padding: 5.25px; }
+    .pad10 { padding: 10.5px; }
+    .pad15 { padding: 15.75px; }
+    .pad20 { padding: 21.0px; }
+}
+@media screen and (min-width: 2016.0px) and (max-width: 2035.2px),
+       screen and (min-height: 1134.0px) and (max-height: 1144.8px) {
+    .fs100 { font-size: 1.06em; }
+    .fs125 { font-size: 1.33em; }
+    .fs150 { font-size: 1.59em; }
+    .fs200 { font-size: 2.12em; }
+    .fs500 { font-size: 5.3em; }
+    .pad5  { padding: 5.3px; }
+    .pad10 { padding: 10.6px; }
+    .pad15 { padding: 15.9px; }
+    .pad20 { padding: 21.2px; }
+}
+@media screen and (min-width: 2035.2px) and (max-width: 2054.4px),
+       screen and (min-height: 1144.8px) and (max-height: 1155.6px) {
+    .fs100 { font-size: 1.07em; }
+    .fs125 { font-size: 1.34em; }
+    .fs150 { font-size: 1.6em; }
+    .fs200 { font-size: 2.14em; }
+    .fs500 { font-size: 5.35em; }
+    .pad5  { padding: 5.35px; }
+    .pad10 { padding: 10.7px; }
+    .pad15 { padding: 16.05px; }
+    .pad20 { padding: 21.4px; }
+}
+@media screen and (min-width: 2054.4px) and (max-width: 2073.6px),
+       screen and (min-height: 1155.6px) and (max-height: 1166.4px) {
+    .fs100 { font-size: 1.08em; }
+    .fs125 { font-size: 1.35em; }
+    .fs150 { font-size: 1.62em; }
+    .fs200 { font-size: 2.16em; }
+    .fs500 { font-size: 5.4em; }
+    .pad5  { padding: 5.4px; }
+    .pad10 { padding: 10.8px; }
+    .pad15 { padding: 16.2px; }
+    .pad20 { padding: 21.6px; }
+}
+@media screen and (min-width: 2073.6px) and (max-width: 2092.8px),
+       screen and (min-height: 1166.4px) and (max-height: 1177.2px) {
+    .fs100 { font-size: 1.09em; }
+    .fs125 { font-size: 1.36em; }
+    .fs150 { font-size: 1.64em; }
+    .fs200 { font-size: 2.18em; }
+    .fs500 { font-size: 5.45em; }
+    .pad5  { padding: 5.45px; }
+    .pad10 { padding: 10.9px; }
+    .pad15 { padding: 16.35px; }
+    .pad20 { padding: 21.8px; }
+}
+@media screen and (min-width: 2092.8px) and (max-width: 2112.0px),
+       screen and (min-height: 1177.2px) and (max-height: 1188.0px) {
+    .fs100 { font-size: 1.1em; }
+    .fs125 { font-size: 1.38em; }
+    .fs150 { font-size: 1.65em; }
+    .fs200 { font-size: 2.2em; }
+    .fs500 { font-size: 5.5em; }
+    .pad5  { padding: 5.5px; }
+    .pad10 { padding: 11.0px; }
+    .pad15 { padding: 16.5px; }
+    .pad20 { padding: 22.0px; }
+}
+@media screen and (min-width: 2112.0px) and (max-width: 2131.2px),
+       screen and (min-height: 1188.0px) and (max-height: 1198.8px) {
+    .fs100 { font-size: 1.11em; }
+    .fs125 { font-size: 1.39em; }
+    .fs150 { font-size: 1.67em; }
+    .fs200 { font-size: 2.22em; }
+    .fs500 { font-size: 5.55em; }
+    .pad5  { padding: 5.55px; }
+    .pad10 { padding: 11.1px; }
+    .pad15 { padding: 16.65px; }
+    .pad20 { padding: 22.2px; }
+}
+@media screen and (min-width: 2131.2px) and (max-width: 2150.4px),
+       screen and (min-height: 1198.8px) and (max-height: 1209.6px) {
+    .fs100 { font-size: 1.12em; }
+    .fs125 { font-size: 1.4em; }
+    .fs150 { font-size: 1.68em; }
+    .fs200 { font-size: 2.24em; }
+    .fs500 { font-size: 5.6em; }
+    .pad5  { padding: 5.6px; }
+    .pad10 { padding: 11.2px; }
+    .pad15 { padding: 16.8px; }
+    .pad20 { padding: 22.4px; }
+}
+@media screen and (min-width: 2150.4px) and (max-width: 2169.6px),
+       screen and (min-height: 1209.6px) and (max-height: 1220.4px) {
+    .fs100 { font-size: 1.13em; }
+    .fs125 { font-size: 1.41em; }
+    .fs150 { font-size: 1.69em; }
+    .fs200 { font-size: 2.26em; }
+    .fs500 { font-size: 5.65em; }
+    .pad5  { padding: 5.65px; }
+    .pad10 { padding: 11.3px; }
+    .pad15 { padding: 16.95px; }
+    .pad20 { padding: 22.6px; }
+}
+@media screen and (min-width: 2169.6px) and (max-width: 2188.8px),
+       screen and (min-height: 1220.4px) and (max-height: 1231.2px) {
+    .fs100 { font-size: 1.14em; }
+    .fs125 { font-size: 1.43em; }
+    .fs150 { font-size: 1.71em; }
+    .fs200 { font-size: 2.28em; }
+    .fs500 { font-size: 5.7em; }
+    .pad5  { padding: 5.7px; }
+    .pad10 { padding: 11.4px; }
+    .pad15 { padding: 17.1px; }
+    .pad20 { padding: 22.8px; }
+}
+@media screen and (min-width: 2188.8px) and (max-width: 2208.0px),
+       screen and (min-height: 1231.2px) and (max-height: 1242.0px) {
+    .fs100 { font-size: 1.15em; }
+    .fs125 { font-size: 1.44em; }
+    .fs150 { font-size: 1.72em; }
+    .fs200 { font-size: 2.3em; }
+    .fs500 { font-size: 5.75em; }
+    .pad5  { padding: 5.75px; }
+    .pad10 { padding: 11.5px; }
+    .pad15 { padding: 17.25px; }
+    .pad20 { padding: 23.0px; }
+}
+@media screen and (min-width: 2208.0px) and (max-width: 2227.2px),
+       screen and (min-height: 1242.0px) and (max-height: 1252.8px) {
+    .fs100 { font-size: 1.16em; }
+    .fs125 { font-size: 1.45em; }
+    .fs150 { font-size: 1.74em; }
+    .fs200 { font-size: 2.32em; }
+    .fs500 { font-size: 5.8em; }
+    .pad5  { padding: 5.8px; }
+    .pad10 { padding: 11.6px; }
+    .pad15 { padding: 17.4px; }
+    .pad20 { padding: 23.2px; }
+}
+@media screen and (min-width: 2227.2px) and (max-width: 2246.4px),
+       screen and (min-height: 1252.8px) and (max-height: 1263.6px) {
+    .fs100 { font-size: 1.17em; }
+    .fs125 { font-size: 1.46em; }
+    .fs150 { font-size: 1.75em; }
+    .fs200 { font-size: 2.34em; }
+    .fs500 { font-size: 5.85em; }
+    .pad5  { padding: 5.85px; }
+    .pad10 { padding: 11.7px; }
+    .pad15 { padding: 17.55px; }
+    .pad20 { padding: 23.4px; }
+}
+@media screen and (min-width: 2246.4px) and (max-width: 2265.6px),
+       screen and (min-height: 1263.6px) and (max-height: 1274.4px) {
+    .fs100 { font-size: 1.18em; }
+    .fs125 { font-size: 1.48em; }
+    .fs150 { font-size: 1.77em; }
+    .fs200 { font-size: 2.36em; }
+    .fs500 { font-size: 5.9em; }
+    .pad5  { padding: 5.9px; }
+    .pad10 { padding: 11.8px; }
+    .pad15 { padding: 17.7px; }
+    .pad20 { padding: 23.6px; }
+}
+@media screen and (min-width: 2265.6px) and (max-width: 2284.8px),
+       screen and (min-height: 1274.4px) and (max-height: 1285.2px) {
+    .fs100 { font-size: 1.19em; }
+    .fs125 { font-size: 1.49em; }
+    .fs150 { font-size: 1.78em; }
+    .fs200 { font-size: 2.38em; }
+    .fs500 { font-size: 5.95em; }
+    .pad5  { padding: 5.95px; }
+    .pad10 { padding: 11.9px; }
+    .pad15 { padding: 17.85px; }
+    .pad20 { padding: 23.8px; }
+}
+@media screen and (min-width: 2284.8px) and (max-width: 2304.0px),
+       screen and (min-height: 1285.2px) and (max-height: 1296.0px) {
+    .fs100 { font-size: 1.2em; }
+    .fs125 { font-size: 1.5em; }
+    .fs150 { font-size: 1.8em; }
+    .fs200 { font-size: 2.4em; }
+    .fs500 { font-size: 6.0em; }
+    .pad5  { padding: 6.0px; }
+    .pad10 { padding: 12.0px; }
+    .pad15 { padding: 18.0px; }
+    .pad20 { padding: 24.0px; }
+}
+@media screen and (min-width: 2304.0px) and (max-width: 2323.2px),
+       screen and (min-height: 1296.0px) and (max-height: 1306.8px) {
+    .fs100 { font-size: 1.21em; }
+    .fs125 { font-size: 1.51em; }
+    .fs150 { font-size: 1.81em; }
+    .fs200 { font-size: 2.42em; }
+    .fs500 { font-size: 6.05em; }
+    .pad5  { padding: 6.05px; }
+    .pad10 { padding: 12.1px; }
+    .pad15 { padding: 18.15px; }
+    .pad20 { padding: 24.2px; }
+}
+@media screen and (min-width: 2323.2px) and (max-width: 2342.4px),
+       screen and (min-height: 1306.8px) and (max-height: 1317.6px) {
+    .fs100 { font-size: 1.22em; }
+    .fs125 { font-size: 1.53em; }
+    .fs150 { font-size: 1.83em; }
+    .fs200 { font-size: 2.44em; }
+    .fs500 { font-size: 6.1em; }
+    .pad5  { padding: 6.1px; }
+    .pad10 { padding: 12.2px; }
+    .pad15 { padding: 18.3px; }
+    .pad20 { padding: 24.4px; }
+}
+@media screen and (min-width: 2342.4px) and (max-width: 2361.6px),
+       screen and (min-height: 1317.6px) and (max-height: 1328.4px) {
+    .fs100 { font-size: 1.23em; }
+    .fs125 { font-size: 1.54em; }
+    .fs150 { font-size: 1.84em; }
+    .fs200 { font-size: 2.46em; }
+    .fs500 { font-size: 6.15em; }
+    .pad5  { padding: 6.15px; }
+    .pad10 { padding: 12.3px; }
+    .pad15 { padding: 18.45px; }
+    .pad20 { padding: 24.6px; }
+}
+@media screen and (min-width: 2361.6px) and (max-width: 2380.8px),
+       screen and (min-height: 1328.4px) and (max-height: 1339.2px) {
+    .fs100 { font-size: 1.24em; }
+    .fs125 { font-size: 1.55em; }
+    .fs150 { font-size: 1.86em; }
+    .fs200 { font-size: 2.48em; }
+    .fs500 { font-size: 6.2em; }
+    .pad5  { padding: 6.2px; }
+    .pad10 { padding: 12.4px; }
+    .pad15 { padding: 18.6px; }
+    .pad20 { padding: 24.8px; }
+}
+@media screen and (min-width: 2380.8px) and (max-width: 2400.0px),
+       screen and (min-height: 1339.2px) and (max-height: 1350.0px) {
+    .fs100 { font-size: 1.25em; }
+    .fs125 { font-size: 1.56em; }
+    .fs150 { font-size: 1.88em; }
+    .fs200 { font-size: 2.5em; }
+    .fs500 { font-size: 6.25em; }
+    .pad5  { padding: 6.25px; }
+    .pad10 { padding: 12.5px; }
+    .pad15 { padding: 18.75px; }
+    .pad20 { padding: 25.0px; }
+}
+@media screen and (min-width: 2400.0px) and (max-width: 2419.2px),
+       screen and (min-height: 1350.0px) and (max-height: 1360.8px) {
+    .fs100 { font-size: 1.26em; }
+    .fs125 { font-size: 1.58em; }
+    .fs150 { font-size: 1.89em; }
+    .fs200 { font-size: 2.52em; }
+    .fs500 { font-size: 6.3em; }
+    .pad5  { padding: 6.3px; }
+    .pad10 { padding: 12.6px; }
+    .pad15 { padding: 18.9px; }
+    .pad20 { padding: 25.2px; }
+}
+@media screen and (min-width: 2419.2px) and (max-width: 2438.4px),
+       screen and (min-height: 1360.8px) and (max-height: 1371.6px) {
+    .fs100 { font-size: 1.27em; }
+    .fs125 { font-size: 1.59em; }
+    .fs150 { font-size: 1.91em; }
+    .fs200 { font-size: 2.54em; }
+    .fs500 { font-size: 6.35em; }
+    .pad5  { padding: 6.35px; }
+    .pad10 { padding: 12.7px; }
+    .pad15 { padding: 19.05px; }
+    .pad20 { padding: 25.4px; }
+}
+@media screen and (min-width: 2438.4px) and (max-width: 2457.6px),
+       screen and (min-height: 1371.6px) and (max-height: 1382.4px) {
+    .fs100 { font-size: 1.28em; }
+    .fs125 { font-size: 1.6em; }
+    .fs150 { font-size: 1.92em; }
+    .fs200 { font-size: 2.56em; }
+    .fs500 { font-size: 6.4em; }
+    .pad5  { padding: 6.4px; }
+    .pad10 { padding: 12.8px; }
+    .pad15 { padding: 19.2px; }
+    .pad20 { padding: 25.6px; }
+}
+@media screen and (min-width: 2457.6px) and (max-width: 2476.8px),
+       screen and (min-height: 1382.4px) and (max-height: 1393.2px) {
+    .fs100 { font-size: 1.29em; }
+    .fs125 { font-size: 1.61em; }
+    .fs150 { font-size: 1.93em; }
+    .fs200 { font-size: 2.58em; }
+    .fs500 { font-size: 6.45em; }
+    .pad5  { padding: 6.45px; }
+    .pad10 { padding: 12.9px; }
+    .pad15 { padding: 19.35px; }
+    .pad20 { padding: 25.8px; }
+}
+@media screen and (min-width: 2476.8px) and (max-width: 2496.0px),
+       screen and (min-height: 1393.2px) and (max-height: 1404.0px) {
+    .fs100 { font-size: 1.3em; }
+    .fs125 { font-size: 1.62em; }
+    .fs150 { font-size: 1.95em; }
+    .fs200 { font-size: 2.6em; }
+    .fs500 { font-size: 6.5em; }
+    .pad5  { padding: 6.5px; }
+    .pad10 { padding: 13.0px; }
+    .pad15 { padding: 19.5px; }
+    .pad20 { padding: 26.0px; }
+}
+@media screen and (min-width: 2496.0px) and (max-width: 2515.2px),
+       screen and (min-height: 1404.0px) and (max-height: 1414.8px) {
+    .fs100 { font-size: 1.31em; }
+    .fs125 { font-size: 1.64em; }
+    .fs150 { font-size: 1.96em; }
+    .fs200 { font-size: 2.62em; }
+    .fs500 { font-size: 6.55em; }
+    .pad5  { padding: 6.55px; }
+    .pad10 { padding: 13.1px; }
+    .pad15 { padding: 19.65px; }
+    .pad20 { padding: 26.2px; }
+}
+@media screen and (min-width: 2515.2px) and (max-width: 2534.4px),
+       screen and (min-height: 1414.8px) and (max-height: 1425.6px) {
+    .fs100 { font-size: 1.32em; }
+    .fs125 { font-size: 1.65em; }
+    .fs150 { font-size: 1.98em; }
+    .fs200 { font-size: 2.64em; }
+    .fs500 { font-size: 6.6em; }
+    .pad5  { padding: 6.6px; }
+    .pad10 { padding: 13.2px; }
+    .pad15 { padding: 19.8px; }
+    .pad20 { padding: 26.4px; }
+}
+@media screen and (min-width: 2534.4px) and (max-width: 2553.6px),
+       screen and (min-height: 1425.6px) and (max-height: 1436.4px) {
+    .fs100 { font-size: 1.33em; }
+    .fs125 { font-size: 1.66em; }
+    .fs150 { font-size: 1.99em; }
+    .fs200 { font-size: 2.66em; }
+    .fs500 { font-size: 6.65em; }
+    .pad5  { padding: 6.65px; }
+    .pad10 { padding: 13.3px; }
+    .pad15 { padding: 19.95px; }
+    .pad20 { padding: 26.6px; }
+}
+@media screen and (min-width: 2553.6px) and (max-width: 2572.8px),
+       screen and (min-height: 1436.4px) and (max-height: 1447.2px) {
+    .fs100 { font-size: 1.34em; }
+    .fs125 { font-size: 1.68em; }
+    .fs150 { font-size: 2.01em; }
+    .fs200 { font-size: 2.68em; }
+    .fs500 { font-size: 6.7em; }
+    .pad5  { padding: 6.7px; }
+    .pad10 { padding: 13.4px; }
+    .pad15 { padding: 20.1px; }
+    .pad20 { padding: 26.8px; }
+}
+@media screen and (min-width: 2572.8px) and (max-width: 2592.0px),
+       screen and (min-height: 1447.2px) and (max-height: 1458.0px) {
+    .fs100 { font-size: 1.35em; }
+    .fs125 { font-size: 1.69em; }
+    .fs150 { font-size: 2.02em; }
+    .fs200 { font-size: 2.7em; }
+    .fs500 { font-size: 6.75em; }
+    .pad5  { padding: 6.75px; }
+    .pad10 { padding: 13.5px; }
+    .pad15 { padding: 20.25px; }
+    .pad20 { padding: 27.0px; }
+}
+@media screen and (min-width: 2592.0px) and (max-width: 2611.2px),
+       screen and (min-height: 1458.0px) and (max-height: 1468.8px) {
+    .fs100 { font-size: 1.36em; }
+    .fs125 { font-size: 1.7em; }
+    .fs150 { font-size: 2.04em; }
+    .fs200 { font-size: 2.72em; }
+    .fs500 { font-size: 6.8em; }
+    .pad5  { padding: 6.8px; }
+    .pad10 { padding: 13.6px; }
+    .pad15 { padding: 20.4px; }
+    .pad20 { padding: 27.2px; }
+}
+@media screen and (min-width: 2611.2px) and (max-width: 2630.4px),
+       screen and (min-height: 1468.8px) and (max-height: 1479.6px) {
+    .fs100 { font-size: 1.37em; }
+    .fs125 { font-size: 1.71em; }
+    .fs150 { font-size: 2.05em; }
+    .fs200 { font-size: 2.74em; }
+    .fs500 { font-size: 6.85em; }
+    .pad5  { padding: 6.85px; }
+    .pad10 { padding: 13.7px; }
+    .pad15 { padding: 20.55px; }
+    .pad20 { padding: 27.4px; }
+}
+@media screen and (min-width: 2630.4px) and (max-width: 2649.6px),
+       screen and (min-height: 1479.6px) and (max-height: 1490.4px) {
+    .fs100 { font-size: 1.38em; }
+    .fs125 { font-size: 1.73em; }
+    .fs150 { font-size: 2.07em; }
+    .fs200 { font-size: 2.76em; }
+    .fs500 { font-size: 6.9em; }
+    .pad5  { padding: 6.9px; }
+    .pad10 { padding: 13.8px; }
+    .pad15 { padding: 20.7px; }
+    .pad20 { padding: 27.6px; }
+}
+@media screen and (min-width: 2649.6px) and (max-width: 2668.8px),
+       screen and (min-height: 1490.4px) and (max-height: 1501.2px) {
+    .fs100 { font-size: 1.39em; }
+    .fs125 { font-size: 1.74em; }
+    .fs150 { font-size: 2.08em; }
+    .fs200 { font-size: 2.78em; }
+    .fs500 { font-size: 6.95em; }
+    .pad5  { padding: 6.95px; }
+    .pad10 { padding: 13.9px; }
+    .pad15 { padding: 20.85px; }
+    .pad20 { padding: 27.8px; }
+}
+@media screen and (min-width: 2668.8px) and (max-width: 2688.0px),
+       screen and (min-height: 1501.2px) and (max-height: 1512.0px) {
+    .fs100 { font-size: 1.4em; }
+    .fs125 { font-size: 1.75em; }
+    .fs150 { font-size: 2.1em; }
+    .fs200 { font-size: 2.8em; }
+    .fs500 { font-size: 7.0em; }
+    .pad5  { padding: 7.0px; }
+    .pad10 { padding: 14.0px; }
+    .pad15 { padding: 21.0px; }
+    .pad20 { padding: 28.0px; }
+}
+@media screen and (min-width: 2688.0px) and (max-width: 2707.2px),
+       screen and (min-height: 1512.0px) and (max-height: 1522.8px) {
+    .fs100 { font-size: 1.41em; }
+    .fs125 { font-size: 1.76em; }
+    .fs150 { font-size: 2.11em; }
+    .fs200 { font-size: 2.82em; }
+    .fs500 { font-size: 7.05em; }
+    .pad5  { padding: 7.05px; }
+    .pad10 { padding: 14.1px; }
+    .pad15 { padding: 21.15px; }
+    .pad20 { padding: 28.2px; }
+}
+@media screen and (min-width: 2707.2px) and (max-width: 2726.4px),
+       screen and (min-height: 1522.8px) and (max-height: 1533.6px) {
+    .fs100 { font-size: 1.42em; }
+    .fs125 { font-size: 1.78em; }
+    .fs150 { font-size: 2.13em; }
+    .fs200 { font-size: 2.84em; }
+    .fs500 { font-size: 7.1em; }
+    .pad5  { padding: 7.1px; }
+    .pad10 { padding: 14.2px; }
+    .pad15 { padding: 21.3px; }
+    .pad20 { padding: 28.4px; }
+}
+@media screen and (min-width: 2726.4px) and (max-width: 2745.6px),
+       screen and (min-height: 1533.6px) and (max-height: 1544.4px) {
+    .fs100 { font-size: 1.43em; }
+    .fs125 { font-size: 1.79em; }
+    .fs150 { font-size: 2.15em; }
+    .fs200 { font-size: 2.86em; }
+    .fs500 { font-size: 7.15em; }
+    .pad5  { padding: 7.15px; }
+    .pad10 { padding: 14.3px; }
+    .pad15 { padding: 21.45px; }
+    .pad20 { padding: 28.6px; }
+}
+@media screen and (min-width: 2745.6px) and (max-width: 2764.8px),
+       screen and (min-height: 1544.4px) and (max-height: 1555.2px) {
+    .fs100 { font-size: 1.44em; }
+    .fs125 { font-size: 1.8em; }
+    .fs150 { font-size: 2.16em; }
+    .fs200 { font-size: 2.88em; }
+    .fs500 { font-size: 7.2em; }
+    .pad5  { padding: 7.2px; }
+    .pad10 { padding: 14.4px; }
+    .pad15 { padding: 21.6px; }
+    .pad20 { padding: 28.8px; }
+}
+@media screen and (min-width: 2764.8px) and (max-width: 2784.0px),
+       screen and (min-height: 1555.2px) and (max-height: 1566.0px) {
+    .fs100 { font-size: 1.45em; }
+    .fs125 { font-size: 1.81em; }
+    .fs150 { font-size: 2.17em; }
+    .fs200 { font-size: 2.9em; }
+    .fs500 { font-size: 7.25em; }
+    .pad5  { padding: 7.25px; }
+    .pad10 { padding: 14.5px; }
+    .pad15 { padding: 21.75px; }
+    .pad20 { padding: 29.0px; }
+}
+@media screen and (min-width: 2784.0px) and (max-width: 2803.2px),
+       screen and (min-height: 1566.0px) and (max-height: 1576.8px) {
+    .fs100 { font-size: 1.46em; }
+    .fs125 { font-size: 1.83em; }
+    .fs150 { font-size: 2.19em; }
+    .fs200 { font-size: 2.92em; }
+    .fs500 { font-size: 7.3em; }
+    .pad5  { padding: 7.3px; }
+    .pad10 { padding: 14.6px; }
+    .pad15 { padding: 21.9px; }
+    .pad20 { padding: 29.2px; }
+}
+@media screen and (min-width: 2803.2px) and (max-width: 2822.4px),
+       screen and (min-height: 1576.8px) and (max-height: 1587.6px) {
+    .fs100 { font-size: 1.47em; }
+    .fs125 { font-size: 1.84em; }
+    .fs150 { font-size: 2.21em; }
+    .fs200 { font-size: 2.94em; }
+    .fs500 { font-size: 7.35em; }
+    .pad5  { padding: 7.35px; }
+    .pad10 { padding: 14.7px; }
+    .pad15 { padding: 22.05px; }
+    .pad20 { padding: 29.4px; }
+}
+@media screen and (min-width: 2822.4px) and (max-width: 2841.6px),
+       screen and (min-height: 1587.6px) and (max-height: 1598.4px) {
+    .fs100 { font-size: 1.48em; }
+    .fs125 { font-size: 1.85em; }
+    .fs150 { font-size: 2.22em; }
+    .fs200 { font-size: 2.96em; }
+    .fs500 { font-size: 7.4em; }
+    .pad5  { padding: 7.4px; }
+    .pad10 { padding: 14.8px; }
+    .pad15 { padding: 22.2px; }
+    .pad20 { padding: 29.6px; }
+}
+@media screen and (min-width: 2841.6px) and (max-width: 2860.8px),
+       screen and (min-height: 1598.4px) and (max-height: 1609.2px) {
+    .fs100 { font-size: 1.49em; }
+    .fs125 { font-size: 1.86em; }
+    .fs150 { font-size: 2.23em; }
+    .fs200 { font-size: 2.98em; }
+    .fs500 { font-size: 7.45em; }
+    .pad5  { padding: 7.45px; }
+    .pad10 { padding: 14.9px; }
+    .pad15 { padding: 22.35px; }
+    .pad20 { padding: 29.8px; }
+}
+@media screen and (min-width: 2860.8px) and (max-width: 2880.0px),
+       screen and (min-height: 1609.2px) and (max-height: 1620.0px) {
+    .fs100 { font-size: 1.5em; }
+    .fs125 { font-size: 1.88em; }
+    .fs150 { font-size: 2.25em; }
+    .fs200 { font-size: 3.0em; }
+    .fs500 { font-size: 7.5em; }
+    .pad5  { padding: 7.5px; }
+    .pad10 { padding: 15.0px; }
+    .pad15 { padding: 22.5px; }
+    .pad20 { padding: 30.0px; }
+}
+@media screen and (min-width: 2880.0px) and (max-width: 2899.2px),
+       screen and (min-height: 1620.0px) and (max-height: 1630.8px) {
+    .fs100 { font-size: 1.51em; }
+    .fs125 { font-size: 1.89em; }
+    .fs150 { font-size: 2.27em; }
+    .fs200 { font-size: 3.02em; }
+    .fs500 { font-size: 7.55em; }
+    .pad5  { padding: 7.55px; }
+    .pad10 { padding: 15.1px; }
+    .pad15 { padding: 22.65px; }
+    .pad20 { padding: 30.2px; }
+}
+@media screen and (min-width: 2899.2px) and (max-width: 2918.4px),
+       screen and (min-height: 1630.8px) and (max-height: 1641.6px) {
+    .fs100 { font-size: 1.52em; }
+    .fs125 { font-size: 1.9em; }
+    .fs150 { font-size: 2.28em; }
+    .fs200 { font-size: 3.04em; }
+    .fs500 { font-size: 7.6em; }
+    .pad5  { padding: 7.6px; }
+    .pad10 { padding: 15.2px; }
+    .pad15 { padding: 22.8px; }
+    .pad20 { padding: 30.4px; }
+}
+@media screen and (min-width: 2918.4px) and (max-width: 2937.6px),
+       screen and (min-height: 1641.6px) and (max-height: 1652.4px) {
+    .fs100 { font-size: 1.53em; }
+    .fs125 { font-size: 1.91em; }
+    .fs150 { font-size: 2.29em; }
+    .fs200 { font-size: 3.06em; }
+    .fs500 { font-size: 7.65em; }
+    .pad5  { padding: 7.65px; }
+    .pad10 { padding: 15.3px; }
+    .pad15 { padding: 22.95px; }
+    .pad20 { padding: 30.6px; }
+}
+@media screen and (min-width: 2937.6px) and (max-width: 2956.8px),
+       screen and (min-height: 1652.4px) and (max-height: 1663.2px) {
+    .fs100 { font-size: 1.54em; }
+    .fs125 { font-size: 1.93em; }
+    .fs150 { font-size: 2.31em; }
+    .fs200 { font-size: 3.08em; }
+    .fs500 { font-size: 7.7em; }
+    .pad5  { padding: 7.7px; }
+    .pad10 { padding: 15.4px; }
+    .pad15 { padding: 23.1px; }
+    .pad20 { padding: 30.8px; }
+}
+@media screen and (min-width: 2956.8px) and (max-width: 2976.0px),
+       screen and (min-height: 1663.2px) and (max-height: 1674.0px) {
+    .fs100 { font-size: 1.55em; }
+    .fs125 { font-size: 1.94em; }
+    .fs150 { font-size: 2.32em; }
+    .fs200 { font-size: 3.1em; }
+    .fs500 { font-size: 7.75em; }
+    .pad5  { padding: 7.75px; }
+    .pad10 { padding: 15.5px; }
+    .pad15 { padding: 23.25px; }
+    .pad20 { padding: 31.0px; }
+}
+@media screen and (min-width: 2976.0px) and (max-width: 2995.2px),
+       screen and (min-height: 1674.0px) and (max-height: 1684.8px) {
+    .fs100 { font-size: 1.56em; }
+    .fs125 { font-size: 1.95em; }
+    .fs150 { font-size: 2.34em; }
+    .fs200 { font-size: 3.12em; }
+    .fs500 { font-size: 7.8em; }
+    .pad5  { padding: 7.8px; }
+    .pad10 { padding: 15.6px; }
+    .pad15 { padding: 23.4px; }
+    .pad20 { padding: 31.2px; }
+}
+@media screen and (min-width: 2995.2px) and (max-width: 3014.4px),
+       screen and (min-height: 1684.8px) and (max-height: 1695.6px) {
+    .fs100 { font-size: 1.57em; }
+    .fs125 { font-size: 1.96em; }
+    .fs150 { font-size: 2.35em; }
+    .fs200 { font-size: 3.14em; }
+    .fs500 { font-size: 7.85em; }
+    .pad5  { padding: 7.85px; }
+    .pad10 { padding: 15.7px; }
+    .pad15 { padding: 23.55px; }
+    .pad20 { padding: 31.4px; }
+}
+@media screen and (min-width: 3014.4px) and (max-width: 3033.6px),
+       screen and (min-height: 1695.6px) and (max-height: 1706.4px) {
+    .fs100 { font-size: 1.58em; }
+    .fs125 { font-size: 1.98em; }
+    .fs150 { font-size: 2.37em; }
+    .fs200 { font-size: 3.16em; }
+    .fs500 { font-size: 7.9em; }
+    .pad5  { padding: 7.9px; }
+    .pad10 { padding: 15.8px; }
+    .pad15 { padding: 23.7px; }
+    .pad20 { padding: 31.6px; }
+}
+@media screen and (min-width: 3033.6px) and (max-width: 3052.8px),
+       screen and (min-height: 1706.4px) and (max-height: 1717.2px) {
+    .fs100 { font-size: 1.59em; }
+    .fs125 { font-size: 1.99em; }
+    .fs150 { font-size: 2.38em; }
+    .fs200 { font-size: 3.18em; }
+    .fs500 { font-size: 7.95em; }
+    .pad5  { padding: 7.95px; }
+    .pad10 { padding: 15.9px; }
+    .pad15 { padding: 23.85px; }
+    .pad20 { padding: 31.8px; }
+}
+@media screen and (min-width: 3052.8px) and (max-width: 3072.0px),
+       screen and (min-height: 1717.2px) and (max-height: 1728.0px) {
+    .fs100 { font-size: 1.6em; }
+    .fs125 { font-size: 2.0em; }
+    .fs150 { font-size: 2.4em; }
+    .fs200 { font-size: 3.2em; }
+    .fs500 { font-size: 8.0em; }
+    .pad5  { padding: 8.0px; }
+    .pad10 { padding: 16.0px; }
+    .pad15 { padding: 24.0px; }
+    .pad20 { padding: 32.0px; }
+}
+@media screen and (min-width: 3072.0px) and (max-width: 3091.2px),
+       screen and (min-height: 1728.0px) and (max-height: 1738.8px) {
+    .fs100 { font-size: 1.61em; }
+    .fs125 { font-size: 2.01em; }
+    .fs150 { font-size: 2.42em; }
+    .fs200 { font-size: 3.22em; }
+    .fs500 { font-size: 8.05em; }
+    .pad5  { padding: 8.05px; }
+    .pad10 { padding: 16.1px; }
+    .pad15 { padding: 24.15px; }
+    .pad20 { padding: 32.2px; }
+}
+@media screen and (min-width: 3091.2px) and (max-width: 3110.4px),
+       screen and (min-height: 1738.8px) and (max-height: 1749.6px) {
+    .fs100 { font-size: 1.62em; }
+    .fs125 { font-size: 2.02em; }
+    .fs150 { font-size: 2.43em; }
+    .fs200 { font-size: 3.24em; }
+    .fs500 { font-size: 8.1em; }
+    .pad5  { padding: 8.1px; }
+    .pad10 { padding: 16.2px; }
+    .pad15 { padding: 24.3px; }
+    .pad20 { padding: 32.4px; }
+}
+@media screen and (min-width: 3110.4px) and (max-width: 3129.6px),
+       screen and (min-height: 1749.6px) and (max-height: 1760.4px) {
+    .fs100 { font-size: 1.63em; }
+    .fs125 { font-size: 2.04em; }
+    .fs150 { font-size: 2.44em; }
+    .fs200 { font-size: 3.26em; }
+    .fs500 { font-size: 8.15em; }
+    .pad5  { padding: 8.15px; }
+    .pad10 { padding: 16.3px; }
+    .pad15 { padding: 24.45px; }
+    .pad20 { padding: 32.6px; }
+}
+@media screen and (min-width: 3129.6px) and (max-width: 3148.8px),
+       screen and (min-height: 1760.4px) and (max-height: 1771.2px) {
+    .fs100 { font-size: 1.64em; }
+    .fs125 { font-size: 2.05em; }
+    .fs150 { font-size: 2.46em; }
+    .fs200 { font-size: 3.28em; }
+    .fs500 { font-size: 8.2em; }
+    .pad5  { padding: 8.2px; }
+    .pad10 { padding: 16.4px; }
+    .pad15 { padding: 24.6px; }
+    .pad20 { padding: 32.8px; }
+}
+@media screen and (min-width: 3148.8px) and (max-width: 3168.0px),
+       screen and (min-height: 1771.2px) and (max-height: 1782.0px) {
+    .fs100 { font-size: 1.65em; }
+    .fs125 { font-size: 2.06em; }
+    .fs150 { font-size: 2.48em; }
+    .fs200 { font-size: 3.3em; }
+    .fs500 { font-size: 8.25em; }
+    .pad5  { padding: 8.25px; }
+    .pad10 { padding: 16.5px; }
+    .pad15 { padding: 24.75px; }
+    .pad20 { padding: 33.0px; }
+}
+@media screen and (min-width: 3168.0px) and (max-width: 3187.2px),
+       screen and (min-height: 1782.0px) and (max-height: 1792.8px) {
+    .fs100 { font-size: 1.66em; }
+    .fs125 { font-size: 2.08em; }
+    .fs150 { font-size: 2.49em; }
+    .fs200 { font-size: 3.32em; }
+    .fs500 { font-size: 8.3em; }
+    .pad5  { padding: 8.3px; }
+    .pad10 { padding: 16.6px; }
+    .pad15 { padding: 24.9px; }
+    .pad20 { padding: 33.2px; }
+}
+@media screen and (min-width: 3187.2px) and (max-width: 3206.4px),
+       screen and (min-height: 1792.8px) and (max-height: 1803.6px) {
+    .fs100 { font-size: 1.67em; }
+    .fs125 { font-size: 2.09em; }
+    .fs150 { font-size: 2.5em; }
+    .fs200 { font-size: 3.34em; }
+    .fs500 { font-size: 8.35em; }
+    .pad5  { padding: 8.35px; }
+    .pad10 { padding: 16.7px; }
+    .pad15 { padding: 25.05px; }
+    .pad20 { padding: 33.4px; }
+}
+@media screen and (min-width: 3206.4px) and (max-width: 3225.6px),
+       screen and (min-height: 1803.6px) and (max-height: 1814.4px) {
+    .fs100 { font-size: 1.68em; }
+    .fs125 { font-size: 2.1em; }
+    .fs150 { font-size: 2.52em; }
+    .fs200 { font-size: 3.36em; }
+    .fs500 { font-size: 8.4em; }
+    .pad5  { padding: 8.4px; }
+    .pad10 { padding: 16.8px; }
+    .pad15 { padding: 25.2px; }
+    .pad20 { padding: 33.6px; }
+}
+@media screen and (min-width: 3225.6px) and (max-width: 3244.8px),
+       screen and (min-height: 1814.4px) and (max-height: 1825.2px) {
+    .fs100 { font-size: 1.69em; }
+    .fs125 { font-size: 2.11em; }
+    .fs150 { font-size: 2.53em; }
+    .fs200 { font-size: 3.38em; }
+    .fs500 { font-size: 8.45em; }
+    .pad5  { padding: 8.45px; }
+    .pad10 { padding: 16.9px; }
+    .pad15 { padding: 25.35px; }
+    .pad20 { padding: 33.8px; }
+}
+@media screen and (min-width: 3244.8px) and (max-width: 3264.0px),
+       screen and (min-height: 1825.2px) and (max-height: 1836.0px) {
+    .fs100 { font-size: 1.7em; }
+    .fs125 { font-size: 2.12em; }
+    .fs150 { font-size: 2.55em; }
+    .fs200 { font-size: 3.4em; }
+    .fs500 { font-size: 8.5em; }
+    .pad5  { padding: 8.5px; }
+    .pad10 { padding: 17.0px; }
+    .pad15 { padding: 25.5px; }
+    .pad20 { padding: 34.0px; }
+}
+@media screen and (min-width: 3264.0px) and (max-width: 3283.2px),
+       screen and (min-height: 1836.0px) and (max-height: 1846.8px) {
+    .fs100 { font-size: 1.71em; }
+    .fs125 { font-size: 2.14em; }
+    .fs150 { font-size: 2.56em; }
+    .fs200 { font-size: 3.42em; }
+    .fs500 { font-size: 8.55em; }
+    .pad5  { padding: 8.55px; }
+    .pad10 { padding: 17.1px; }
+    .pad15 { padding: 25.65px; }
+    .pad20 { padding: 34.2px; }
+}
+@media screen and (min-width: 3283.2px) and (max-width: 3302.4px),
+       screen and (min-height: 1846.8px) and (max-height: 1857.6px) {
+    .fs100 { font-size: 1.72em; }
+    .fs125 { font-size: 2.15em; }
+    .fs150 { font-size: 2.58em; }
+    .fs200 { font-size: 3.44em; }
+    .fs500 { font-size: 8.6em; }
+    .pad5  { padding: 8.6px; }
+    .pad10 { padding: 17.2px; }
+    .pad15 { padding: 25.8px; }
+    .pad20 { padding: 34.4px; }
+}
+@media screen and (min-width: 3302.4px) and (max-width: 3321.6px),
+       screen and (min-height: 1857.6px) and (max-height: 1868.4px) {
+    .fs100 { font-size: 1.73em; }
+    .fs125 { font-size: 2.16em; }
+    .fs150 { font-size: 2.59em; }
+    .fs200 { font-size: 3.46em; }
+    .fs500 { font-size: 8.65em; }
+    .pad5  { padding: 8.65px; }
+    .pad10 { padding: 17.3px; }
+    .pad15 { padding: 25.95px; }
+    .pad20 { padding: 34.6px; }
+}
+@media screen and (min-width: 3321.6px) and (max-width: 3340.8px),
+       screen and (min-height: 1868.4px) and (max-height: 1879.2px) {
+    .fs100 { font-size: 1.74em; }
+    .fs125 { font-size: 2.18em; }
+    .fs150 { font-size: 2.61em; }
+    .fs200 { font-size: 3.48em; }
+    .fs500 { font-size: 8.7em; }
+    .pad5  { padding: 8.7px; }
+    .pad10 { padding: 17.4px; }
+    .pad15 { padding: 26.1px; }
+    .pad20 { padding: 34.8px; }
+}
+@media screen and (min-width: 3340.8px) and (max-width: 3360.0px),
+       screen and (min-height: 1879.2px) and (max-height: 1890.0px) {
+    .fs100 { font-size: 1.75em; }
+    .fs125 { font-size: 2.19em; }
+    .fs150 { font-size: 2.62em; }
+    .fs200 { font-size: 3.5em; }
+    .fs500 { font-size: 8.75em; }
+    .pad5  { padding: 8.75px; }
+    .pad10 { padding: 17.5px; }
+    .pad15 { padding: 26.25px; }
+    .pad20 { padding: 35.0px; }
+}
+@media screen and (min-width: 3360.0px) and (max-width: 3379.2px),
+       screen and (min-height: 1890.0px) and (max-height: 1900.8px) {
+    .fs100 { font-size: 1.76em; }
+    .fs125 { font-size: 2.2em; }
+    .fs150 { font-size: 2.64em; }
+    .fs200 { font-size: 3.52em; }
+    .fs500 { font-size: 8.8em; }
+    .pad5  { padding: 8.8px; }
+    .pad10 { padding: 17.6px; }
+    .pad15 { padding: 26.4px; }
+    .pad20 { padding: 35.2px; }
+}
+@media screen and (min-width: 3379.2px) and (max-width: 3398.4px),
+       screen and (min-height: 1900.8px) and (max-height: 1911.6px) {
+    .fs100 { font-size: 1.77em; }
+    .fs125 { font-size: 2.21em; }
+    .fs150 { font-size: 2.65em; }
+    .fs200 { font-size: 3.54em; }
+    .fs500 { font-size: 8.85em; }
+    .pad5  { padding: 8.85px; }
+    .pad10 { padding: 17.7px; }
+    .pad15 { padding: 26.55px; }
+    .pad20 { padding: 35.4px; }
+}
+@media screen and (min-width: 3398.4px) and (max-width: 3417.6px),
+       screen and (min-height: 1911.6px) and (max-height: 1922.4px) {
+    .fs100 { font-size: 1.78em; }
+    .fs125 { font-size: 2.23em; }
+    .fs150 { font-size: 2.67em; }
+    .fs200 { font-size: 3.56em; }
+    .fs500 { font-size: 8.9em; }
+    .pad5  { padding: 8.9px; }
+    .pad10 { padding: 17.8px; }
+    .pad15 { padding: 26.7px; }
+    .pad20 { padding: 35.6px; }
+}
+@media screen and (min-width: 3417.6px) and (max-width: 3436.8px),
+       screen and (min-height: 1922.4px) and (max-height: 1933.2px) {
+    .fs100 { font-size: 1.79em; }
+    .fs125 { font-size: 2.24em; }
+    .fs150 { font-size: 2.69em; }
+    .fs200 { font-size: 3.58em; }
+    .fs500 { font-size: 8.95em; }
+    .pad5  { padding: 8.95px; }
+    .pad10 { padding: 17.9px; }
+    .pad15 { padding: 26.85px; }
+    .pad20 { padding: 35.8px; }
+}
+@media screen and (min-width: 3436.8px) and (max-width: 3456.0px),
+       screen and (min-height: 1933.2px) and (max-height: 1944.0px) {
+    .fs100 { font-size: 1.8em; }
+    .fs125 { font-size: 2.25em; }
+    .fs150 { font-size: 2.7em; }
+    .fs200 { font-size: 3.6em; }
+    .fs500 { font-size: 9.0em; }
+    .pad5  { padding: 9.0px; }
+    .pad10 { padding: 18.0px; }
+    .pad15 { padding: 27.0px; }
+    .pad20 { padding: 36.0px; }
+}
+@media screen and (min-width: 3456.0px) and (max-width: 3475.2px),
+       screen and (min-height: 1944.0px) and (max-height: 1954.8px) {
+    .fs100 { font-size: 1.81em; }
+    .fs125 { font-size: 2.26em; }
+    .fs150 { font-size: 2.71em; }
+    .fs200 { font-size: 3.62em; }
+    .fs500 { font-size: 9.05em; }
+    .pad5  { padding: 9.05px; }
+    .pad10 { padding: 18.1px; }
+    .pad15 { padding: 27.15px; }
+    .pad20 { padding: 36.2px; }
+}
+@media screen and (min-width: 3475.2px) and (max-width: 3494.4px),
+       screen and (min-height: 1954.8px) and (max-height: 1965.6px) {
+    .fs100 { font-size: 1.82em; }
+    .fs125 { font-size: 2.27em; }
+    .fs150 { font-size: 2.73em; }
+    .fs200 { font-size: 3.64em; }
+    .fs500 { font-size: 9.1em; }
+    .pad5  { padding: 9.1px; }
+    .pad10 { padding: 18.2px; }
+    .pad15 { padding: 27.3px; }
+    .pad20 { padding: 36.4px; }
+}
+@media screen and (min-width: 3494.4px) and (max-width: 3513.6px),
+       screen and (min-height: 1965.6px) and (max-height: 1976.4px) {
+    .fs100 { font-size: 1.83em; }
+    .fs125 { font-size: 2.29em; }
+    .fs150 { font-size: 2.75em; }
+    .fs200 { font-size: 3.66em; }
+    .fs500 { font-size: 9.15em; }
+    .pad5  { padding: 9.15px; }
+    .pad10 { padding: 18.3px; }
+    .pad15 { padding: 27.45px; }
+    .pad20 { padding: 36.6px; }
+}
+@media screen and (min-width: 3513.6px) and (max-width: 3532.8px),
+       screen and (min-height: 1976.4px) and (max-height: 1987.2px) {
+    .fs100 { font-size: 1.84em; }
+    .fs125 { font-size: 2.3em; }
+    .fs150 { font-size: 2.76em; }
+    .fs200 { font-size: 3.68em; }
+    .fs500 { font-size: 9.2em; }
+    .pad5  { padding: 9.2px; }
+    .pad10 { padding: 18.4px; }
+    .pad15 { padding: 27.6px; }
+    .pad20 { padding: 36.8px; }
+}
+@media screen and (min-width: 3532.8px) and (max-width: 3552.0px),
+       screen and (min-height: 1987.2px) and (max-height: 1998.0px) {
+    .fs100 { font-size: 1.85em; }
+    .fs125 { font-size: 2.31em; }
+    .fs150 { font-size: 2.77em; }
+    .fs200 { font-size: 3.7em; }
+    .fs500 { font-size: 9.25em; }
+    .pad5  { padding: 9.25px; }
+    .pad10 { padding: 18.5px; }
+    .pad15 { padding: 27.75px; }
+    .pad20 { padding: 37.0px; }
+}
+@media screen and (min-width: 3552.0px) and (max-width: 3571.2px),
+       screen and (min-height: 1998.0px) and (max-height: 2008.8px) {
+    .fs100 { font-size: 1.86em; }
+    .fs125 { font-size: 2.33em; }
+    .fs150 { font-size: 2.79em; }
+    .fs200 { font-size: 3.72em; }
+    .fs500 { font-size: 9.3em; }
+    .pad5  { padding: 9.3px; }
+    .pad10 { padding: 18.6px; }
+    .pad15 { padding: 27.9px; }
+    .pad20 { padding: 37.2px; }
+}
+@media screen and (min-width: 3571.2px) and (max-width: 3590.4px),
+       screen and (min-height: 2008.8px) and (max-height: 2019.6px) {
+    .fs100 { font-size: 1.87em; }
+    .fs125 { font-size: 2.34em; }
+    .fs150 { font-size: 2.8em; }
+    .fs200 { font-size: 3.74em; }
+    .fs500 { font-size: 9.35em; }
+    .pad5  { padding: 9.35px; }
+    .pad10 { padding: 18.7px; }
+    .pad15 { padding: 28.05px; }
+    .pad20 { padding: 37.4px; }
+}
+@media screen and (min-width: 3590.4px) and (max-width: 3609.6px),
+       screen and (min-height: 2019.6px) and (max-height: 2030.4px) {
+    .fs100 { font-size: 1.88em; }
+    .fs125 { font-size: 2.35em; }
+    .fs150 { font-size: 2.82em; }
+    .fs200 { font-size: 3.76em; }
+    .fs500 { font-size: 9.4em; }
+    .pad5  { padding: 9.4px; }
+    .pad10 { padding: 18.8px; }
+    .pad15 { padding: 28.2px; }
+    .pad20 { padding: 37.6px; }
+}
+@media screen and (min-width: 3609.6px) and (max-width: 3628.8px),
+       screen and (min-height: 2030.4px) and (max-height: 2041.2px) {
+    .fs100 { font-size: 1.89em; }
+    .fs125 { font-size: 2.36em; }
+    .fs150 { font-size: 2.83em; }
+    .fs200 { font-size: 3.78em; }
+    .fs500 { font-size: 9.45em; }
+    .pad5  { padding: 9.45px; }
+    .pad10 { padding: 18.9px; }
+    .pad15 { padding: 28.35px; }
+    .pad20 { padding: 37.8px; }
+}
+@media screen and (min-width: 3628.8px) and (max-width: 3648.0px),
+       screen and (min-height: 2041.2px) and (max-height: 2052.0px) {
+    .fs100 { font-size: 1.9em; }
+    .fs125 { font-size: 2.38em; }
+    .fs150 { font-size: 2.85em; }
+    .fs200 { font-size: 3.8em; }
+    .fs500 { font-size: 9.5em; }
+    .pad5  { padding: 9.5px; }
+    .pad10 { padding: 19.0px; }
+    .pad15 { padding: 28.5px; }
+    .pad20 { padding: 38.0px; }
+}
+@media screen and (min-width: 3648.0px) and (max-width: 3667.2px),
+       screen and (min-height: 2052.0px) and (max-height: 2062.8px) {
+    .fs100 { font-size: 1.91em; }
+    .fs125 { font-size: 2.39em; }
+    .fs150 { font-size: 2.86em; }
+    .fs200 { font-size: 3.82em; }
+    .fs500 { font-size: 9.55em; }
+    .pad5  { padding: 9.55px; }
+    .pad10 { padding: 19.1px; }
+    .pad15 { padding: 28.65px; }
+    .pad20 { padding: 38.2px; }
+}
+@media screen and (min-width: 3667.2px) and (max-width: 3686.4px),
+       screen and (min-height: 2062.8px) and (max-height: 2073.6px) {
+    .fs100 { font-size: 1.92em; }
+    .fs125 { font-size: 2.4em; }
+    .fs150 { font-size: 2.88em; }
+    .fs200 { font-size: 3.84em; }
+    .fs500 { font-size: 9.6em; }
+    .pad5  { padding: 9.6px; }
+    .pad10 { padding: 19.2px; }
+    .pad15 { padding: 28.8px; }
+    .pad20 { padding: 38.4px; }
+}
+@media screen and (min-width: 3686.4px) and (max-width: 3705.6px),
+       screen and (min-height: 2073.6px) and (max-height: 2084.4px) {
+    .fs100 { font-size: 1.93em; }
+    .fs125 { font-size: 2.41em; }
+    .fs150 { font-size: 2.9em; }
+    .fs200 { font-size: 3.86em; }
+    .fs500 { font-size: 9.65em; }
+    .pad5  { padding: 9.65px; }
+    .pad10 { padding: 19.3px; }
+    .pad15 { padding: 28.95px; }
+    .pad20 { padding: 38.6px; }
+}
+@media screen and (min-width: 3705.6px) and (max-width: 3724.8px),
+       screen and (min-height: 2084.4px) and (max-height: 2095.2px) {
+    .fs100 { font-size: 1.94em; }
+    .fs125 { font-size: 2.43em; }
+    .fs150 { font-size: 2.91em; }
+    .fs200 { font-size: 3.88em; }
+    .fs500 { font-size: 9.7em; }
+    .pad5  { padding: 9.7px; }
+    .pad10 { padding: 19.4px; }
+    .pad15 { padding: 29.1px; }
+    .pad20 { padding: 38.8px; }
+}
+@media screen and (min-width: 3724.8px) and (max-width: 3744.0px),
+       screen and (min-height: 2095.2px) and (max-height: 2106.0px) {
+    .fs100 { font-size: 1.95em; }
+    .fs125 { font-size: 2.44em; }
+    .fs150 { font-size: 2.92em; }
+    .fs200 { font-size: 3.9em; }
+    .fs500 { font-size: 9.75em; }
+    .pad5  { padding: 9.75px; }
+    .pad10 { padding: 19.5px; }
+    .pad15 { padding: 29.25px; }
+    .pad20 { padding: 39.0px; }
+}
+@media screen and (min-width: 3744.0px) and (max-width: 3763.2px),
+       screen and (min-height: 2106.0px) and (max-height: 2116.8px) {
+    .fs100 { font-size: 1.96em; }
+    .fs125 { font-size: 2.45em; }
+    .fs150 { font-size: 2.94em; }
+    .fs200 { font-size: 3.92em; }
+    .fs500 { font-size: 9.8em; }
+    .pad5  { padding: 9.8px; }
+    .pad10 { padding: 19.6px; }
+    .pad15 { padding: 29.4px; }
+    .pad20 { padding: 39.2px; }
+}
+@media screen and (min-width: 3763.2px) and (max-width: 3782.4px),
+       screen and (min-height: 2116.8px) and (max-height: 2127.6px) {
+    .fs100 { font-size: 1.97em; }
+    .fs125 { font-size: 2.46em; }
+    .fs150 { font-size: 2.96em; }
+    .fs200 { font-size: 3.94em; }
+    .fs500 { font-size: 9.85em; }
+    .pad5  { padding: 9.85px; }
+    .pad10 { padding: 19.7px; }
+    .pad15 { padding: 29.55px; }
+    .pad20 { padding: 39.4px; }
+}
+@media screen and (min-width: 3782.4px) and (max-width: 3801.6px),
+       screen and (min-height: 2127.6px) and (max-height: 2138.4px) {
+    .fs100 { font-size: 1.98em; }
+    .fs125 { font-size: 2.48em; }
+    .fs150 { font-size: 2.97em; }
+    .fs200 { font-size: 3.96em; }
+    .fs500 { font-size: 9.9em; }
+    .pad5  { padding: 9.9px; }
+    .pad10 { padding: 19.8px; }
+    .pad15 { padding: 29.7px; }
+    .pad20 { padding: 39.6px; }
+}
+@media screen and (min-width: 3801.6px) and (max-width: 3820.8px),
+       screen and (min-height: 2138.4px) and (max-height: 2149.2px) {
+    .fs100 { font-size: 1.99em; }
+    .fs125 { font-size: 2.49em; }
+    .fs150 { font-size: 2.98em; }
+    .fs200 { font-size: 3.98em; }
+    .fs500 { font-size: 9.95em; }
+    .pad5  { padding: 9.95px; }
+    .pad10 { padding: 19.9px; }
+    .pad15 { padding: 29.85px; }
+    .pad20 { padding: 39.8px; }
+}
